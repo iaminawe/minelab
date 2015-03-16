@@ -137,7 +137,7 @@
   font-weight: bold; }
 
 .ui-widget-header {
-  background: #ededed url(images/bg_fallback.png) 0 0 repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 0 repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #ededed 0%, #c4c4c4 100%);
   /* FF3.6+ */
@@ -163,7 +163,7 @@
   color: #4F4F4F; }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-  background: #ededed url(images/bg_fallback.png) 0 0 repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 0 repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #ededed 0%, #c4c4c4 100%);
   /* FF3.6+ */
@@ -198,7 +198,7 @@
   outline: none;
   color: #1c4257;
   border: 1px solid #7096ab;
-  background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 -50px repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%);
   /* FF3.6+ */
@@ -269,28 +269,28 @@
 .ui-icon {
   width: 16px;
   height: 16px;
-  background-image: url(images/ui-icons_222222_256x240.png); }
+  background-image: url(../images/ui-icons_222222_256x240.png); }
 
 .ui-widget-content .ui-icon {
-  background-image: url(images/ui-icons_222222_256x240.png); }
+  background-image: url(../images/ui-icons_222222_256x240.png); }
 
 .ui-widget-header .ui-icon {
-  background-image: url(images/ui-icons_222222_256x240.png); }
+  background-image: url(../images/ui-icons_222222_256x240.png); }
 
 .ui-state-default .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png); }
+  background-image: url(../images/ui-icons_454545_256x240.png); }
 
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png); }
+  background-image: url(../images/ui-icons_454545_256x240.png); }
 
 .ui-state-active .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png); }
+  background-image: url(../images/ui-icons_454545_256x240.png); }
 
 .ui-state-highlight .ui-icon {
-  background-image: url(images/ui-icons_454545_256x240.png); }
+  background-image: url(../images/ui-icons_454545_256x240.png); }
 
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
-  background: url(images/icon_sprite.png) -16px 0 no-repeat !important; }
+  background: url(../images/icon_sprite.png) -16px 0 no-repeat !important; }
 
 .ui-state-highlight .ui-icon, .ui-state-error .ui-icon {
   margin-top: -1px; }
@@ -660,7 +660,7 @@
   background-position: 0 -144px; }
 
 .ui-icon-info {
-  background: url(images/icon_sprite.png) 0 0 no-repeat !important; }
+  background: url(../images/icon_sprite.png) 0 0 no-repeat !important; }
 
 .ui-icon-notice {
   background-position: -32px -144px; }
@@ -1057,7 +1057,7 @@
 .ui-autocomplete {
   position: absolute;
   cursor: default;
-  z-index: 3;
+  z-index: 10;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -1172,7 +1172,7 @@ button.ui-button-icons-only {
   outline: none;
   color: #1c4257;
   border-color: #7096ab;
-  background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 -50px repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%);
   /* FF3.6+ */
@@ -1264,7 +1264,7 @@ input.ui-button::-moz-focus-inner {
   border-color: #7096ab; }
 
 .ui-buttonset .ui-button.ui-state-active {
-  background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x;
+  background: #ededed url(../images/bg_fallback.png) 0 -50px repeat-x;
   /* Old browsers */
   background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%);
   /* FF3.6+ */
@@ -1335,7 +1335,7 @@ button.ui-button::-moz-focus-inner {
 .ui-dialog .ui-dialog-titlebar-close span {
   display: block;
   margin: 1px;
-  background: url(images/icon_sprite.png) 0 -16px no-repeat; }
+  background: url(../images/icon_sprite.png) 0 -16px no-repeat; }
 
 .ui-dialog .ui-dialog-titlebar-close:hover span {
   background-position: -16px -16px; }
@@ -1396,7 +1396,7 @@ button.ui-button::-moz-focus-inner {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5) inset; }
 
 .ui-slider .ui-slider-handle {
-  background: url(images/slider_handles.png) 0px -23px no-repeat;
+  background: url(../images/slider_handles.png) 0px -23px no-repeat;
   position: absolute;
   z-index: 2;
   width: 23px;
@@ -1598,7 +1598,7 @@ button.ui-button::-moz-focus-inner {
   margin-left: -8px;
   top: 50%;
   margin-top: -8px;
-  background: url(images/icon_sprite.png) no-repeat; }
+  background: url(../images/icon_sprite.png) no-repeat; }
 
 .ui-datepicker .ui-datepicker-title {
   margin: 0 2.3em;
@@ -1789,12 +1789,12 @@ button.ui-button::-moz-focus-inner {
 .ui-progressbar {
   height: 12px;
   text-align: left;
-  background: #FFF url(images/progress_bar.gif) 0 -14px repeat-x; }
+  background: #FFF url(../images/progress_bar.gif) 0 -14px repeat-x; }
 
 .ui-progressbar .ui-progressbar-value {
   margin: -1px;
   height: 100%;
-  background: url(images/progress_bar.gif) 0 0 repeat-x; }
+  background: url(../images/progress_bar.gif) 0 0 repeat-x; }
 
 /* Extra Input Field Styling */
 .ui-form textarea, .ui-form input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]) {
@@ -4352,6 +4352,10 @@ input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focu
   max-width: 80em;
   margin-left: auto;
   margin-right: auto; }
+  @media all and (min-width: 1600px) {
+	.outer-container {
+		max-width: 120em; }
+  }
   .outer-container:after {
     content: "";
     display: table;
@@ -4595,6 +4599,10 @@ input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focu
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s; }
+  @media all and (min-width: 1600px) {
+	#main {
+		max-width: 120em; }
+  }
   #main:after {
     content: "";
     display: table;
@@ -4612,6 +4620,11 @@ input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focu
     margin-right: 2.35765%;
     width: 23.23176%;
     padding-top: 1em; }
+	@media all and (min-width: 1600px) {
+	  #main #sidebar {
+		width: 20em;
+		margin-right: 2em; }
+	}
     #main #sidebar:last-child {
       margin-right: 0; }
     #main #sidebar h3 {
@@ -4649,6 +4662,8 @@ input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focu
       padding: 0.5em;
       color: #777777;
       margin-bottom: 0.2em; }
+	  #main #sidebar .watchers a {
+		width: auto; }
       #main #sidebar ul a:hover, #main #sidebar ul .icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile/board"]:hover, #main #sidebar [href$="agile/board"].icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile_versions"]:hover, #main #sidebar [href$="agile_versions"].icon-add.checklist-new-only:hover {
         background: #F2F2F2; }
       #main #sidebar ul a.selected, #main #sidebar ul .selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile/board"].selected, #main #sidebar [href$="agile/board"].selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile_versions"].selected, #main #sidebar [href$="agile_versions"].selected.icon-add.checklist-new-only {
@@ -4666,6 +4681,10 @@ input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focu
     margin-right: 0;
     z-index: 10;
     position: relative; }
+	@media all and (min-width: 1600px) {
+	  #main #content {
+		width: 98em; }
+	}
     #main #content:last-child {
       margin-right: 0; }
     #main #content .contextual {
@@ -5091,7 +5110,8 @@ div.square {
 
 .splitcontentleft ul, .splitcontentright ul {
   padding-left: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 0;}
   .splitcontentleft ul li, .splitcontentright ul li {
     padding: 0.3em 0; }
 
@@ -5331,7 +5351,9 @@ div#search-results-counts li {
   margin-left: 1em; }
 
 dt.issue-note {
-  background-image: url(../images/ticket_note.png); }
+  background-image: url(../images/ticket_note.png);
+  background-repeat: no-repeat;
+  background-position: right; }
 
 dt.news {
   background-image: url(../images/news.png); }
