@@ -1,6 +1,6 @@
 // Frameworks
-@import bourbon
-@import neat
+@import ../bourbon/bourbon.scss
+@import ../neat/neat.scss
 
 // Variables
 @import variables
@@ -45,7 +45,7 @@ h4
 	padding-bottom: 1em
 
 a
-	color: $blue
+	color: $red
 	+transition-duration(.3s)
 	text-decoration: none
 	font-size: 1em
@@ -225,6 +225,9 @@ select
 			@extend .fa-sign-out
 
 		&.time-tracker-main-menu
+			@extend .fa-clock-o
+
+		&.timesheet
 			@extend .fa-clock-o
 
 		&.adm-groups
