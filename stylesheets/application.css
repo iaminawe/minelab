@@ -6444,7 +6444,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 /* Layout */
 /* line 116, ../sass/application.sass */
 .outer-container {
-  max-width: 80em;
+  max-width: 90em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -6614,7 +6614,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 /* line 307, ../sass/application.sass */
 #header {
   display: block;
-  background: #446E9B;
+  background: #CB232F;
   color: white;
 }
 /* line 20, ../bourbon/addons/_clearfix.scss */
@@ -6788,7 +6788,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 
 /* line 506, ../sass/application.sass */
 #main {
-  max-width: 80em;
+  max-width: 90em;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 6em;
