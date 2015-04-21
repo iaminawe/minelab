@@ -2677,7 +2677,6 @@ html[dir="rtl"] .select2-container .select2-choice {
 
 /* line 75, ../sass/_select2.scss */
 .select2-container .select2-choice > .select2-chosen {
-  margin-right: 26px;
   display: block;
   overflow: hidden;
   white-space: nowrap;
@@ -6444,7 +6443,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 /* Layout */
 /* line 116, ../sass/application.sass */
 .outer-container {
-  max-width: 90em;
+  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -6683,6 +6682,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   padding-left: 2em !important;
   border-color: rgba(71, 77, 87, 0.5);
   padding: 0.4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   width: 10em;
   background: rgba(71, 77, 87, 0.3);
   box-shadow: none !important;
@@ -6690,38 +6691,38 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   z-index: 0;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 370, ../sass/application.sass */
+/* line 372, ../sass/application.sass */
 #header #quick-search #q:active, #header #quick-search #q:focus {
   color: #333333;
   background: white;
   width: 15em;
 }
-/* line 375, ../sass/application.sass */
+/* line 377, ../sass/application.sass */
 #header a, #header .icon-add.checklist-new-only, #header a:hover, #header .icon-add.checklist-new-only:hover, #header a:active, #header .icon-add.checklist-new-only:active, #header a:focus, #header .icon-add.checklist-new-only:focus {
   color: white;
 }
-/* line 378, ../sass/application.sass */
+/* line 380, ../sass/application.sass */
 #header .select2-container {
   margin-left: 1em;
 }
-/* line 381, ../sass/application.sass */
+/* line 383, ../sass/application.sass */
 #header .select2-container .select2-chosen {
   font-size: 0.9em;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 385, ../sass/application.sass */
+/* line 387, ../sass/application.sass */
 #header .select2-container .select2-choice {
   background: rgba(71, 77, 87, 0.3);
   border-color: rgba(71, 77, 87, 0.5);
   box-shadow: none !important;
   height: 2.2em;
 }
-/* line 391, ../sass/application.sass */
+/* line 393, ../sass/application.sass */
 #header .select2-container .select2-arrow {
   border-color: rgba(71, 77, 87, 0.5);
 }
 
-/* line 394, ../sass/application.sass */
+/* line 396, ../sass/application.sass */
 #main-menu {
   display: block;
   background: #F2F2F2;
@@ -6734,18 +6735,18 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   content: "";
   display: table;
 }
-/* line 400, ../sass/application.sass */
+/* line 402, ../sass/application.sass */
 #main-menu ul {
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-/* line 403, ../sass/application.sass */
+/* line 405, ../sass/application.sass */
 #main-menu li {
   display: table-cell;
   width: 1%;
 }
-/* line 407, ../sass/application.sass */
+/* line 409, ../sass/application.sass */
 #main-menu li a, #main-menu li .icon-add.checklist-new-only {
   display: block;
   color: #777777;
@@ -6754,30 +6755,30 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   white-space: nowrap;
   text-align: center;
 }
-/* line 415, ../sass/application.sass */
+/* line 417, ../sass/application.sass */
 #main-menu li a:hover, #main-menu li .icon-add.checklist-new-only:hover {
   color: #474D57;
   box-shadow: inset 0 -3px 0 #474D57;
 }
-/* line 419, ../sass/application.sass */
+/* line 421, ../sass/application.sass */
 #main-menu li a.selected, #main-menu li .selected.icon-add.checklist-new-only, #main-menu li a.selected:hover, #main-menu li .selected.icon-add.checklist-new-only:hover {
   font-weight: 600;
   color: #446E9B;
   box-shadow: inset 0 -3px 0 #446E9B;
 }
 
-/* line 426, ../sass/application.sass */
+/* line 428, ../sass/application.sass */
 #admin-menu li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 431, ../sass/application.sass */
+/* line 433, ../sass/application.sass */
 #admin-menu a, #admin-menu .icon-add.checklist-new-only {
   background-image: none !important;
   margin-bottom: 0.2em;
 }
-/* line 435, ../sass/application.sass */
+/* line 437, ../sass/application.sass */
 #admin-menu a:before, #admin-menu .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
   width: 1.5em;
@@ -6786,9 +6787,9 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   top: -1px;
 }
 
-/* line 506, ../sass/application.sass */
+/* line 508, ../sass/application.sass */
 #main {
-  max-width: 90em;
+  max-width: 80em;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 6em;
@@ -6803,7 +6804,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   content: "";
   display: table;
 }
-/* line 514, ../sass/application.sass */
+/* line 516, ../sass/application.sass */
 #main.nosidebar #content {
   float: left;
   display: block;
@@ -6814,7 +6815,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main.nosidebar #content:last-child {
   margin-right: 0;
 }
-/* line 517, ../sass/application.sass */
+/* line 519, ../sass/application.sass */
 #main #sidebar {
   float: left;
   display: block;
@@ -6826,7 +6827,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main #sidebar:last-child {
   margin-right: 0;
 }
-/* line 521, ../sass/application.sass */
+/* line 523, ../sass/application.sass */
 #main #sidebar h3 {
   margin-top: 1em;
   color: #333333;
@@ -6835,7 +6836,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   border-bottom: 1px solid #CCCCCC;
   font-weight: 400;
 }
-/* line 529, ../sass/application.sass */
+/* line 531, ../sass/application.sass */
 #main #sidebar hr {
   width: 100%;
   height: 1px;
@@ -6843,34 +6844,34 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   border: 0;
   margin: 0 auto;
 }
-/* line 536, ../sass/application.sass */
+/* line 538, ../sass/application.sass */
 #main #sidebar p > label {
   color: #777777;
 }
-/* line 539, ../sass/application.sass */
+/* line 541, ../sass/application.sass */
 #main #sidebar p > label input {
   margin-right: 0.7em;
 }
-/* line 542, ../sass/application.sass */
+/* line 544, ../sass/application.sass */
 #main #sidebar .contextual {
   margin-right: 1em;
   float: right;
 }
-/* line 546, ../sass/application.sass */
+/* line 548, ../sass/application.sass */
 #main #sidebar ul {
   list-style-type: none;
   padding: 0;
 }
-/* line 552, ../sass/application.sass */
+/* line 554, ../sass/application.sass */
 #main #sidebar ul li input + label {
   max-width: 90%;
   display: inline-block;
 }
-/* line 556, ../sass/application.sass */
+/* line 558, ../sass/application.sass */
 #main #sidebar ul li label input {
   margin-right: 0.7em;
 }
-/* line 559, ../sass/application.sass */
+/* line 561, ../sass/application.sass */
 #main #sidebar ul a, #main #sidebar ul .icon-add.checklist-new-only, #main #sidebar a[href$="agile/board"], #main #sidebar [href$="agile/board"].icon-add.checklist-new-only, #main #sidebar a[href$="agile_versions"], #main #sidebar [href$="agile_versions"].icon-add.checklist-new-only {
   display: inline-block;
   width: 100%;
@@ -6879,24 +6880,24 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   color: #777777;
   margin-bottom: 0.2em;
 }
-/* line 567, ../sass/application.sass */
+/* line 569, ../sass/application.sass */
 #main #sidebar ul a:hover, #main #sidebar ul .icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile/board"]:hover, #main #sidebar [href$="agile/board"].icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile_versions"]:hover, #main #sidebar [href$="agile_versions"].icon-add.checklist-new-only:hover {
   background: #F2F2F2;
 }
-/* line 570, ../sass/application.sass */
+/* line 572, ../sass/application.sass */
 #main #sidebar ul a.selected, #main #sidebar ul .selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile/board"].selected, #main #sidebar [href$="agile/board"].selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile_versions"].selected, #main #sidebar [href$="agile_versions"].selected.icon-add.checklist-new-only {
   background: #446E9B;
   color: white;
 }
-/* line 576, ../sass/application.sass */
+/* line 578, ../sass/application.sass */
 #main #sidebar table tr {
   background: none !important;
 }
-/* line 579, ../sass/application.sass */
+/* line 581, ../sass/application.sass */
 #main #sidebar .icon-time {
   font-size: 2em;
 }
-/* line 582, ../sass/application.sass */
+/* line 584, ../sass/application.sass */
 #main #content {
   float: left;
   display: block;
@@ -6910,44 +6911,44 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main #content:last-child {
   margin-right: 0;
 }
-/* line 588, ../sass/application.sass */
+/* line 590, ../sass/application.sass */
 #main #content .contextual {
   float: right;
   top: 1.6em;
   position: relative;
 }
-/* line 593, ../sass/application.sass */
+/* line 595, ../sass/application.sass */
 #main #content .contextual + .breadcrumb {
   position: relative;
   top: 0.8em;
   float: right;
   margin-right: 2em;
 }
-/* line 599, ../sass/application.sass */
+/* line 601, ../sass/application.sass */
 #main #content .contextual a:before, #main #content .contextual .icon-add.checklist-new-only:before {
   margin-left: 1em;
 }
-/* line 602, ../sass/application.sass */
+/* line 604, ../sass/application.sass */
 #main #content h2:first-of-type {
   font-weight: 400;
   border-bottom: 1px solid #CCCCCC;
   margin: 0 0 1.2em;
   padding: 0.7em 0;
 }
-/* line 608, ../sass/application.sass */
+/* line 610, ../sass/application.sass */
 #main #content h2:first-of-type .live_search {
   margin-left: 1em;
 }
-/* line 613, ../sass/application.sass */
+/* line 615, ../sass/application.sass */
 #main #content form .contextual {
   top: 0.4em;
   margin: 0;
 }
-/* line 617, ../sass/application.sass */
+/* line 619, ../sass/application.sass */
 #main #content form .contextual a:before, #main #content form .contextual .icon-add.checklist-new-only:before {
   margin-left: 1em;
 }
-/* line 620, ../sass/application.sass */
+/* line 622, ../sass/application.sass */
 #main #content table h2 {
   margin: inherit !important;
   padding: 0 !important;
@@ -6955,7 +6956,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-weight: inherit !important;
 }
 
-/* line 626, ../sass/application.sass */
+/* line 628, ../sass/application.sass */
 #footer {
   display: block;
   border-top: 1px solid #CCCCCC;
@@ -6973,7 +6974,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 /* Admin index */
-/* line 642, ../sass/application.sass */
+/* line 644, ../sass/application.sass */
 #admin-index #admin-menu li {
   float: left;
   display: block;
@@ -6994,7 +6995,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #admin-index #admin-menu li:nth-child(4n+1) {
   clear: left;
 }
-/* line 648, ../sass/application.sass */
+/* line 650, ../sass/application.sass */
 #admin-index #admin-menu li a, #admin-index #admin-menu li .icon-add.checklist-new-only {
   display: inline-block;
   width: 100%;
@@ -7002,56 +7003,56 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   padding: 1em;
   color: #777777;
 }
-/* line 655, ../sass/application.sass */
+/* line 657, ../sass/application.sass */
 #admin-index #admin-menu li a:hover, #admin-index #admin-menu li .icon-add.checklist-new-only:hover {
   background: #F2F2F2;
 }
-/* line 658, ../sass/application.sass */
+/* line 660, ../sass/application.sass */
 #admin-index #admin-menu li a.selected, #admin-index #admin-menu li .selected.icon-add.checklist-new-only {
   background: #446E9B;
   color: white;
 }
 
 /* Login */
-/* line 667, ../sass/application.sass */
+/* line 669, ../sass/application.sass */
 #login-form input#username, #login-form #login-form input#password {
   width: 20em;
 }
-/* line 670, ../sass/application.sass */
+/* line 672, ../sass/application.sass */
 #login-form table {
   margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
 }
-/* line 676, ../sass/application.sass */
+/* line 678, ../sass/application.sass */
 #login-form td {
   padding: 0.5em;
   text-align: right;
 }
-/* line 680, ../sass/application.sass */
+/* line 682, ../sass/application.sass */
 #login-form tr {
   background: none !important;
 }
-/* line 683, ../sass/application.sass */
+/* line 685, ../sass/application.sass */
 #login-form #username, #login-form #password {
   width: 100%;
 }
 
-/* line 687, ../sass/application.sass */
+/* line 689, ../sass/application.sass */
 div.modal {
   border-radius: 4px;
   background: white;
   z-index: 50;
   padding: 0.5em;
 }
-/* line 693, ../sass/application.sass */
+/* line 695, ../sass/application.sass */
 div.modal p.buttons {
   text-align: right;
   margin-bottom: 0;
 }
 
-/* line 697, ../sass/application.sass */
+/* line 699, ../sass/application.sass */
 input#openid_url {
   background: url(../images/openid-bg.gif) no-repeat;
   background-color: #fff;
@@ -7059,7 +7060,7 @@ input#openid_url {
   padding-left: 18px;
 }
 
-/* line 704, ../sass/application.sass */
+/* line 706, ../sass/application.sass */
 .clear:after {
   content: ".";
   display: block;
@@ -7068,20 +7069,20 @@ input#openid_url {
   visibility: hidden;
 }
 
-/* line 712, ../sass/application.sass */
+/* line 714, ../sass/application.sass */
 table {
   text-align: left;
   color: #777777;
   border: 0 !important;
 }
-/* line 717, ../sass/application.sass */
+/* line 719, ../sass/application.sass */
 table.list {
   border: 0;
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 0.5em;
 }
-/* line 723, ../sass/application.sass */
+/* line 725, ../sass/application.sass */
 table.list th {
   background: none;
   white-space: nowrap;
@@ -7091,65 +7092,65 @@ table.list th {
   font-weight: 500;
   color: #333333;
 }
-/* line 732, ../sass/application.sass */
+/* line 734, ../sass/application.sass */
 table.list td {
   vertical-align: top;
   padding: 0.7em;
   border-bottom: 1px solid #F2F2F2;
   text-align: left !important;
 }
-/* line 738, ../sass/application.sass */
+/* line 740, ../sass/application.sass */
 table.list td.name {
   font-weight: 600;
 }
-/* line 741, ../sass/application.sass */
+/* line 743, ../sass/application.sass */
 table.list td.id {
   width: 2%;
   text-align: center;
 }
-/* line 745, ../sass/application.sass */
+/* line 747, ../sass/application.sass */
 table.list td.tick {
   width: 15%;
 }
-/* line 748, ../sass/application.sass */
+/* line 750, ../sass/application.sass */
 table.list td.checkbox {
   width: 15px;
   padding: 2px 0 0;
   vertical-align: middle;
 }
-/* line 753, ../sass/application.sass */
+/* line 755, ../sass/application.sass */
 table.list td.buttons {
   width: 15%;
   white-space: nowrap;
   text-align: right;
 }
-/* line 758, ../sass/application.sass */
+/* line 760, ../sass/application.sass */
 table.list td.buttons a, table.list td.buttons .icon-add.checklist-new-only {
   padding-right: 0.6em;
 }
-/* line 761, ../sass/application.sass */
+/* line 763, ../sass/application.sass */
 table.list td.reorder {
   width: 15%;
   white-space: nowrap;
   text-align: center;
 }
-/* line 766, ../sass/application.sass */
+/* line 768, ../sass/application.sass */
 table.list caption {
   text-align: left;
   padding: 0.5em 0.5em 0.5em 0;
 }
-/* line 770, ../sass/application.sass */
+/* line 772, ../sass/application.sass */
 table.list small {
   font-size: 0.9em;
 }
 
-/* line 773, ../sass/application.sass */
+/* line 775, ../sass/application.sass */
 tr.issue td.done_ratio table.progress {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 777, ../sass/application.sass */
+/* line 779, ../sass/application.sass */
 table.issues td.description {
   color: #777;
   font-size: 90%;
@@ -7158,128 +7159,128 @@ table.issues td.description {
   padding: 4px 4px 4px 24px;
 }
 
-/* line 784, ../sass/application.sass */
+/* line 786, ../sass/application.sass */
 table.issue-report {
   table-layout: fixed;
 }
 
-/* line 789, ../sass/application.sass */
+/* line 791, ../sass/application.sass */
 tr.project [id^="favorite_project"] {
   color: #f39c12;
 }
-/* line 794, ../sass/application.sass */
+/* line 796, ../sass/application.sass */
 tr.project [id^="favorite_project"] img {
   display: none !important;
 }
 
-/* line 797, ../sass/application.sass */
+/* line 799, ../sass/application.sass */
 tr.entry {
   border: 1px solid #f8f8f8;
 }
 
-/* line 800, ../sass/application.sass */
+/* line 802, ../sass/application.sass */
 tr.entry td.filename {
   width: 30%;
   text-align: left;
 }
 
-/* line 804, ../sass/application.sass */
+/* line 806, ../sass/application.sass */
 tr.entry td.filename_no_report {
   width: 70%;
   text-align: left;
 }
 
-/* line 808, ../sass/application.sass */
+/* line 810, ../sass/application.sass */
 tr.entry td.size {
   text-align: right;
   font-size: 90%;
 }
 
-/* line 812, ../sass/application.sass */
+/* line 814, ../sass/application.sass */
 tr span.expander {
   cursor: pointer;
 }
-/* line 816, ../sass/application.sass */
+/* line 818, ../sass/application.sass */
 tr span.expander:before {
   margin-right: 0.5em;
 }
 
-/* line 820, ../sass/application.sass */
+/* line 822, ../sass/application.sass */
 tr.open span.expander {
   cursor: pointer;
 }
-/* line 824, ../sass/application.sass */
+/* line 826, ../sass/application.sass */
 tr.open span.expander:before {
   margin-right: 0.5em;
 }
 
-/* line 828, ../sass/application.sass */
+/* line 830, ../sass/application.sass */
 tr.changeset {
   height: 20px;
 }
 
-/* line 831, ../sass/application.sass */
+/* line 833, ../sass/application.sass */
 tr.changeset ul, ol {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 835, ../sass/application.sass */
+/* line 837, ../sass/application.sass */
 tr.changeset td.revision_graph {
   width: 15%;
   background-color: #fffffb;
 }
 
-/* line 839, ../sass/application.sass */
+/* line 841, ../sass/application.sass */
 table.files tr.file td.filename {
   text-align: left;
   padding-left: 24px;
 }
 
-/* line 843, ../sass/application.sass */
+/* line 845, ../sass/application.sass */
 table.members td.roles, table.memberships td.roles {
   width: 45%;
 }
 
-/* line 846, ../sass/application.sass */
+/* line 848, ../sass/application.sass */
 tr.message {
   height: 2.6em;
 }
 
-/* line 849, ../sass/application.sass */
+/* line 851, ../sass/application.sass */
 tr.message td.last_message {
   font-size: 80%;
   white-space: nowrap;
 }
 
-/* line 853, ../sass/application.sass */
+/* line 855, ../sass/application.sass */
 tr.message.locked td.subject {
   background: url(../images/locked.png) no-repeat 0 1px;
 }
 
-/* line 857, ../sass/application.sass */
+/* line 859, ../sass/application.sass */
 tr.message.sticky td.subject {
   background: url(../images/bullet_go.png) no-repeat 0 1px;
   font-weight: 700;
 }
 
-/* line 861, ../sass/application.sass */
+/* line 863, ../sass/application.sass */
 tr.version.shared td.name {
   background: url(../images/link.png) no-repeat 0 70%;
 }
 
-/* line 864, ../sass/application.sass */
+/* line 866, ../sass/application.sass */
 tr.user td {
   width: 13%;
   white-space: nowrap;
 }
 
-/* line 868, ../sass/application.sass */
+/* line 870, ../sass/application.sass */
 tr.user td.email {
   width: 18%;
 }
 
-/* line 871, ../sass/application.sass */
+/* line 873, ../sass/application.sass */
 table.permissions td.role {
   color: #999;
   font-size: 90%;
@@ -7288,33 +7289,33 @@ table.permissions td.role {
   vertical-align: bottom;
 }
 
-/* line 878, ../sass/application.sass */
+/* line 880, ../sass/application.sass */
 tr.time-entry td.issue, tr.time-entry td.comments {
   text-align: left;
   white-space: normal;
 }
 
-/* line 882, ../sass/application.sass */
+/* line 884, ../sass/application.sass */
 td.hours {
   text-align: right;
   font-weight: 700;
   padding-right: 0.5em;
 }
 
-/* line 887, ../sass/application.sass */
+/* line 889, ../sass/application.sass */
 table.plugins td.configure {
   text-align: right;
   padding-right: 1em;
 }
 
-/* line 892, ../sass/application.sass */
+/* line 894, ../sass/application.sass */
 table.plugins span.name {
   font-weight: 700;
   display: block;
   margin-bottom: 6px;
 }
 
-/* line 897, ../sass/application.sass */
+/* line 899, ../sass/application.sass */
 table.list tbody tr.group td {
   font-weight: 700;
   border-bottom: 1px solid #CCCCCC;
@@ -7322,7 +7323,7 @@ table.list tbody tr.group td {
   padding: 0.8em 0 0.5em 0.3em;
 }
 
-/* line 903, ../sass/application.sass */
+/* line 905, ../sass/application.sass */
 table.list tbody tr.group span.count {
   position: relative;
   color: white;
@@ -7334,7 +7335,7 @@ table.list tbody tr.group span.count {
   display: inline-block;
 }
 
-/* line 913, ../sass/application.sass */
+/* line 915, ../sass/application.sass */
 tr.group a.toggle-all, tr.group .toggle-all.icon-add.checklist-new-only {
   font-weight: 400;
   display: none;
@@ -7342,197 +7343,197 @@ tr.group a.toggle-all, tr.group .toggle-all.icon-add.checklist-new-only {
   font-size: 0.85em;
 }
 
-/* line 919, ../sass/application.sass */
+/* line 921, ../sass/application.sass */
 table.list tbody tr:hover {
   background-color: rgba(243, 156, 18, 0.1);
 }
 
-/* line 922, ../sass/application.sass */
+/* line 924, ../sass/application.sass */
 table.list tbody tr.group:hover {
   background-color: inherit;
 }
 
-/* line 925, ../sass/application.sass */
+/* line 927, ../sass/application.sass */
 table td {
   padding: 0.5em;
 }
 
-/* line 928, ../sass/application.sass */
+/* line 930, ../sass/application.sass */
 table p {
   margin: 0;
 }
 
-/* line 931, ../sass/application.sass */
+/* line 933, ../sass/application.sass */
 .even, tr:nth-child(2n+2) {
   background-color: #F9F9F9 !important;
 }
 
-/* line 934, ../sass/application.sass */
+/* line 936, ../sass/application.sass */
 a.sort, .sort.icon-add.checklist-new-only {
   padding-right: 16px;
   background-position: 100% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 940, ../sass/application.sass */
+/* line 942, ../sass/application.sass */
 a.sort.asc, .sort.asc.icon-add.checklist-new-only {
   background-image: url(../images/sort_asc.png);
 }
 
-/* line 944, ../sass/application.sass */
+/* line 946, ../sass/application.sass */
 a.sort.desc, .sort.desc.icon-add.checklist-new-only {
   background-image: url(../images/sort_desc.png);
 }
 
-/* line 948, ../sass/application.sass */
+/* line 950, ../sass/application.sass */
 table.attributes th {
   vertical-align: top;
   text-align: left;
 }
 
-/* line 953, ../sass/application.sass */
+/* line 955, ../sass/application.sass */
 table.attributes td {
   vertical-align: top;
 }
 
-/* line 960, ../sass/application.sass */
+/* line 962, ../sass/application.sass */
 table.boards a.board:before, table.boards .board.icon-add.checklist-new-only:before, h3.comments:before {
   margin-right: 0.5em;
 }
 
-/* line 964, ../sass/application.sass */
+/* line 966, ../sass/application.sass */
 table.boards td.last-message {
   text-align: left;
   font-size: 80%;
 }
 
-/* line 968, ../sass/application.sass */
+/* line 970, ../sass/application.sass */
 table.query-columns {
   border-collapse: collapse;
   border: 0;
 }
 
-/* line 972, ../sass/application.sass */
+/* line 974, ../sass/application.sass */
 table.query-columns td.buttons {
   vertical-align: middle;
   text-align: center;
 }
 
-/* line 976, ../sass/application.sass */
+/* line 978, ../sass/application.sass */
 table.query-columns td.buttons input[type=button] {
   width: 35px;
 }
 
-/* line 979, ../sass/application.sass */
+/* line 981, ../sass/application.sass */
 h3.version {
   margin-top: 0;
 }
-/* line 983, ../sass/application.sass */
+/* line 985, ../sass/application.sass */
 h3.version:before {
   margin-right: 0.5em;
 }
 
-/* line 987, ../sass/application.sass */
+/* line 989, ../sass/application.sass */
 div.issues h3 {
   margin-top: 0;
 }
-/* line 991, ../sass/application.sass */
+/* line 993, ../sass/application.sass */
 div.issues h3:before {
   margin-right: 0.5em;
 }
 
-/* line 995, ../sass/application.sass */
+/* line 997, ../sass/application.sass */
 div.members h3 {
   margin-top: 0;
 }
-/* line 999, ../sass/application.sass */
+/* line 1001, ../sass/application.sass */
 div.members h3:before {
   margin-right: 0.5em;
 }
 
-/* line 1003, ../sass/application.sass */
+/* line 1005, ../sass/application.sass */
 div.news h3 {
   margin-top: 0;
 }
-/* line 1007, ../sass/application.sass */
+/* line 1009, ../sass/application.sass */
 div.news h3:before {
   margin-right: 0.5em;
 }
 
-/* line 1011, ../sass/application.sass */
+/* line 1013, ../sass/application.sass */
 div.projects h3 {
   margin-top: 0;
 }
-/* line 1015, ../sass/application.sass */
+/* line 1017, ../sass/application.sass */
 div.projects h3:before {
   margin-right: 0.5em;
 }
 
-/* line 1020, ../sass/application.sass */
+/* line 1022, ../sass/application.sass */
 #watchers select {
   width: 95%;
   display: block;
 }
 
-/* line 1024, ../sass/application.sass */
+/* line 1026, ../sass/application.sass */
 #watchers a.delete, #watchers .delete.icon-add.checklist-new-only {
   opacity: 0.4;
   vertical-align: middle;
 }
-/* line 1029, ../sass/application.sass */
+/* line 1031, ../sass/application.sass */
 #watchers a.delete:before, #watchers .delete.icon-add.checklist-new-only:before {
   margin-right: 0.5em;
   font-size: 1.2em;
 }
-/* line 1034, ../sass/application.sass */
+/* line 1036, ../sass/application.sass */
 #watchers a.delete img, #watchers .delete.icon-add.checklist-new-only img {
   display: none !important;
 }
 
-/* line 1038, ../sass/application.sass */
+/* line 1040, ../sass/application.sass */
 #watchers img.gravatar {
   margin: 0 4px 2px 0;
 }
 
-/* line 1042, ../sass/application.sass */
+/* line 1044, ../sass/application.sass */
 span#watchers_inputs {
   overflow: auto;
   display: block;
 }
 
-/* line 1046, ../sass/application.sass */
+/* line 1048, ../sass/application.sass */
 span.search_for_watchers, span.add_attachment {
   font-size: 0.9em;
   line-height: 2.5em;
 }
 
-/* line 1053, ../sass/application.sass */
+/* line 1055, ../sass/application.sass */
 span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-new-only:before, span.add_attachment a:before, span.add_attachment .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
   margin-left: 0.5em;
 }
 
-/* line 1059, ../sass/application.sass */
+/* line 1061, ../sass/application.sass */
 .highlight {
   background-color: #FCFD8D;
 }
 
-/* line 1063, ../sass/application.sass */
+/* line 1065, ../sass/application.sass */
 .highlight.token-1 {
   background-color: #faa;
 }
 
-/* line 1067, ../sass/application.sass */
+/* line 1069, ../sass/application.sass */
 .highlight.token-2 {
   background-color: #afa;
 }
 
-/* line 1071, ../sass/application.sass */
+/* line 1073, ../sass/application.sass */
 .highlight.token-3 {
   background-color: #aaf;
 }
 
-/* line 1075, ../sass/application.sass */
+/* line 1077, ../sass/application.sass */
 .box {
   display: inline-block;
   width: 100%;
@@ -7543,7 +7544,7 @@ span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-
   margin: 1em 0;
 }
 
-/* line 1084, ../sass/application.sass */
+/* line 1086, ../sass/application.sass */
 div.square {
   border: 1px solid #999;
   float: left;
@@ -7553,17 +7554,17 @@ div.square {
   margin: 0.3em 0.4em 0;
 }
 
-/* line 1094, ../sass/application.sass */
+/* line 1096, ../sass/application.sass */
 .splitcontentleft ul, .splitcontentright ul {
   padding-left: 0;
   list-style-type: none;
 }
-/* line 1098, ../sass/application.sass */
+/* line 1100, ../sass/application.sass */
 .splitcontentleft ul li, .splitcontentright ul li {
   padding: 0.3em 0;
 }
 
-/* line 1101, ../sass/application.sass */
+/* line 1103, ../sass/application.sass */
 .splitcontentleft {
   float: left;
   display: block;
@@ -7575,7 +7576,7 @@ div.square {
   margin-right: 0;
 }
 
-/* line 1104, ../sass/application.sass */
+/* line 1106, ../sass/application.sass */
 .splitcontentright {
   float: left;
   display: block;
@@ -7588,14 +7589,14 @@ div.square {
   margin-right: 0;
 }
 
-/* line 1108, ../sass/application.sass */
+/* line 1110, ../sass/application.sass */
 input, select {
   vertical-align: middle;
   margin-top: 1px;
   margin-bottom: 1px;
 }
 
-/* line 1113, ../sass/application.sass */
+/* line 1115, ../sass/application.sass */
 fieldset, fieldset.box {
   border: 0;
   padding-top: 3em;
@@ -7603,7 +7604,7 @@ fieldset, fieldset.box {
   background: none;
   margin-bottom: 1em;
 }
-/* line 1120, ../sass/application.sass */
+/* line 1122, ../sass/application.sass */
 fieldset legend, fieldset.box legend {
   position: absolute;
   top: 0;
@@ -7613,7 +7614,7 @@ fieldset legend, fieldset.box legend {
   border-bottom: 1px solid #CCCCCC;
 }
 
-/* line 1128, ../sass/application.sass */
+/* line 1130, ../sass/application.sass */
 hr {
   width: 100%;
   height: 1px;
@@ -7621,7 +7622,7 @@ hr {
   border: 0;
 }
 
-/* line 1134, ../sass/application.sass */
+/* line 1136, ../sass/application.sass */
 blockquote {
   font-style: italic;
   border-left: 3px solid #e0e0e0;
@@ -7629,25 +7630,25 @@ blockquote {
   margin-left: 2.4em;
 }
 
-/* line 1140, ../sass/application.sass */
+/* line 1142, ../sass/application.sass */
 blockquote blockquote {
   margin-left: 0;
 }
 
-/* line 1143, ../sass/application.sass */
+/* line 1145, ../sass/application.sass */
 abbr {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 1147, ../sass/application.sass */
+/* line 1149, ../sass/application.sass */
 textarea.wiki-edit {
   width: 99% !important;
   resize: vertical;
   margin-bottom: 1em;
 }
 
-/* line 1152, ../sass/application.sass */
+/* line 1154, ../sass/application.sass */
 div.issue {
   background: #F9F9F9 !important;
   margin-bottom: 1em;
@@ -7655,60 +7656,60 @@ div.issue {
   padding: 2em;
   border-radius: 4px;
 }
-/* line 1159, ../sass/application.sass */
+/* line 1161, ../sass/application.sass */
 div.issue div.subject {
   padding-left: 4.5em;
 }
-/* line 1162, ../sass/application.sass */
+/* line 1164, ../sass/application.sass */
 div.issue .author {
   margin: 0.3em 0 0;
   padding-left: 4.5em;
 }
-/* line 1166, ../sass/application.sass */
+/* line 1168, ../sass/application.sass */
 div.issue .attributes {
   margin-top: 2em;
 }
-/* line 1169, ../sass/application.sass */
+/* line 1171, ../sass/application.sass */
 div.issue .contextual {
   top: 0 !important;
 }
-/* line 1174, ../sass/application.sass */
+/* line 1176, ../sass/application.sass */
 div.issue table.issues tr:last-child td {
   border-bottom: 0 !important;
 }
 
-/* line 1177, ../sass/application.sass */
+/* line 1179, ../sass/application.sass */
 p.breadcrumb {
   font-size: 0.9em;
   margin: 1em 0;
 }
 
-/* line 1181, ../sass/application.sass */
+/* line 1183, ../sass/application.sass */
 p.subtitle {
   font-size: 0.9em;
   font-style: italic;
   margin: -6px 0 12px;
 }
 
-/* line 1186, ../sass/application.sass */
+/* line 1188, ../sass/application.sass */
 p.footnote {
   font-size: 0.9em;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 1191, ../sass/application.sass */
+/* line 1193, ../sass/application.sass */
 div.issue div.subject p {
   font-size: 90%;
   margin: 0 0 0.3em;
 }
 
-/* line 1195, ../sass/application.sass */
+/* line 1197, ../sass/application.sass */
 div.issue div.subject h3 {
   margin: 0 0 0.1em;
 }
 
-/* line 1198, ../sass/application.sass */
+/* line 1200, ../sass/application.sass */
 div.issue span.private {
   position: relative;
   bottom: 2px;
@@ -7722,68 +7723,68 @@ div.issue span.private {
   padding: 0 2px;
 }
 
-/* line 1210, ../sass/application.sass */
+/* line 1212, ../sass/application.sass */
 div.issue table.attributes td {
   width: 28%;
 }
 
-/* line 1213, ../sass/application.sass */
+/* line 1215, ../sass/application.sass */
 fieldset.collapsible > legend {
   cursor: pointer;
 }
-/* line 1217, ../sass/application.sass */
+/* line 1219, ../sass/application.sass */
 fieldset.collapsible > legend:before {
   margin-right: 0.5em;
 }
 
-/* line 1224, ../sass/application.sass */
+/* line 1226, ../sass/application.sass */
 fieldset#date-range p {
   margin: 2px 0;
 }
 
-/* line 1227, ../sass/application.sass */
+/* line 1229, ../sass/application.sass */
 fieldset#filters table {
   border-collapse: collapse;
 }
 
-/* line 1230, ../sass/application.sass */
+/* line 1232, ../sass/application.sass */
 fieldset#filters table td {
   vertical-align: middle;
   padding: 0;
 }
 
-/* line 1234, ../sass/application.sass */
+/* line 1236, ../sass/application.sass */
 fieldset#filters tr.filter {
   height: 2.1em;
 }
 
-/* line 1237, ../sass/application.sass */
+/* line 1239, ../sass/application.sass */
 fieldset#filters td.field {
   width: 230px;
 }
 
-/* line 1240, ../sass/application.sass */
+/* line 1242, ../sass/application.sass */
 fieldset#filters td.operator {
   width: 180px;
 }
 
-/* line 1243, ../sass/application.sass */
+/* line 1245, ../sass/application.sass */
 fieldset#filters td.operator select {
   max-width: 170px;
 }
 
-/* line 1246, ../sass/application.sass */
+/* line 1248, ../sass/application.sass */
 fieldset#filters td.values select {
   min-width: 130px;
 }
 
-/* line 1249, ../sass/application.sass */
+/* line 1251, ../sass/application.sass */
 fieldset#filters td.add-filter {
   text-align: right;
   vertical-align: top;
 }
 
-/* line 1253, ../sass/application.sass */
+/* line 1255, ../sass/application.sass */
 .toggle-multiselect {
   background: url(../images/bullet_toggle_plus.png) no-repeat 0 40%;
   padding-left: 8px;
@@ -7791,23 +7792,23 @@ fieldset#filters td.add-filter {
   cursor: pointer;
 }
 
-/* line 1259, ../sass/application.sass */
+/* line 1261, ../sass/application.sass */
 .buttons {
   margin-bottom: 1.4em;
   margin-top: 1em;
 }
-/* line 1263, ../sass/application.sass */
+/* line 1265, ../sass/application.sass */
 .buttons a:before, .buttons .icon-add.checklist-new-only:before {
   vertical-align: middle;
   display: inline-block;
   margin-right: 0.5em;
 }
-/* line 1268, ../sass/application.sass */
+/* line 1270, ../sass/application.sass */
 .buttons a + a:before, .buttons .icon-add.checklist-new-only + a:before, .buttons a + .icon-add.checklist-new-only:before, .buttons .icon-add.checklist-new-only + .icon-add.checklist-new-only:before {
   margin-left: 1em;
 }
 
-/* line 1271, ../sass/application.sass */
+/* line 1273, ../sass/application.sass */
 div#issue-changesets {
   float: right;
   width: 45%;
@@ -7818,141 +7819,141 @@ div#issue-changesets {
   font-size: 90%;
 }
 
-/* line 1280, ../sass/application.sass */
+/* line 1282, ../sass/application.sass */
 div#issue-changesets div.changeset {
   border-bottom: 1px solid #ddd;
   padding: 4px;
 }
 
-/* line 1284, ../sass/application.sass */
+/* line 1286, ../sass/application.sass */
 div#issue-changesets p {
   margin-top: 0;
   margin-bottom: 1em;
 }
 
-/* line 1290, ../sass/application.sass */
+/* line 1292, ../sass/application.sass */
 .journal ul.details {
   list-style-type: none;
   padding-left: 0;
   color: #777777;
 }
-/* line 1295, ../sass/application.sass */
+/* line 1297, ../sass/application.sass */
 .journal ul.details img {
   margin: 0 0 -3px 4px;
 }
 
-/* line 1298, ../sass/application.sass */
+/* line 1300, ../sass/application.sass */
 div.journal.private-notes {
   border-left: 2px solid #F2F2F2;
   padding-left: 4px;
   margin-left: -6px;
 }
 
-/* line 1303, ../sass/application.sass */
+/* line 1305, ../sass/application.sass */
 div#activity dl, #search-results {
   margin-left: 0;
 }
 
-/* line 1306, ../sass/application.sass */
+/* line 1308, ../sass/application.sass */
 div#activity dd, #search-results dd {
   margin-bottom: 1em;
   padding-left: 2.8em;
   font-size: 0.9em;
 }
 
-/* line 1311, ../sass/application.sass */
+/* line 1313, ../sass/application.sass */
 div#activity dt, #search-results dt {
   margin-bottom: 0;
   line-height: 18px;
 }
 
-/* line 1315, ../sass/application.sass */
+/* line 1317, ../sass/application.sass */
 div#activity dt.me .time {
   border-bottom: 1px solid #CCCCCC;
 }
 
-/* line 1318, ../sass/application.sass */
+/* line 1320, ../sass/application.sass */
 div#activity dt .time {
   color: #CCCCCC;
   font-size: 80%;
 }
 
-/* line 1322, ../sass/application.sass */
+/* line 1324, ../sass/application.sass */
 div#activity span.project:after, #search-results span.project:after {
   content: " -";
 }
 
-/* line 1325, ../sass/application.sass */
+/* line 1327, ../sass/application.sass */
 div#activity dd span.description, #search-results dd span.description {
   display: block;
   color: #777777;
 }
 
-/* line 1329, ../sass/application.sass */
+/* line 1331, ../sass/application.sass */
 div#activity dt.grouped {
   margin-left: 2.8em;
 }
 
-/* line 1332, ../sass/application.sass */
+/* line 1334, ../sass/application.sass */
 div#activity dd.grouped {
   margin-left: 9em;
 }
 
-/* line 1335, ../sass/application.sass */
+/* line 1337, ../sass/application.sass */
 #search-results dd {
   margin-bottom: 1em;
   padding-left: 20px;
   margin-left: 0;
 }
 
-/* line 1340, ../sass/application.sass */
+/* line 1342, ../sass/application.sass */
 div#search-results-counts li {
   list-style-type: none;
   float: left;
   margin-left: 1em;
 }
 
-/* line 1345, ../sass/application.sass */
+/* line 1347, ../sass/application.sass */
 dt.issue-note {
   background-image: url(../images/ticket_note.png);
 }
 
-/* line 1349, ../sass/application.sass */
+/* line 1351, ../sass/application.sass */
 dt.news {
   background-image: url(../images/news.png);
 }
 
-/* line 1352, ../sass/application.sass */
+/* line 1354, ../sass/application.sass */
 dt.message {
   background-image: url(../images/message.png);
 }
 
-/* line 1355, ../sass/application.sass */
+/* line 1357, ../sass/application.sass */
 dt.reply {
   background-image: url(../images/comments.png);
 }
 
-/* line 1358, ../sass/application.sass */
+/* line 1360, ../sass/application.sass */
 dt.wiki-page {
   background-image: url(../images/wiki_edit.png);
 }
 
-/* line 1361, ../sass/application.sass */
+/* line 1363, ../sass/application.sass */
 dt.document {
   background-image: url(../images/document.png);
 }
 
-/* line 1364, ../sass/application.sass */
+/* line 1366, ../sass/application.sass */
 div#roadmap .wiki h2 {
   font-size: 110%;
 }
 
-/* line 1367, ../sass/application.sass */
+/* line 1369, ../sass/application.sass */
 body.controller-versions.action-show div#roadmap .related-issues {
   width: 70%;
 }
 
-/* line 1370, ../sass/application.sass */
+/* line 1372, ../sass/application.sass */
 div#version-summary {
   float: right;
   width: 28%;
@@ -7961,142 +7962,142 @@ div#version-summary {
   background-color: #fff;
 }
 
-/* line 1377, ../sass/application.sass */
+/* line 1379, ../sass/application.sass */
 table#time-report td.hours, table#time-report th.period, table#time-report th.total {
   text-align: right;
   padding-right: 0.5em;
 }
 
-/* line 1381, ../sass/application.sass */
+/* line 1383, ../sass/application.sass */
 table#time-report tbody tr.subtotal {
   font-style: italic;
   color: #777;
 }
 
-/* line 1385, ../sass/application.sass */
+/* line 1387, ../sass/application.sass */
 table#time-report tbody tr.subtotal td.hours {
   color: #b0b0b0;
 }
 
-/* line 1389, ../sass/application.sass */
+/* line 1391, ../sass/application.sass */
 table#time-report tbody tr.total {
   font-weight: 700;
   background-color: #EEEEEE;
   border-top: 1px solid #e4e4e4;
 }
 
-/* line 1394, ../sass/application.sass */
+/* line 1396, ../sass/application.sass */
 div.wiki-page .contextual a, div.wiki-page .contextual .icon-add.checklist-new-only {
   opacity: 0.4;
 }
 
-/* line 1397, ../sass/application.sass */
+/* line 1399, ../sass/application.sass */
 form .attributes select {
   width: 60%;
 }
 
-/* line 1400, ../sass/application.sass */
+/* line 1402, ../sass/application.sass */
 select#issue_done_ratio {
   width: 95px;
 }
 
-/* line 1403, ../sass/application.sass */
+/* line 1405, ../sass/application.sass */
 ul.projects {
   padding-left: 1em;
   margin: 0;
 }
 
-/* line 1407, ../sass/application.sass */
+/* line 1409, ../sass/application.sass */
 ul.projects ul {
   padding-left: 1.6em;
 }
 
-/* line 1410, ../sass/application.sass */
+/* line 1412, ../sass/application.sass */
 #projects-index ul.projects ul.projects {
   border-left: 3px solid #e0e0e0;
   padding-left: 1em;
 }
 
-/* line 1414, ../sass/application.sass */
+/* line 1416, ../sass/application.sass */
 #projects-index ul.projects li.child {
   margin-top: 1em;
 }
 
-/* line 1417, ../sass/application.sass */
+/* line 1419, ../sass/application.sass */
 #projects-index ul.projects div.root a.project, #projects-index ul.projects div.root .project.icon-add.checklist-new-only {
   font-weight: 700;
   font-size: 16px;
   margin: 0 0 10px;
 }
 
-/* line 1422, ../sass/application.sass */
+/* line 1424, ../sass/application.sass */
 .my-project {
   color: #777777;
 }
-/* line 1426, ../sass/application.sass */
+/* line 1428, ../sass/application.sass */
 .my-project:before {
   margin-right: 0.5em;
   color: #f39c12;
 }
 
-/* line 1431, ../sass/application.sass */
+/* line 1433, ../sass/application.sass */
 #notified-projects > ul, #tracker_project_ids > ul, #custom_field_project_ids > ul {
   max-height: 250px;
   overflow-y: auto;
 }
 
-/* line 1435, ../sass/application.sass */
+/* line 1437, ../sass/application.sass */
 ul.properties {
   font-size: 0.9em;
   color: #777;
   padding: 0;
 }
 
-/* line 1440, ../sass/application.sass */
+/* line 1442, ../sass/application.sass */
 .total-hours {
   font-size: 110%;
   font-weight: 700;
 }
 
-/* line 1444, ../sass/application.sass */
+/* line 1446, ../sass/application.sass */
 .autoscroll {
   overflow-x: auto;
   margin-bottom: 1.2em;
   padding: 1px;
 }
 
-/* line 1449, ../sass/application.sass */
+/* line 1451, ../sass/application.sass */
 #workflow_copy_form select {
   width: 200px;
 }
 
-/* line 1452, ../sass/application.sass */
+/* line 1454, ../sass/application.sass */
 table.transitions td.enabled {
   background: #bfb;
 }
 
-/* line 1455, ../sass/application.sass */
+/* line 1457, ../sass/application.sass */
 table.fields_permissions select {
   font-size: 90%;
 }
 
-/* line 1458, ../sass/application.sass */
+/* line 1460, ../sass/application.sass */
 table.fields_permissions td.readonly {
   background: #ddd;
 }
 
-/* line 1461, ../sass/application.sass */
+/* line 1463, ../sass/application.sass */
 table.fields_permissions td.required {
   background: #d88;
 }
 
-/* line 1464, ../sass/application.sass */
+/* line 1466, ../sass/application.sass */
 p.pagination {
   margin-top: 8px;
   font-size: 90%;
 }
 
-/* line 1470, ../sass/application.sass */
+/* line 1472, ../sass/application.sass */
 .tabular p {
   min-height: 1.8em;
   clear: left;
@@ -8104,20 +8105,20 @@ p.pagination {
   padding-left: 15em;
   margin-bottom: 1em;
 }
-/* line 1477, ../sass/application.sass */
+/* line 1479, ../sass/application.sass */
 .tabular p.live_search {
   font-size: 1em;
 }
-/* line 1480, ../sass/application.sass */
+/* line 1482, ../sass/application.sass */
 .tabular p.live_search:before {
   left: 15.6em;
   top: 0.3em;
 }
-/* line 1484, ../sass/application.sass */
+/* line 1486, ../sass/application.sass */
 .tabular span[title] {
   border-bottom: 1px dotted #F2F2F2;
 }
-/* line 1487, ../sass/application.sass */
+/* line 1489, ../sass/application.sass */
 .tabular label {
   font-weight: 600;
   float: left;
@@ -8126,14 +8127,14 @@ p.pagination {
   width: 14em;
   vertical-align: middle;
 }
-/* line 1495, ../sass/application.sass */
+/* line 1497, ../sass/application.sass */
 .tabular label.floating {
   font-weight: 400;
   margin-left: 0;
   text-align: left;
   width: 18em;
 }
-/* line 1501, ../sass/application.sass */
+/* line 1503, ../sass/application.sass */
 .tabular label.block {
   font-weight: 400;
   margin-left: 0 !important;
@@ -8142,24 +8143,24 @@ p.pagination {
   display: block;
   width: auto !important;
 }
-/* line 1509, ../sass/application.sass */
+/* line 1511, ../sass/application.sass */
 .tabular label.inline {
   font-weight: 400;
   float: none;
   margin-left: 0.5em !important;
   width: auto;
 }
-/* line 1517, ../sass/application.sass */
+/* line 1519, ../sass/application.sass */
 .tabular .settings p {
   padding-left: 20em;
 }
-/* line 1520, ../sass/application.sass */
+/* line 1522, ../sass/application.sass */
 .tabular .settings label {
   margin-left: -20em;
   width: 19.5em;
 }
 
-/* line 1524, ../sass/application.sass */
+/* line 1526, ../sass/application.sass */
 label.no-css {
   font-weight: inherit;
   float: none;
@@ -8168,18 +8169,18 @@ label.no-css {
   width: auto;
 }
 
-/* line 1531, ../sass/application.sass */
+/* line 1533, ../sass/application.sass */
 #preview fieldset {
   margin-top: 1em;
   background: url(../images/draft.png);
 }
 
-/* line 1535, ../sass/application.sass */
+/* line 1537, ../sass/application.sass */
 span.required {
   color: #bb0000;
 }
 
-/* line 1538, ../sass/application.sass */
+/* line 1540, ../sass/application.sass */
 .check_box_group {
   display: block;
   width: 95%;
@@ -8191,7 +8192,7 @@ span.required {
   padding: 2px 4px 4px 2px;
 }
 
-/* line 1548, ../sass/application.sass */
+/* line 1550, ../sass/application.sass */
 .check_box_group label {
   font-weight: 400;
   margin-left: 0 !important;
@@ -8201,25 +8202,25 @@ span.required {
   width: auto;
 }
 
-/* line 1556, ../sass/application.sass */
+/* line 1558, ../sass/application.sass */
 .check_box_group.bool_cf {
   border: 0;
   background: inherit;
 }
 
-/* line 1560, ../sass/application.sass */
+/* line 1562, ../sass/application.sass */
 #attachments_fields input.description {
   margin-left: 4px;
   width: 340px;
 }
 
-/* line 1564, ../sass/application.sass */
+/* line 1566, ../sass/application.sass */
 #attachments_fields span {
   display: block;
   white-space: nowrap;
 }
 
-/* line 1568, ../sass/application.sass */
+/* line 1570, ../sass/application.sass */
 #attachments_fields input.filename {
   border: 0;
   height: 1.8em;
@@ -8230,17 +8231,17 @@ span.required {
   padding-left: 18px;
 }
 
-/* line 1577, ../sass/application.sass */
+/* line 1579, ../sass/application.sass */
 #attachments_fields .ajax-waiting input.filename {
   background: url(../images/hourglass.png) no-repeat 0 50%;
 }
 
-/* line 1580, ../sass/application.sass */
+/* line 1582, ../sass/application.sass */
 #attachments_fields .ajax-loading input.filename {
   background: url(../images/loading.gif) no-repeat 0 50%;
 }
 
-/* line 1583, ../sass/application.sass */
+/* line 1585, ../sass/application.sass */
 #attachments_fields div.ui-progressbar {
   width: 100px;
   height: 14px;
@@ -8248,7 +8249,7 @@ span.required {
   margin: 2px 0 -5px 8px;
 }
 
-/* line 1589, ../sass/application.sass */
+/* line 1591, ../sass/application.sass */
 a.remove-upload, .remove-upload.icon-add.checklist-new-only {
   background: url(../images/delete.png) no-repeat 1px 50%;
   width: 1px;
@@ -8256,38 +8257,38 @@ a.remove-upload, .remove-upload.icon-add.checklist-new-only {
   padding-left: 16px;
 }
 
-/* line 1595, ../sass/application.sass */
+/* line 1597, ../sass/application.sass */
 a.remove-upload:hover, .remove-upload.icon-add.checklist-new-only:hover {
   text-decoration: none !important;
 }
 
-/* line 1598, ../sass/application.sass */
+/* line 1600, ../sass/application.sass */
 div.fileover {
   background-color: lavender;
 }
 
-/* line 1601, ../sass/application.sass */
+/* line 1603, ../sass/application.sass */
 div.attachments {
   margin-top: 12px;
 }
 
-/* line 1604, ../sass/application.sass */
+/* line 1606, ../sass/application.sass */
 div.attachments p {
   margin: 4px 0 2px;
 }
 
-/* line 1607, ../sass/application.sass */
+/* line 1609, ../sass/application.sass */
 div.attachments span.author {
   font-size: 0.9em;
   color: #888;
 }
 
-/* line 1611, ../sass/application.sass */
+/* line 1613, ../sass/application.sass */
 div.thumbnails {
   margin-top: 0.6em;
 }
 
-/* line 1614, ../sass/application.sass */
+/* line 1616, ../sass/application.sass */
 div.thumbnails div {
   background: #fff;
   border: 2px solid #ddd;
@@ -8295,12 +8296,12 @@ div.thumbnails div {
   margin-right: 2px;
 }
 
-/* line 1620, ../sass/application.sass */
+/* line 1622, ../sass/application.sass */
 div.thumbnails img {
   margin: 3px;
 }
 
-/* line 1623, ../sass/application.sass */
+/* line 1625, ../sass/application.sass */
 p.other-formats {
   display: block;
   text-align: right;
@@ -8314,18 +8315,18 @@ p.other-formats::after {
   display: table;
 }
 
-/* line 1629, ../sass/application.sass */
+/* line 1631, ../sass/application.sass */
 .other-formats span + span:before {
   content: "| ";
 }
 
-/* line 1632, ../sass/application.sass */
+/* line 1634, ../sass/application.sass */
 a.atom, .atom.icon-add.checklist-new-only {
   background: url(../images/feed.png) no-repeat 1px 50%;
   padding: 2px 0 3px 16px;
 }
 
-/* line 1636, ../sass/application.sass */
+/* line 1638, ../sass/application.sass */
 em.info {
   font-style: normal;
   font-size: 90%;
@@ -8333,28 +8334,28 @@ em.info {
   display: block;
 }
 
-/* line 1642, ../sass/application.sass */
+/* line 1644, ../sass/application.sass */
 em.info.error {
   padding-left: 20px;
   background: url(../images/exclamation.png) no-repeat 0 50%;
 }
 
-/* line 1646, ../sass/application.sass */
+/* line 1648, ../sass/application.sass */
 input.string_cf, input.link_cf {
   width: 95%;
 }
 
-/* line 1649, ../sass/application.sass */
+/* line 1651, ../sass/application.sass */
 select.bool_cf {
   width: auto !important;
 }
 
-/* line 1652, ../sass/application.sass */
+/* line 1654, ../sass/application.sass */
 #tab-content-modules fieldset p {
   margin: 3px 0 4px;
 }
 
-/* line 1655, ../sass/application.sass */
+/* line 1657, ../sass/application.sass */
 #tab-content-members .splitcontentleft, #tab-content-memberships .splitcontentleft, #tab-content-users .splitcontentleft {
   float: left;
   display: block;
@@ -8366,7 +8367,7 @@ select.bool_cf {
   margin-right: 0;
 }
 
-/* line 1658, ../sass/application.sass */
+/* line 1660, ../sass/application.sass */
 #tab-content-members .splitcontentright, #tab-content-memberships .splitcontentright, #tab-content-users .splitcontentright {
   float: left;
   display: block;
@@ -8378,45 +8379,45 @@ select.bool_cf {
   margin-right: 0;
 }
 
-/* line 1661, ../sass/application.sass */
+/* line 1663, ../sass/application.sass */
 #tab-content-members fieldset, #tab-content-memberships fieldset, #tab-content-users fieldset {
   margin-bottom: 1em;
   padding: 1em;
 }
 
-/* line 1665, ../sass/application.sass */
+/* line 1667, ../sass/application.sass */
 #tab-content-members #principals, #tab-content-users #principals {
   max-height: 400px;
   overflow: auto;
 }
 
-/* line 1669, ../sass/application.sass */
+/* line 1671, ../sass/application.sass */
 #users_for_watcher {
   height: 200px;
   overflow: auto;
 }
 
-/* line 1673, ../sass/application.sass */
+/* line 1675, ../sass/application.sass */
 table.members td.group {
   padding-left: 20px;
   background: url(../images/group.png) no-repeat 0 50%;
 }
 
-/* line 1677, ../sass/application.sass */
+/* line 1679, ../sass/application.sass */
 .live_search {
   position: relative;
   font-size: 0.7em;
 }
-/* line 1681, ../sass/application.sass */
+/* line 1683, ../sass/application.sass */
 .live_search.normal {
   font-size: 1em;
 }
 
-/* line 1684, ../sass/application.sass */
+/* line 1686, ../sass/application.sass */
 span.icon-search {
   position: relative;
 }
-/* line 1688, ../sass/application.sass */
+/* line 1690, ../sass/application.sass */
 span.icon-search:before {
   position: absolute;
   top: 0.2em;
@@ -8425,13 +8426,13 @@ span.icon-search:before {
   z-index: 5;
 }
 
-/* line 1698, ../sass/application.sass */
+/* line 1700, ../sass/application.sass */
 th.live_search:before {
   top: 1.1em;
   left: 1em;
 }
 
-/* line 1702, ../sass/application.sass */
+/* line 1704, ../sass/application.sass */
 input.autocomplete, input.live_search_field, input.questions-search {
   padding-left: 2em !important;
   padding-right: 1.5em !important;
@@ -8444,60 +8445,60 @@ input.autocomplete, input.live_search_field, input.questions-search {
   background: white !important;
   z-index: 0;
 }
-/* line 1712, ../sass/application.sass */
+/* line 1714, ../sass/application.sass */
 input.autocomplete.ajax-loading, input.live_search_field.ajax-loading, input.questions-search.ajax-loading {
   background: url(../images/loading.gif) no-repeat 97% center !important;
 }
 
-/* line 1715, ../sass/application.sass */
+/* line 1717, ../sass/application.sass */
 input.questions-search {
   width: 100% !important;
 }
-/* line 1718, ../sass/application.sass */
+/* line 1720, ../sass/application.sass */
 input.questions-search.ajax-loading {
   background-position: 98% center !important;
 }
 
-/* line 1721, ../sass/application.sass */
+/* line 1723, ../sass/application.sass */
 #errorExplanation, div.flash, .nodata, .warning, .conflict {
   margin: 2em 0;
   font-size: 1.1em;
   padding: 1em;
   border-radius: 4px;
 }
-/* line 1727, ../sass/application.sass */
+/* line 1729, ../sass/application.sass */
 #errorExplanation ul, div.flash ul, .nodata ul, .warning ul, .conflict ul {
   margin: 0;
   padding-left: 1em;
 }
 
-/* line 1731, ../sass/application.sass */
+/* line 1733, ../sass/application.sass */
 div.flash.error, #errorExplanation {
   background: red;
   color: white;
 }
 
-/* line 1735, ../sass/application.sass */
+/* line 1737, ../sass/application.sass */
 div.flash.notice {
   background-color: #2ecc71;
   color: #176437;
 }
 
-/* line 1739, ../sass/application.sass */
+/* line 1741, ../sass/application.sass */
 div.flash.warning, .conflict {
   background-color: #f39c12;
   color: #7f5006;
   text-align: left;
 }
 
-/* line 1744, ../sass/application.sass */
+/* line 1746, ../sass/application.sass */
 .nodata, .warning {
   text-align: center;
   background-color: #f39c12;
   color: #7f5006;
 }
 
-/* line 1749, ../sass/application.sass */
+/* line 1751, ../sass/application.sass */
 #ajax-indicator {
   position: absolute;
   background-color: #eee;
@@ -8512,12 +8513,12 @@ div.flash.warning, .conflict {
   padding: 0.6em;
 }
 
-/* line 1762, ../sass/application.sass */
+/* line 1764, ../sass/application.sass */
 html > body #ajax-indicator {
   position: fixed;
 }
 
-/* line 1765, ../sass/application.sass */
+/* line 1767, ../sass/application.sass */
 #ajax-indicator span {
   background-position: 0 40%;
   background-repeat: no-repeat;
@@ -8526,7 +8527,7 @@ html > body #ajax-indicator {
   vertical-align: bottom;
 }
 
-/* line 1772, ../sass/application.sass */
+/* line 1774, ../sass/application.sass */
 table.cal {
   border-collapse: collapse;
   width: 100%;
@@ -8534,31 +8535,31 @@ table.cal {
   margin: 0 0 6px;
 }
 
-/* line 1778, ../sass/application.sass */
+/* line 1780, ../sass/application.sass */
 table.cal thead th {
   width: 14%;
   background-color: #EEEEEE;
   padding: 4px;
 }
 
-/* line 1783, ../sass/application.sass */
+/* line 1785, ../sass/application.sass */
 table.cal thead th.week-number {
   width: auto;
 }
 
-/* line 1786, ../sass/application.sass */
+/* line 1788, ../sass/application.sass */
 table.cal tbody tr {
   height: 100px;
 }
 
-/* line 1789, ../sass/application.sass */
+/* line 1791, ../sass/application.sass */
 table.cal td {
   border: 1px solid #d7d7d7;
   vertical-align: top;
   font-size: 0.9em;
 }
 
-/* line 1794, ../sass/application.sass */
+/* line 1796, ../sass/application.sass */
 table.cal td.week-number {
   background-color: #EEEEEE;
   border: none;
@@ -8566,59 +8567,59 @@ table.cal td.week-number {
   padding: 4px;
 }
 
-/* line 1800, ../sass/application.sass */
+/* line 1802, ../sass/application.sass */
 table.cal td p.day-num {
   font-size: 1.1em;
   text-align: right;
 }
 
-/* line 1804, ../sass/application.sass */
+/* line 1806, ../sass/application.sass */
 table.cal td.odd p.day-num {
   color: #bbb;
 }
 
-/* line 1807, ../sass/application.sass */
+/* line 1809, ../sass/application.sass */
 table.cal td.today {
   background: #ffffdd;
 }
 
-/* line 1813, ../sass/application.sass */
+/* line 1815, ../sass/application.sass */
 table.cal .starting a:before, table.cal .starting .icon-add.checklist-new-only:before, p.cal.legend .starting:before {
   margin-right: 0.5em;
   color: #2ecc71;
 }
 
-/* line 1821, ../sass/application.sass */
+/* line 1823, ../sass/application.sass */
 table.cal .ending a:before, table.cal .ending .icon-add.checklist-new-only:before, p.cal.legend .ending:before {
   margin-right: 0.5em;
   color: #CB232F;
 }
 
-/* line 1829, ../sass/application.sass */
+/* line 1831, ../sass/application.sass */
 table.cal .starting.ending a:before, table.cal .starting.ending .icon-add.checklist-new-only:before, p.cal.legend .starting.ending:before {
   margin-right: 0.5em;
   color: #CB232F;
 }
 
-/* line 1834, ../sass/application.sass */
+/* line 1836, ../sass/application.sass */
 .tooltip {
   position: relative;
   z-index: 24;
 }
 
-/* line 1838, ../sass/application.sass */
+/* line 1840, ../sass/application.sass */
 .tooltip:hover {
   z-index: 25;
   color: #000;
 }
 
-/* line 1842, ../sass/application.sass */
+/* line 1844, ../sass/application.sass */
 .tooltip span.tip {
   display: none;
   text-align: left;
 }
 
-/* line 1846, ../sass/application.sass */
+/* line 1848, ../sass/application.sass */
 div.tooltip:hover span.tip {
   display: block;
   position: absolute;
@@ -8632,14 +8633,14 @@ div.tooltip:hover span.tip {
   padding: 4px;
 }
 
-/* line 1858, ../sass/application.sass */
+/* line 1860, ../sass/application.sass */
 img.ui-datepicker-trigger {
   cursor: pointer;
   vertical-align: middle;
   margin-left: 4px;
 }
 
-/* line 1863, ../sass/application.sass */
+/* line 1865, ../sass/application.sass */
 table.progress {
   border-collapse: collapse;
   border-spacing: 0;
@@ -8649,22 +8650,22 @@ table.progress {
   margin: 1px 6px 1px 0;
 }
 
-/* line 1871, ../sass/application.sass */
+/* line 1873, ../sass/application.sass */
 table.progress td.closed {
   background: #BAE0BA none repeat scroll 0;
 }
 
-/* line 1874, ../sass/application.sass */
+/* line 1876, ../sass/application.sass */
 table.progress td.done {
   background: #D3EDD3 none repeat scroll 0;
 }
 
-/* line 1877, ../sass/application.sass */
+/* line 1879, ../sass/application.sass */
 table.progress td.todo {
   background: #eee none repeat scroll 0;
 }
 
-/* line 1880, ../sass/application.sass */
+/* line 1882, ../sass/application.sass */
 p.progress-info {
   clear: left;
   font-size: 80%;
@@ -8672,19 +8673,19 @@ p.progress-info {
   color: #777;
 }
 
-/* line 1886, ../sass/application.sass */
+/* line 1888, ../sass/application.sass */
 #roadmap table.progress td {
   height: 1.2em;
 }
 
-/* line 1889, ../sass/application.sass */
+/* line 1891, ../sass/application.sass */
 #content .tabs {
   height: 3.6em;
   margin-bottom: 1.2em;
   position: relative;
   overflow: hidden;
 }
-/* line 1895, ../sass/application.sass */
+/* line 1897, ../sass/application.sass */
 #content .tabs ul {
   position: absolute;
   bottom: 0;
@@ -8693,7 +8694,7 @@ p.progress-info {
   margin: 0;
   padding: 0;
 }
-/* line 1903, ../sass/application.sass */
+/* line 1905, ../sass/application.sass */
 #content .tabs ul li {
   float: left;
   list-style-type: none;
@@ -8702,7 +8703,7 @@ p.progress-info {
   background: white;
   position: relative;
 }
-/* line 1911, ../sass/application.sass */
+/* line 1913, ../sass/application.sass */
 #content .tabs ul li a, #content .tabs ul li .icon-add.checklist-new-only {
   display: block;
   text-decoration: none;
@@ -8716,12 +8717,12 @@ p.progress-info {
   color: #777777;
   font-size: 0.9em;
 }
-/* line 1924, ../sass/application.sass */
+/* line 1926, ../sass/application.sass */
 #content .tabs ul li a:hover, #content .tabs ul li .icon-add.checklist-new-only:hover {
   background-color: #F2F2F2;
   text-decoration: none;
 }
-/* line 1928, ../sass/application.sass */
+/* line 1930, ../sass/application.sass */
 #content .tabs ul li a.selected, #content .tabs ul li .selected.icon-add.checklist-new-only {
   background-color: white;
   border-color: #CCCCCC;
@@ -8730,7 +8731,7 @@ p.progress-info {
   color: #333333;
 }
 
-/* line 1935, ../sass/application.sass */
+/* line 1937, ../sass/application.sass */
 div.tabs-buttons {
   position: absolute;
   right: 0;
@@ -8740,7 +8741,7 @@ div.tabs-buttons {
   border-bottom: 1px solid #CCCCCC;
 }
 
-/* line 1943, ../sass/application.sass */
+/* line 1945, ../sass/application.sass */
 button.tab-left, button.tab-right {
   cursor: pointer;
   position: absolute;
@@ -8753,37 +8754,37 @@ button.tab-left, button.tab-right {
   background: none !important;
 }
 
-/* line 1957, ../sass/application.sass */
+/* line 1959, ../sass/application.sass */
 button.tab-left {
   left: 0;
 }
 
-/* line 1961, ../sass/application.sass */
+/* line 1963, ../sass/application.sass */
 button.tab-right {
   right: 0;
 }
 
-/* line 1965, ../sass/application.sass */
+/* line 1967, ../sass/application.sass */
 .diff_out {
   background: #fcc;
 }
 
-/* line 1968, ../sass/application.sass */
+/* line 1970, ../sass/application.sass */
 .diff_out span {
   background: #faa;
 }
 
-/* line 1971, ../sass/application.sass */
+/* line 1973, ../sass/application.sass */
 .diff_in {
   background: #cfc;
 }
 
-/* line 1974, ../sass/application.sass */
+/* line 1976, ../sass/application.sass */
 .diff_in span {
   background: #afa;
 }
 
-/* line 1977, ../sass/application.sass */
+/* line 1979, ../sass/application.sass */
 .text-diff {
   background-color: #f6f6f6;
   color: #505050;
@@ -8791,19 +8792,19 @@ button.tab-right {
   padding: 1em;
 }
 
-/* line 1983, ../sass/application.sass */
+/* line 1985, ../sass/application.sass */
 div.wiki table {
   border-collapse: collapse;
   margin-bottom: 1em;
 }
 
-/* line 1987, ../sass/application.sass */
+/* line 1989, ../sass/application.sass */
 div.wiki table, div.wiki td, div.wiki th {
   border: 1px solid #bbb;
   padding: 4px;
 }
 
-/* line 1991, ../sass/application.sass */
+/* line 1993, ../sass/application.sass */
 div.wiki .external {
   background-position: 0 60%;
   background-repeat: no-repeat;
@@ -8811,12 +8812,12 @@ div.wiki .external {
   background-image: url(../images/external.png);
 }
 
-/* line 1997, ../sass/application.sass */
+/* line 1999, ../sass/application.sass */
 div.wiki a.new, div.wiki .new.icon-add.checklist-new-only {
   color: #b73535;
 }
 
-/* line 2000, ../sass/application.sass */
+/* line 2002, ../sass/application.sass */
 div.wiki pre {
   background-color: #fafafa;
   border: 1px solid #e2e2e2;
@@ -8827,7 +8828,7 @@ div.wiki pre {
   padding: 8px;
 }
 
-/* line 2009, ../sass/application.sass */
+/* line 2011, ../sass/application.sass */
 div.wiki ul.toc {
   background-color: #ffffdd;
   border: 1px solid #e4e4e4;
@@ -8839,12 +8840,12 @@ div.wiki ul.toc {
   padding: 4px;
 }
 
-/* line 2019, ../sass/application.sass */
+/* line 2021, ../sass/application.sass */
 * html div.wiki ul.toc {
   width: 50%;
 }
 
-/* line 2022, ../sass/application.sass */
+/* line 2024, ../sass/application.sass */
 div.wiki ul.toc.right {
   float: right;
   margin-left: 12px;
@@ -8852,7 +8853,7 @@ div.wiki ul.toc.right {
   width: auto;
 }
 
-/* line 2028, ../sass/application.sass */
+/* line 2030, ../sass/application.sass */
 div.wiki ul.toc.left {
   float: left;
   margin-right: 12px;
@@ -8860,20 +8861,20 @@ div.wiki ul.toc.left {
   width: auto;
 }
 
-/* line 2034, ../sass/application.sass */
+/* line 2036, ../sass/application.sass */
 div.wiki ul.toc li {
   list-style-type: none;
   font-size: 12px;
   margin: 0;
 }
 
-/* line 2039, ../sass/application.sass */
+/* line 2041, ../sass/application.sass */
 div.wiki ul.toc li li {
   margin-left: 1.5em;
   font-size: 10px;
 }
 
-/* line 2043, ../sass/application.sass */
+/* line 2045, ../sass/application.sass */
 div.wiki ul.toc a, div.wiki ul.toc .icon-add.checklist-new-only {
   font-size: 0.9em;
   font-weight: 400;
@@ -8881,32 +8882,32 @@ div.wiki ul.toc a, div.wiki ul.toc .icon-add.checklist-new-only {
   color: #606060;
 }
 
-/* line 2049, ../sass/application.sass */
+/* line 2051, ../sass/application.sass */
 a.wiki-anchor, .wiki-anchor.icon-add.checklist-new-only {
   display: none;
   margin-left: 6px;
   text-decoration: none;
 }
 
-/* line 2054, ../sass/application.sass */
+/* line 2056, ../sass/application.sass */
 a.wiki-anchor:hover, .wiki-anchor.icon-add.checklist-new-only:hover {
   color: #aaa !important;
   text-decoration: none;
 }
 
-/* line 2058, ../sass/application.sass */
+/* line 2060, ../sass/application.sass */
 h1:hover a.wiki-anchor, h1:hover .wiki-anchor.icon-add.checklist-new-only, h2:hover a.wiki-anchor, h2:hover .wiki-anchor.icon-add.checklist-new-only, h3:hover a.wiki-anchor, h3:hover .wiki-anchor.icon-add.checklist-new-only {
   display: inline;
   color: #ddd;
 }
 
-/* line 2062, ../sass/application.sass */
+/* line 2064, ../sass/application.sass */
 div.wiki img {
   vertical-align: middle;
   max-width: 100%;
 }
 
-/* line 2066, ../sass/application.sass */
+/* line 2068, ../sass/application.sass */
 .block-receiver {
   border: 2px dashed #CCCCCC;
   margin-bottom: 2em;
@@ -8914,7 +8915,7 @@ div.wiki img {
   border-radius: 4px;
 }
 
-/* line 2072, ../sass/application.sass */
+/* line 2074, ../sass/application.sass */
 .mypage-box {
   color: #505050;
   line-height: 1.5em;
@@ -8926,24 +8927,24 @@ div.wiki img {
   margin: 0 0 1em !important;
 }
 
-/* line 2082, ../sass/application.sass */
+/* line 2084, ../sass/application.sass */
 .handle {
   cursor: move;
 }
 
-/* line 2085, ../sass/application.sass */
+/* line 2087, ../sass/application.sass */
 a.close-icon, .close-icon.icon-add.checklist-new-only {
   display: block;
   left: 1em;
   position: relative;
 }
 
-/* line 2094, ../sass/application.sass */
+/* line 2096, ../sass/application.sass */
 a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   color: #CB232F;
 }
 
-/* line 2097, ../sass/application.sass */
+/* line 2099, ../sass/application.sass */
 .gantt_hdr {
   position: absolute;
   top: 0;
@@ -8955,17 +8956,17 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   overflow: hidden;
 }
 
-/* line 2107, ../sass/application.sass */
+/* line 2109, ../sass/application.sass */
 .gantt_hdr.nwday {
   background-color: #f1f1f1;
 }
 
-/* line 2110, ../sass/application.sass */
+/* line 2112, ../sass/application.sass */
 .gantt_subjects {
   font-size: 0.8em;
 }
 
-/* line 2113, ../sass/application.sass */
+/* line 2115, ../sass/application.sass */
 .gantt_subjects div {
   line-height: 16px;
   height: 16px;
@@ -8975,7 +8976,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   padding-left: 1em;
 }
 
-/* line 2121, ../sass/application.sass */
+/* line 2123, ../sass/application.sass */
 .task {
   position: absolute;
   height: 8px;
@@ -8987,37 +8988,37 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   padding: 0;
 }
 
-/* line 2131, ../sass/application.sass */
+/* line 2133, ../sass/application.sass */
 .task_late {
   background: #f66 url(../images/task_late.png);
   border: 1px solid #f66;
 }
 
-/* line 2135, ../sass/application.sass */
+/* line 2137, ../sass/application.sass */
 .task_done {
   background: #00c600 url(../images/task_done.png);
   border: 1px solid #00c600;
 }
 
-/* line 2139, ../sass/application.sass */
+/* line 2141, ../sass/application.sass */
 .task_todo {
   background: #aaa url(../images/task_todo.png);
   border: 1px solid #aaa;
 }
 
-/* line 2143, ../sass/application.sass */
+/* line 2145, ../sass/application.sass */
 .task_todo.parent {
   background: #888;
   border: 1px solid #888;
   height: 3px;
 }
 
-/* line 2148, ../sass/application.sass */
+/* line 2150, ../sass/application.sass */
 .task_late.parent, .task_done.parent {
   height: 3px;
 }
 
-/* line 2151, ../sass/application.sass */
+/* line 2153, ../sass/application.sass */
 .task.parent.marker.starting {
   position: absolute;
   background: url(../images/task_parent_end.png) no-repeat 0 0;
@@ -9028,7 +9029,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   top: -1px;
 }
 
-/* line 2160, ../sass/application.sass */
+/* line 2162, ../sass/application.sass */
 .task.parent.marker.ending {
   position: absolute;
   background: url(../images/task_parent_end.png) no-repeat 0 0;
@@ -9039,7 +9040,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   top: -1px;
 }
 
-/* line 2169, ../sass/application.sass */
+/* line 2171, ../sass/application.sass */
 .version.marker {
   background-image: url(../images/version_marker.png);
   background-repeat: no-repeat;
@@ -9048,7 +9049,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   margin-top: 1px;
 }
 
-/* line 2176, ../sass/application.sass */
+/* line 2178, ../sass/application.sass */
 .project.marker {
   background-image: url(../images/project_marker.png);
   background-repeat: no-repeat;
@@ -9057,16 +9058,16 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   margin-top: 1px;
 }
 
-/* line 2183, ../sass/application.sass */
+/* line 2185, ../sass/application.sass */
 .version-behind-schedule a, .version-behind-schedule .icon-add.checklist-new-only, .issue-behind-schedule a, .issue-behind-schedule .icon-add.checklist-new-only {
   color: #f66914;
 }
 
-/* line 2186, ../sass/application.sass */
+/* line 2188, ../sass/application.sass */
 .icon, [class*="icon-"], #context-menu li a, #context-menu li .icon-add.checklist-new-only {
   background-image: none !important;
 }
-/* line 2189, ../sass/application.sass */
+/* line 2191, ../sass/application.sass */
 .icon:before, [class*="icon-"]:before, #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before {
   margin-right: 0.3em;
   vertical-align: middle;
@@ -9075,7 +9076,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   top: -2px;
 }
 
-/* line 2197, ../sass/application.sass */
+/* line 2199, ../sass/application.sass */
 #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before {
   font-size: 1em;
   top: 0.4em;
@@ -9083,7 +9084,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   position: absolute;
 }
 
-/* line 2329, ../sass/application.sass */
+/* line 2331, ../sass/application.sass */
 img.gravatar {
   background: white;
   vertical-align: middle;
@@ -9091,13 +9092,13 @@ img.gravatar {
   overflow: hidden;
 }
 
-/* line 2335, ../sass/application.sass */
+/* line 2337, ../sass/application.sass */
 div.issue img.gravatar {
   float: left;
   margin: 0;
 }
 
-/* line 2339, ../sass/application.sass */
+/* line 2341, ../sass/application.sass */
 div.issue table img.gravatar {
   height: 1em;
   width: 1em;
@@ -9105,365 +9106,365 @@ div.issue table img.gravatar {
   margin: 0 0.5em 0 0;
 }
 
-/* line 2345, ../sass/application.sass */
+/* line 2347, ../sass/application.sass */
 h2 img.gravatar {
   margin: -2px 4px -4px 0;
 }
 
-/* line 2348, ../sass/application.sass */
+/* line 2350, ../sass/application.sass */
 h3 img.gravatar {
   margin: -4px 4px -4px 0;
 }
 
-/* line 2351, ../sass/application.sass */
+/* line 2353, ../sass/application.sass */
 h4 img.gravatar {
   margin: -6px 4px -4px 0;
 }
 
-/* line 2354, ../sass/application.sass */
+/* line 2356, ../sass/application.sass */
 td.username img.gravatar {
   vertical-align: top;
   margin: 0 0.5em 0 0;
 }
 
-/* line 2358, ../sass/application.sass */
+/* line 2360, ../sass/application.sass */
 #activity dt img.gravatar {
   float: left;
   margin: 0 1.2em 1.2em 0;
 }
 
-/* line 2362, ../sass/application.sass */
+/* line 2364, ../sass/application.sass */
 .icon-gravatar {
   float: left;
   margin-right: 4px;
 }
 
-/* line 2366, ../sass/application.sass */
+/* line 2368, ../sass/application.sass */
 #activity dt, .journal {
   clear: left;
 }
 
-/* line 2369, ../sass/application.sass */
+/* line 2371, ../sass/application.sass */
 #activity + a, #activity + .icon-add.checklist-new-only {
   margin-top: 2em;
 }
 
-/* line 2376, ../sass/application.sass */
+/* line 2378, ../sass/application.sass */
 .hascontextmenu {
   cursor: context-menu;
 }
 
-/* line 2379, ../sass/application.sass */
+/* line 2381, ../sass/application.sass */
 .ui-datepicker-title select {
   width: 70px !important;
   margin-top: -2px !important;
   margin-right: 4px !important;
 }
 
-/* line 2384, ../sass/application.sass */
+/* line 2386, ../sass/application.sass */
 .syntaxhl .line-numbers {
   background-color: #eee;
   margin: 0 5px 0 0;
   padding: 2px 4px;
 }
 
-/* line 2389, ../sass/application.sass */
+/* line 2391, ../sass/application.sass */
 .syntaxhl .debug {
   color: white !important;
   background: blue !important;
 }
 
-/* line 2393, ../sass/application.sass */
+/* line 2395, ../sass/application.sass */
 .syntaxhl .annotation {
   color: #007;
 }
 
-/* line 2396, ../sass/application.sass */
+/* line 2398, ../sass/application.sass */
 .syntaxhl .attribute-name {
   color: #b48;
 }
 
-/* line 2399, ../sass/application.sass */
+/* line 2401, ../sass/application.sass */
 .syntaxhl .attribute-value {
   color: #700;
 }
 
-/* line 2402, ../sass/application.sass */
+/* line 2404, ../sass/application.sass */
 .syntaxhl .binary {
   color: #509;
 }
 
-/* line 2405, ../sass/application.sass */
+/* line 2407, ../sass/application.sass */
 .syntaxhl .char .delimiter {
   color: #710;
 }
 
-/* line 2408, ../sass/application.sass */
+/* line 2410, ../sass/application.sass */
 .syntaxhl .class-variable {
   color: #369;
 }
 
-/* line 2411, ../sass/application.sass */
+/* line 2413, ../sass/application.sass */
 .syntaxhl .color {
   color: #0A0;
 }
 
-/* line 2414, ../sass/application.sass */
+/* line 2416, ../sass/application.sass */
 .syntaxhl .complex {
   color: #A08;
 }
 
-/* line 2417, ../sass/application.sass */
+/* line 2419, ../sass/application.sass */
 .syntaxhl .decorator {
   color: #B0B;
 }
 
-/* line 2420, ../sass/application.sass */
+/* line 2422, ../sass/application.sass */
 .syntaxhl .definition {
   color: #099;
   font-weight: 700;
 }
 
-/* line 2424, ../sass/application.sass */
+/* line 2426, ../sass/application.sass */
 .syntaxhl .delimiter {
   color: black;
 }
 
-/* line 2427, ../sass/application.sass */
+/* line 2429, ../sass/application.sass */
 .syntaxhl .directive {
   color: #088;
   font-weight: 700;
 }
 
-/* line 2431, ../sass/application.sass */
+/* line 2433, ../sass/application.sass */
 .syntaxhl .doc {
   color: #970;
 }
 
-/* line 2434, ../sass/application.sass */
+/* line 2436, ../sass/application.sass */
 .syntaxhl .doc-string {
   color: #D42;
   font-weight: 700;
 }
 
-/* line 2438, ../sass/application.sass */
+/* line 2440, ../sass/application.sass */
 .syntaxhl .doctype {
   color: #34b;
 }
 
-/* line 2441, ../sass/application.sass */
+/* line 2443, ../sass/application.sass */
 .syntaxhl .entity {
   color: #800;
   font-weight: 700;
 }
 
-/* line 2445, ../sass/application.sass */
+/* line 2447, ../sass/application.sass */
 .syntaxhl .error {
   color: #F00;
   background-color: #FAA;
 }
 
-/* line 2449, ../sass/application.sass */
+/* line 2451, ../sass/application.sass */
 .syntaxhl .escape {
   color: #666;
 }
 
-/* line 2452, ../sass/application.sass */
+/* line 2454, ../sass/application.sass */
 .syntaxhl .exception {
   color: #C00;
   font-weight: 700;
 }
 
-/* line 2456, ../sass/application.sass */
+/* line 2458, ../sass/application.sass */
 .syntaxhl .function {
   color: #06B;
   font-weight: 700;
 }
 
-/* line 2460, ../sass/application.sass */
+/* line 2462, ../sass/application.sass */
 .syntaxhl .global-variable {
   color: #d70;
 }
 
-/* line 2463, ../sass/application.sass */
+/* line 2465, ../sass/application.sass */
 .syntaxhl .hex {
   color: #02b;
 }
 
-/* line 2466, ../sass/application.sass */
+/* line 2468, ../sass/application.sass */
 .syntaxhl .include {
   color: #B44;
   font-weight: 700;
 }
 
-/* line 2470, ../sass/application.sass */
+/* line 2472, ../sass/application.sass */
 .syntaxhl .inline {
   background-color: rgba(0, 0, 0, 0.07);
   color: black;
 }
 
-/* line 2474, ../sass/application.sass */
+/* line 2476, ../sass/application.sass */
 .syntaxhl .inline-delimiter {
   font-weight: 700;
   color: #666;
 }
 
-/* line 2478, ../sass/application.sass */
+/* line 2480, ../sass/application.sass */
 .syntaxhl .instance-variable {
   color: #33B;
 }
 
-/* line 2481, ../sass/application.sass */
+/* line 2483, ../sass/application.sass */
 .syntaxhl .key .char {
   color: #60f;
 }
 
-/* line 2484, ../sass/application.sass */
+/* line 2486, ../sass/application.sass */
 .syntaxhl .key {
   color: #606;
 }
 
-/* line 2487, ../sass/application.sass */
+/* line 2489, ../sass/application.sass */
 .syntaxhl .keyword {
   color: #939;
   font-weight: 700;
 }
 
-/* line 2491, ../sass/application.sass */
+/* line 2493, ../sass/application.sass */
 .syntaxhl .label {
   color: #970;
   font-weight: 700;
 }
 
-/* line 2495, ../sass/application.sass */
+/* line 2497, ../sass/application.sass */
 .syntaxhl .local-variable {
   color: #963;
 }
 
-/* line 2498, ../sass/application.sass */
+/* line 2500, ../sass/application.sass */
 .syntaxhl .namespace {
   color: #707;
   font-weight: 700;
 }
 
-/* line 2502, ../sass/application.sass */
+/* line 2504, ../sass/application.sass */
 .syntaxhl .octal {
   color: #40E;
 }
 
-/* line 2505, ../sass/application.sass */
+/* line 2507, ../sass/application.sass */
 .syntaxhl .predefined {
   color: #369;
   font-weight: 700;
 }
 
-/* line 2509, ../sass/application.sass */
+/* line 2511, ../sass/application.sass */
 .syntaxhl .predefined-constant {
   color: #069;
 }
 
-/* line 2512, ../sass/application.sass */
+/* line 2514, ../sass/application.sass */
 .syntaxhl .predefined-type {
   color: #0a5;
   font-weight: 700;
 }
 
-/* line 2516, ../sass/application.sass */
+/* line 2518, ../sass/application.sass */
 .syntaxhl .preprocessor {
   color: #579;
 }
 
-/* line 2519, ../sass/application.sass */
+/* line 2521, ../sass/application.sass */
 .syntaxhl .pseudo-class {
   color: #00C;
   font-weight: 700;
 }
 
-/* line 2523, ../sass/application.sass */
+/* line 2525, ../sass/application.sass */
 .syntaxhl .regexp .content {
   color: #808;
 }
 
-/* line 2526, ../sass/application.sass */
+/* line 2528, ../sass/application.sass */
 .syntaxhl .regexp .modifier {
   color: #C2C;
 }
 
-/* line 2529, ../sass/application.sass */
+/* line 2531, ../sass/application.sass */
 .syntaxhl .regexp {
   background-color: rgba(255, 0, 255, 0.06);
 }
 
-/* line 2532, ../sass/application.sass */
+/* line 2534, ../sass/application.sass */
 .syntaxhl .reserved {
   color: #080;
   font-weight: 700;
 }
 
-/* line 2536, ../sass/application.sass */
+/* line 2538, ../sass/application.sass */
 .syntaxhl .shell .content {
   color: #2B2;
 }
 
-/* line 2539, ../sass/application.sass */
+/* line 2541, ../sass/application.sass */
 .syntaxhl .shell .delimiter {
   color: #161;
 }
 
-/* line 2542, ../sass/application.sass */
+/* line 2544, ../sass/application.sass */
 .syntaxhl .shell {
   background-color: rgba(0, 255, 0, 0.06);
 }
 
-/* line 2545, ../sass/application.sass */
+/* line 2547, ../sass/application.sass */
 .syntaxhl .tag {
   color: #070;
 }
 
-/* line 2548, ../sass/application.sass */
+/* line 2550, ../sass/application.sass */
 .syntaxhl .type {
   color: #339;
   font-weight: 700;
 }
 
-/* line 2552, ../sass/application.sass */
+/* line 2554, ../sass/application.sass */
 .syntaxhl .value {
   color: #088;
 }
 
-/* line 2555, ../sass/application.sass */
+/* line 2557, ../sass/application.sass */
 .syntaxhl .variable {
   color: #037;
 }
 
-/* line 2558, ../sass/application.sass */
+/* line 2560, ../sass/application.sass */
 .syntaxhl .insert {
   background: rgba(0, 255, 0, 0.12);
 }
 
-/* line 2561, ../sass/application.sass */
+/* line 2563, ../sass/application.sass */
 .syntaxhl .delete {
   background: rgba(255, 0, 0, 0.12);
 }
 
-/* line 2564, ../sass/application.sass */
+/* line 2566, ../sass/application.sass */
 .syntaxhl .change {
   color: #bbf;
   background: #007;
 }
 
-/* line 2568, ../sass/application.sass */
+/* line 2570, ../sass/application.sass */
 .syntaxhl .head {
   color: #f8f;
   background: #505;
 }
 
-/* line 2572, ../sass/application.sass */
+/* line 2574, ../sass/application.sass */
 .syntaxhl .head .filename {
   color: white;
 }
 
-/* line 2575, ../sass/application.sass */
+/* line 2577, ../sass/application.sass */
 .syntaxhl .delete .eyecatcher {
   background-color: rgba(255, 0, 0, 0.2);
   border: 1px solid rgba(230, 0, 0, 0.5);
@@ -9473,7 +9474,7 @@ td.username img.gravatar {
   margin: -1px;
 }
 
-/* line 2583, ../sass/application.sass */
+/* line 2585, ../sass/application.sass */
 .syntaxhl .insert .eyecatcher {
   background-color: rgba(0, 255, 0, 0.2);
   border: 1px solid rgba(0, 128, 0, 0.5);
@@ -9483,31 +9484,31 @@ td.username img.gravatar {
   margin: -1px;
 }
 
-/* line 2591, ../sass/application.sass */
+/* line 2593, ../sass/application.sass */
 .syntaxhl .insert .insert {
   color: #0c0;
   background: transparent;
   font-weight: 700;
 }
 
-/* line 2596, ../sass/application.sass */
+/* line 2598, ../sass/application.sass */
 .syntaxhl .delete .delete {
   color: #c00;
   background: transparent;
   font-weight: 700;
 }
 
-/* line 2601, ../sass/application.sass */
+/* line 2603, ../sass/application.sass */
 .syntaxhl .change .change {
   color: #88f;
 }
 
-/* line 2604, ../sass/application.sass */
+/* line 2606, ../sass/application.sass */
 .syntaxhl .head .head {
   color: #f4f;
 }
 
-/* line 2607, ../sass/application.sass */
+/* line 2609, ../sass/application.sass */
 .hidden-for-sighted {
   position: absolute;
   left: -10000px;
@@ -9517,264 +9518,264 @@ td.username img.gravatar {
   overflow: hidden;
 }
 
-/* line 2615, ../sass/application.sass */
+/* line 2617, ../sass/application.sass */
 #top-menu ul, #main-menu ul, #admin-menu ul, #sidebar ul, ul.projects.root, div.wiki ul.toc ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 2619, ../sass/application.sass */
+/* line 2621, ../sass/application.sass */
 #account, #quick-search, div#search-results-counts, .journal-link {
   float: right;
 }
 
-/* line 2622, ../sass/application.sass */
+/* line 2624, ../sass/application.sass */
 #header h1 a.ancestor, #header h1 .ancestor.icon-add.checklist-new-only, table.files tr.file td.digest, .conflict-details, p.percent {
   font-size: 80%;
 }
 
-/* line 2625, ../sass/application.sass */
+/* line 2627, ../sass/application.sass */
 * html #sidebar, div.issue table.attributes th {
   width: 22%;
 }
 
-/* line 2628, ../sass/application.sass */
+/* line 2630, ../sass/application.sass */
 #main.nosidebar #sidebar, div.modal h3.title, #issue_tree td.checkbox, #relations td.checkbox, div#roadmap .related-issues td.checkbox, div#roadmap .wiki h1:first-child, #errorExplanation h2, #errorExplanation p {
   display: none;
 }
 
-/* line 2631, ../sass/application.sass */
+/* line 2633, ../sass/application.sass */
 #login-form label, .settings.enabled_scm td.scm_name, #tab-content-members fieldset legend, #tab-content-memberships fieldset legend, #tab-content-users fieldset legend, table.cal td.today p.day-num, .task.label.project, .task.label.version {
   font-weight: 700;
 }
 
-/* line 2634, ../sass/application.sass */
+/* line 2636, ../sass/application.sass */
 div.wiki ul.toc a:hover, div.wiki ul.toc .icon-add.checklist-new-only:hover {
   color: #c61a1a;
   text-decoration: underline;
 }
 
-/* line 2638, ../sass/application.sass */
+/* line 2640, ../sass/application.sass */
 a img, .icon-add.checklist-new-only img, #issue_tree table.issues, #relations table.issues, div.wiki .noborder, div.wiki .noborder td, div.wiki .noborder th {
   border: 0;
 }
 
-/* line 2641, ../sass/application.sass */
+/* line 2643, ../sass/application.sass */
 a.project.closed, .project.closed.icon-add.checklist-new-only, a.project.closed:link, .project.closed.icon-add.checklist-new-only:link, a.project.closed:visited, .project.closed.icon-add.checklist-new-only:visited, a.user.locked, .user.locked.icon-add.checklist-new-only, a.user.locked:link, .user.locked.icon-add.checklist-new-only:link, a.user.locked:visited, .user.locked.icon-add.checklist-new-only:visited, a#toggle-completed-versions, #toggle-completed-versions.icon-add.checklist-new-only, tr.version.closed, tr.version.closed a, tr.version.closed .icon-add.checklist-new-only, div.issue .next-prev-links {
   color: #999;
 }
 
-/* line 2644, ../sass/application.sass */
+/* line 2646, ../sass/application.sass */
 #sidebar a.selected:hover, #sidebar .selected.icon-add.checklist-new-only:hover, a.toggle-all:hover, .toggle-all.icon-add.checklist-new-only:hover {
   text-decoration: none;
 }
 
-/* line 2647, ../sass/application.sass */
+/* line 2649, ../sass/application.sass */
 table.list td.checkbox input, #relations td.buttons {
   padding: 0;
 }
 
-/* line 2650, ../sass/application.sass */
+/* line 2652, ../sass/application.sass */
 tr.project td.name a, tr.project td.name .icon-add.checklist-new-only, tr.issue td.relations span, tr.entry td, tr.message td.created_on, fieldset#filters td.values {
   white-space: nowrap;
 }
 
-/* line 2653, ../sass/application.sass */
+/* line 2655, ../sass/application.sass */
 tr.project.closed, tr.project.archived, tr.project.closed a, tr.project.closed .icon-add.checklist-new-only, tr.project.archived a, tr.project.archived .icon-add.checklist-new-only, tr.user.locked, tr.user.registered, tr.user.locked a, tr.user.locked .icon-add.checklist-new-only, tr.user.registered a, tr.user.registered .icon-add.checklist-new-only {
   color: #aaa;
 }
 
-/* line 2659, ../sass/application.sass */
+/* line 2661, ../sass/application.sass */
 tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
 }
 
-/* line 2663, ../sass/application.sass */
+/* line 2665, ../sass/application.sass */
 tr.project.idnt-1 td.name, tr.issue.idnt-1 td.subject {
   padding-left: 2em;
 }
 
-/* line 2666, ../sass/application.sass */
+/* line 2668, ../sass/application.sass */
 tr.project.idnt-2 td.name, tr.issue.idnt-2 td.subject, .role-visibility {
   padding-left: 3em;
 }
 
-/* line 2669, ../sass/application.sass */
+/* line 2671, ../sass/application.sass */
 tr.project.idnt-3 td.name, tr.issue.idnt-3 td.subject {
   padding-left: 4em;
 }
 
-/* line 2672, ../sass/application.sass */
+/* line 2674, ../sass/application.sass */
 tr.project.idnt-4 td.name, tr.issue.idnt-4 td.subject {
   padding-left: 5em;
 }
 
-/* line 2675, ../sass/application.sass */
+/* line 2677, ../sass/application.sass */
 tr.project.idnt-5 td.name, tr.issue.idnt-5 td.subject {
   padding-left: 6em;
 }
 
-/* line 2678, ../sass/application.sass */
+/* line 2680, ../sass/application.sass */
 tr.project.idnt-6 td.name, tr.issue.idnt-6 td.subject {
   padding-left: 7em;
 }
 
-/* line 2681, ../sass/application.sass */
+/* line 2683, ../sass/application.sass */
 tr.project.idnt-7 td.name, tr.issue.idnt-7 td.subject {
   padding-left: 8em;
 }
 
-/* line 2684, ../sass/application.sass */
+/* line 2686, ../sass/application.sass */
 tr.project.idnt-8 td.name, tr.issue.idnt-8 td.subject {
   padding-left: 9em;
 }
 
-/* line 2687, ../sass/application.sass */
+/* line 2689, ../sass/application.sass */
 tr.project.idnt-9 td.name, tr.issue.idnt-9 td.subject {
   padding-left: 10em;
 }
 
-/* line 2690, ../sass/application.sass */
+/* line 2692, ../sass/application.sass */
 tr.issue, tr.version td.date, tr.version td.status, tr.version td.sharing, tr.time-entry {
   text-align: center;
   white-space: nowrap;
 }
 
-/* line 2694, ../sass/application.sass */
+/* line 2696, ../sass/application.sass */
 tr.issue td.subject, tr.issue td.category, td.assigned_to, tr.issue td.string, tr.issue td.text, tr.issue td.relations, table.issues td.description pre {
   white-space: normal;
 }
 
-/* line 2697, ../sass/application.sass */
+/* line 2699, ../sass/application.sass */
 tr.entry td.revision, tr.entry td.author, tr.wiki-page-version td.updated_on, tr.wiki-page-version td.author, td.center {
   text-align: center;
 }
 
-/* line 2700, ../sass/application.sass */
+/* line 2702, ../sass/application.sass */
 tr.entry td.age, div#version-summary th, div#version-summary td.total-hours {
   text-align: right;
 }
 
-/* line 2703, ../sass/application.sass */
+/* line 2705, ../sass/application.sass */
 tr.entry.file td.filename a, tr.entry.file td.filename .icon-add.checklist-new-only, tr.entry.file td.filename_no_report a, tr.entry.file td.filename_no_report .icon-add.checklist-new-only {
   margin-left: 16px;
 }
 
-/* line 2706, ../sass/application.sass */
+/* line 2708, ../sass/application.sass */
 tr.changeset td.author, tr.changeset td.committed_on {
   text-align: center;
   width: 15%;
   white-space: nowrap;
 }
 
-/* line 2711, ../sass/application.sass */
+/* line 2713, ../sass/application.sass */
 tr.message td.subject, tr.version td.name, fieldset#notified_events .parent {
   padding-left: 20px;
 }
 
-/* line 2714, ../sass/application.sass */
+/* line 2716, ../sass/application.sass */
 td.hours .hours-dec, .contextual input, .contextual select, table#time-report .hours-dec {
   font-size: 0.9em;
 }
 
-/* line 2717, ../sass/application.sass */
+/* line 2719, ../sass/application.sass */
 table.plugins td, #related-issues li img, div.attachments img, h2 img {
   vertical-align: middle;
 }
 
-/* line 2720, ../sass/application.sass */
+/* line 2722, ../sass/application.sass */
 table.plugins span.description, table.plugins span.url {
   display: block;
   font-size: 0.9em;
 }
 
-/* line 2724, ../sass/application.sass */
+/* line 2726, ../sass/application.sass */
 tr.group:hover a.toggle-all, tr.group:hover .toggle-all.icon-add.checklist-new-only, form, .check_box_group.bool_cf label, .syntaxhl div {
   display: inline;
 }
 
-/* line 2727, ../sass/application.sass */
+/* line 2729, ../sass/application.sass */
 .even, #content .tabs ul li a.selected:hover, #content .tabs ul li .selected.icon-add.checklist-new-only:hover {
   background-color: #fff;
 }
 
-/* line 2730, ../sass/application.sass */
+/* line 2732, ../sass/application.sass */
 table.attributes, div#version-summary fieldset.time-tracking table, .settings.enabled_scm table, .task.label {
   width: 100%;
 }
 
-/* line 2733, ../sass/application.sass */
+/* line 2735, ../sass/application.sass */
 #watchers a.delete:hover, #watchers .delete.icon-add.checklist-new-only:hover, div.wiki-page .contextual a:hover, div.wiki-page .contextual .icon-add.checklist-new-only:hover {
   opacity: 1;
 }
 
-/* line 2736, ../sass/application.sass */
+/* line 2738, ../sass/application.sass */
 span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset label, #tab-content-memberships fieldset label, #tab-content-users fieldset label, #users_for_watcher label, p.cal.legend span {
   display: block;
 }
 
-/* line 2739, ../sass/application.sass */
+/* line 2741, ../sass/application.sass */
 .message .contextual, li p {
   margin-top: 0;
 }
 
-/* line 2742, ../sass/application.sass */
+/* line 2744, ../sass/application.sass */
 .splitcontent, div.journal, .syntaxhl .code pre {
   overflow: auto;
 }
 
-/* line 2745, ../sass/application.sass */
+/* line 2747, ../sass/application.sass */
 div#search-results-counts ul {
   margin-top: 0.5em;
 }
 
-/* line 2748, ../sass/application.sass */
+/* line 2750, ../sass/application.sass */
 fieldset#filters td.values input, table.progress td {
   height: 1em;
 }
 
-/* line 2751, ../sass/application.sass */
+/* line 2753, ../sass/application.sass */
 div#activity dd .description, #search-results dd .description, ul.properties li span, .summary {
   font-style: italic;
 }
 
-/* line 2760, ../sass/application.sass */
+/* line 2762, ../sass/application.sass */
 dt.time-entry:before, dt.attachment:before, dt.issue-closed:before {
   margin-right: 0.5em;
 }
 
-/* line 2767, ../sass/application.sass */
+/* line 2769, ../sass/application.sass */
 div#roadmap .related-issues, div#version-summary fieldset, #projects-index ul.projects li.root, div.wiki ul, div.wiki ol {
   margin-bottom: 1em;
 }
 
-/* line 2770, ../sass/application.sass */
+/* line 2772, ../sass/application.sass */
 div#roadmap .wiki h1, .total-hours span.hours-int {
   font-size: 120%;
 }
 
-/* line 2773, ../sass/application.sass */
+/* line 2775, ../sass/application.sass */
 input#issue_subject, input#content_comments, .tabular.settings textarea {
   width: 99%;
 }
 
-/* line 2776, ../sass/application.sass */
+/* line 2778, ../sass/application.sass */
 ul.projects li, ul.properties li {
   list-style-type: none;
 }
 
-/* line 2779, ../sass/application.sass */
+/* line 2781, ../sass/application.sass */
 #user_login, #user_firstname, #user_lastname, #user_mail, #my_account_form select, #user_form select, #user_identity_url, input#time_entry_comments, #tab-content-memberships .splitcontentright select, input#principal_search, input#user_search {
   width: 90%;
 }
 
-/* line 2782, ../sass/application.sass */
+/* line 2784, ../sass/application.sass */
 textarea#custom_field_possible_values, textarea#custom_field_default_value, .tabular textarea, textarea.text_cf {
   width: 95%;
   resize: vertical;
 }
 
-/* line 2786, ../sass/application.sass */
+/* line 2788, ../sass/application.sass */
 .version.task_late, .project.task_late {
   background: #f66 url(../images/milestone_late.png);
   border: 1px solid #f66;
@@ -9782,7 +9783,7 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   margin-top: 3px;
 }
 
-/* line 2792, ../sass/application.sass */
+/* line 2794, ../sass/application.sass */
 .version.task_done, .project.task_done {
   background: #00c600 url(../images/milestone_done.png);
   border: 1px solid #00c600;
@@ -9790,7 +9791,7 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   margin-top: 3px;
 }
 
-/* line 2798, ../sass/application.sass */
+/* line 2800, ../sass/application.sass */
 .version.task_todo, .project.task_todo {
   background: #fff url(../images/milestone_todo.png);
   border: 1px solid #fff;
@@ -9798,76 +9799,76 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   margin-top: 3px;
 }
 
-/* line 2804, ../sass/application.sass */
+/* line 2806, ../sass/application.sass */
 .version-overdue a, .version-overdue .icon-add.checklist-new-only, .issue-overdue a, .issue-overdue .icon-add.checklist-new-only, .project-overdue a, .project-overdue .icon-add.checklist-new-only, .syntaxhl .imaginary {
   color: #f00;
 }
 
-/* line 2810, ../sass/application.sass */
+/* line 2812, ../sass/application.sass */
 .icon-file.image-gif, .icon-file.image-jpeg, .icon-file.image-png, .icon-file.image-tiff {
   background-image: url(../images/files/image.png);
 }
 
-/* line 2813, ../sass/application.sass */
+/* line 2815, ../sass/application.sass */
 .icon-file.application-zip, .icon-file.application-x-gzip {
   background-image: url(../images/files/zip.png);
 }
 
-/* line 2816, ../sass/application.sass */
+/* line 2818, ../sass/application.sass */
 .syntaxhl .char .content, .syntaxhl .char {
   color: #D20;
 }
 
-/* line 2819, ../sass/application.sass */
+/* line 2821, ../sass/application.sass */
 .syntaxhl .class, .syntaxhl .constant {
   color: #258;
   font-weight: 700;
 }
 
-/* line 2823, ../sass/application.sass */
+/* line 2825, ../sass/application.sass */
 .syntaxhl .comment, .syntaxhl .comment .char, .syntaxhl .comment .delimiter {
   color: #385;
 }
 
-/* line 2826, ../sass/application.sass */
+/* line 2828, ../sass/application.sass */
 .syntaxhl .float, .syntaxhl .integer {
   color: #06D;
 }
 
-/* line 2829, ../sass/application.sass */
+/* line 2831, ../sass/application.sass */
 .syntaxhl .key .delimiter, .syntaxhl .regexp .delimiter {
   color: #404;
 }
 
-/* line 2832, ../sass/application.sass */
+/* line 2834, ../sass/application.sass */
 .syntaxhl .string .char, .syntaxhl .string .content, .syntaxhl .string .delimiter, .syntaxhl .string .modifier {
   color: #46a;
 }
 
-/* line 2835, ../sass/application.sass */
+/* line 2837, ../sass/application.sass */
 .syntaxhl .symbol .content, .syntaxhl .symbol .delimiter, .syntaxhl .symbol {
   color: #d33;
 }
 
-/* line 2838, ../sass/application.sass */
+/* line 2840, ../sass/application.sass */
 .icon-contact {
   background: none !important;
 }
-/* line 2842, ../sass/application.sass */
+/* line 2844, ../sass/application.sass */
 .icon-contact:before {
   margin-right: 0.5em;
 }
 
-/* line 2846, ../sass/application.sass */
+/* line 2848, ../sass/application.sass */
 .icon-invoice {
   background: none !important;
 }
-/* line 2850, ../sass/application.sass */
+/* line 2852, ../sass/application.sass */
 .icon-invoice:before {
   margin-right: 0.5em;
 }
 
-/* line 2870, ../sass/application.sass */
+/* line 2872, ../sass/application.sass */
 .controller-people.action-show #main #sidebar, .controller-contacts.action-show #main #sidebar {
   float: left;
   display: block;
@@ -9878,7 +9879,7 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
 .controller-people.action-show #main #sidebar:last-child, .controller-contacts.action-show #main #sidebar:last-child {
   margin-right: 0;
 }
-/* line 2873, ../sass/application.sass */
+/* line 2875, ../sass/application.sass */
 .controller-people.action-show #main #content, .controller-contacts.action-show #main #content {
   float: left;
   display: block;
@@ -9891,21 +9892,21 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   margin-right: 0;
 }
 
-/* line 2877, ../sass/application.sass */
+/* line 2879, ../sass/application.sass */
 #block-form {
   display: inline-block;
   margin-top: -0.5em;
 }
 
-/* line 2881, ../sass/application.sass */
+/* line 2883, ../sass/application.sass */
 .jstEditor:not(.zen) {
   margin-bottom: 1em;
 }
-/* line 2884, ../sass/application.sass */
+/* line 2886, ../sass/application.sass */
 .jstEditor:not(.zen) textarea {
   width: 99%;
 }
-/* line 2887, ../sass/application.sass */
+/* line 2889, ../sass/application.sass */
 .jstEditor:not(.zen) button.jstb_zenedit {
   top: -2em;
   right: 1%;
@@ -9919,98 +9920,98 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   text-align: center;
 }
 
-/* line 2903, ../sass/application.sass */
+/* line 2905, ../sass/application.sass */
 div.contact {
   border: 1px solid #CCCCCC !important;
   background: #F9F9F9 !important;
   border-radius: 4px !important;
 }
 
-/* line 2908, ../sass/application.sass */
+/* line 2910, ../sass/application.sass */
 div.person.details table.subject_header h1,
 div.contact.details table.subject_header h1 {
   margin-top: -0.3em;
 }
 
-/* line 2915, ../sass/application.sass */
+/* line 2917, ../sass/application.sass */
 #invoice_contact_id_add_link:before {
   margin-left: 0.5em;
   font-size: 1.2em;
 }
-/* line 2920, ../sass/application.sass */
+/* line 2922, ../sass/application.sass */
 #invoice_contact_id_add_link img {
   display: none !important;
 }
 
-/* line 2925, ../sass/application.sass */
+/* line 2927, ../sass/application.sass */
 #comments h4 {
   border: 0;
   border-top: 1px solid #CCCCCC;
   padding: 0;
   padding-top: 1em;
 }
-/* line 2931, ../sass/application.sass */
+/* line 2933, ../sass/application.sass */
 #comments h4:first-of-type {
   border: 0;
 }
-/* line 2934, ../sass/application.sass */
+/* line 2936, ../sass/application.sass */
 #comments + p > a, #comments + p > .icon-add.checklist-new-only {
   margin-top: 2em;
 }
 
-/* line 2943, ../sass/application.sass */
+/* line 2945, ../sass/application.sass */
 .add-link a, .add-link .icon-add.checklist-new-only {
   margin-top: 2em;
 }
 
-/* line 2950, ../sass/application.sass */
+/* line 2952, ../sass/application.sass */
 .icon-add.checklist-new-only {
   cursor: pointer;
 }
-/* line 2954, ../sass/application.sass */
+/* line 2956, ../sass/application.sass */
 .icon-add.checklist-new-only:hover, .icon-add.checklist-new-only:active, .icon-add.checklist-new-only:focus {
   color: #474D57;
 }
 
-/* line 2957, ../sass/application.sass */
+/* line 2959, ../sass/application.sass */
 div.agile-board.autoscroll {
   overflow-y: auto !important;
 }
 
-/* line 2962, ../sass/application.sass */
+/* line 2964, ../sass/application.sass */
 div.issue.invoice div.subject, div.issue.invoice .author {
   padding-left: 0 !important;
 }
 
-/* line 2967, ../sass/application.sass */
+/* line 2969, ../sass/application.sass */
 .controller-gantts.action-show table td {
   padding: 0;
 }
 
-/* line 2972, ../sass/application.sass */
+/* line 2974, ../sass/application.sass */
 #tab-content-projects ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-/* line 2977, ../sass/application.sass */
+/* line 2979, ../sass/application.sass */
 #tab-content-projects ul li {
   padding: 0.3em 0;
 }
 
-/* line 2980, ../sass/application.sass */
+/* line 2982, ../sass/application.sass */
 div[style*="clear:both"], div[style*="clear: both"] {
   display: inline-block;
   width: 100%;
 }
 
 @media print {
-  /* line 2986, ../sass/application.sass */
+  /* line 2988, ../sass/application.sass */
   #main {
     background: #fff;
   }
 
-  /* line 2989, ../sass/application.sass */
+  /* line 2991, ../sass/application.sass */
   #content {
     width: 99%;
     border: 0;
@@ -10020,22 +10021,22 @@ div[style*="clear:both"], div[style*="clear: both"] {
     padding: 0;
   }
 
-  /* line 2997, ../sass/application.sass */
+  /* line 2999, ../sass/application.sass */
   .autoscroll {
     overflow-x: visible;
   }
 
-  /* line 3000, ../sass/application.sass */
+  /* line 3002, ../sass/application.sass */
   table.list {
     margin-top: 0.5em;
   }
 
-  /* line 3003, ../sass/application.sass */
+  /* line 3005, ../sass/application.sass */
   table.list th, table.list td {
     border: 1px solid #aaa;
   }
 
-  /* line 3006, ../sass/application.sass */
+  /* line 3008, ../sass/application.sass */
   #top-menu, #header, #main-menu, #sidebar, #footer, .contextual, .other-formats, #wiki_add_attachment, .hide-when-print {
     display: none;
   }
