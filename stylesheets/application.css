@@ -2639,7 +2639,7 @@ Version: 3.5.1 Timestamp: Tue Jul 22 18:58:56 EDT 2014
   padding: .2em 0 .2em .7em;
   overflow: hidden;
   position: relative;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   white-space: nowrap;
   line-height: 1.8;
   color: #333333;
@@ -2795,7 +2795,7 @@ html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
   position: absolute;
   right: 0;
   top: 0;
-  border-left: 1px solid #CCCCCC;
+  border-left: 1px solid #cccccc;
   border-radius: 0 4px 4px 0;
 }
 
@@ -2882,7 +2882,7 @@ html[dir="rtl"] .select2-search input {
 /* line 276, ../sass/_select2.scss */
 .select2-container-active .select2-choice,
 .select2-container-active .select2-choices {
-  border: 1px solid #66AFE9;
+  border: 1px solid #66afe9;
   outline: none;
   -webkit-box-shadow: 0 0 5px rgba(102, 175, 233, 0.3);
   box-shadow: 0 0 5px rgba(102, 175, 233, 0.3);
@@ -6183,115 +6183,115 @@ div.members h3:before {
     transform: rotate(360deg);
   }
 }
-/* line 1, ../sass/_scm.sass */
+/* line 1, ../sass/_scm.scss */
 li.change {
   background-image: url(../images/bullet_black.png);
 }
 
-/* line 4, ../sass/_scm.sass */
+/* line 5, ../sass/_scm.scss */
 li.change.folder {
   background-image: url(../images/folder_open.png);
 }
 
-/* line 7, ../sass/_scm.sass */
+/* line 9, ../sass/_scm.scss */
 li.change.folder.change-A {
   background-image: url(../images/folder_open_add.png);
 }
 
-/* line 10, ../sass/_scm.sass */
+/* line 13, ../sass/_scm.scss */
 li.change.folder.change-M {
   background-image: url(../images/folder_open_orange.png);
 }
 
-/* line 13, ../sass/_scm.sass */
+/* line 17, ../sass/_scm.scss */
 li.change.change-A {
   background-image: url(../images/bullet_add.png);
 }
 
-/* line 16, ../sass/_scm.sass */
+/* line 21, ../sass/_scm.scss */
 li.change.change-M {
   background-image: url(../images/bullet_orange.png);
 }
 
-/* line 19, ../sass/_scm.sass */
+/* line 25, ../sass/_scm.scss */
 li.change.change-C {
   background-image: url(../images/bullet_blue.png);
 }
 
-/* line 22, ../sass/_scm.sass */
+/* line 29, ../sass/_scm.scss */
 li.change.change-R {
   background-image: url(../images/bullet_purple.png);
 }
 
-/* line 25, ../sass/_scm.sass */
+/* line 33, ../sass/_scm.scss */
 li.change.change-D {
   background-image: url(../images/bullet_delete.png);
 }
 
-/* line 1, ../sass/_contextmenu.sass */
+/* line 1, ../sass/_contextmenu.scss */
 #context-menu {
   margin-top: -13em;
   margin-left: -37em;
   padding-bottom: 4em;
 }
-/* line 6, ../sass/_contextmenu.sass */
+/* line 5, ../sass/_contextmenu.scss */
 #context-menu ul {
-  border-color: #CCCCCC !important;
+  border-color: #cccccc !important;
   border-radius: 4px !important;
   padding: 0 !important;
 }
-/* line 11, ../sass/_contextmenu.sass */
+/* line 10, ../sass/_contextmenu.scss */
 #context-menu li {
   border: 0 !important;
   border-radius: 0 !important;
   padding: 0.2em;
 }
-/* line 16, ../sass/_contextmenu.sass */
+/* line 14, ../sass/_contextmenu.scss */
 #context-menu li:first-child {
   border-radius: 3px 3px 0 0 !important;
 }
-/* line 19, ../sass/_contextmenu.sass */
+/* line 17, ../sass/_contextmenu.scss */
 #context-menu li:last-child {
   border-radius: 0 0 3px 3px !important;
 }
-/* line 22, ../sass/_contextmenu.sass */
+/* line 20, ../sass/_contextmenu.scss */
 #context-menu li a, #context-menu li .icon-add.checklist-new-only {
   position: relative;
   padding: 0.2em 0.2em 0.2em 2em;
 }
-/* line 29, ../sass/_contextmenu.sass */
+/* line 25, ../sass/_contextmenu.scss */
 #context-menu li a.submenu:before, #context-menu li .submenu.icon-add.checklist-new-only:before {
   margin-right: 0.5em;
 }
-/* line 33, ../sass/_contextmenu.sass */
+/* line 29, ../sass/_contextmenu.scss */
 #context-menu li a.submenu + ul, #context-menu li .submenu.icon-add.checklist-new-only + ul {
   margin-left: -1em;
 }
 
-/* line 36, ../sass/_contextmenu.sass */
+/* line 37, ../sass/_contextmenu.scss */
 #context-menu a.icon-checked, #context-menu .icon-checked.icon-add.checklist-new-only {
   background: url(../images/toggle_check.png) no-repeat 3px 40%;
 }
 
 /* selected element */
-/* line 40, ../sass/_contextmenu.sass */
+/* line 42, ../sass/_contextmenu.scss */
 .context-menu-selection {
-  background-color: #507AAA !important;
+  background-color: #507aaa !important;
   color: #f8f8f8 !important;
 }
 
-/* line 44, ../sass/_contextmenu.sass */
+/* line 47, ../sass/_contextmenu.scss */
 .context-menu-selection a, .context-menu-selection .icon-add.checklist-new-only, .context-menu-selection a:hover, .context-menu-selection .icon-add.checklist-new-only:hover {
   color: #f8f8f8 !important;
 }
 
-/* line 47, ../sass/_contextmenu.sass */
+/* line 51, ../sass/_contextmenu.scss */
 .context-menu-selection:hover {
-  background-color: #507AAA !important;
+  background-color: #507aaa !important;
   color: #f8f8f8 !important;
 }
 
-/* line 3, ../sass/_jstoolbar.sass */
+/* line 2, ../sass/_jstoolbar.scss */
 .jstElements button[type="button"] {
   background: white;
   width: 1.8em;
@@ -6304,26 +6304,26 @@ li.change.change-D {
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 13, ../sass/_jstoolbar.sass */
+/* line 11, ../sass/_jstoolbar.scss */
 .jstElements button[type="button"]:before {
   text-align: center;
 }
-/* line 38, ../sass/_jstoolbar.sass */
+/* line 36, ../sass/_jstoolbar.scss */
 .jstElements .jstb_h2:before {
   font-size: 0.9em !important;
 }
-/* line 44, ../sass/_jstoolbar.sass */
+/* line 42, ../sass/_jstoolbar.scss */
 .jstElements .jstb_h3:before {
   font-size: 0.8em !important;
 }
 
 /* Common */
-/* line 21, ../sass/application.sass */
+/* line 20, ../sass/application.scss */
 html {
   overflow-y: scroll;
 }
 
-/* line 24, ../sass/application.sass */
+/* line 24, ../sass/application.scss */
 body {
   color: #333333;
   font-size: 14px;
@@ -6335,60 +6335,60 @@ body {
   min-height: 100%;
 }
 
-/* line 34, ../sass/application.sass */
+/* line 35, ../sass/application.scss */
 h2, .wiki h1 {
   font-size: 1.5em;
 }
 
-/* line 37, ../sass/application.sass */
+/* line 39, ../sass/application.scss */
 h3, .wiki h2 {
   font-size: 1.2em;
 }
 
-/* line 40, ../sass/application.sass */
+/* line 43, ../sass/application.scss */
 h4, .wiki h3 {
   font-size: 0.9em;
 }
 
-/* line 43, ../sass/application.sass */
+/* line 47, ../sass/application.scss */
 h4 {
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
   padding-bottom: 1em;
 }
 
-/* line 47, ../sass/application.sass */
+/* line 52, ../sass/application.scss */
 a, .icon-add.checklist-new-only {
-  color: #CB232F;
+  color: #cb232f;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;
   text-decoration: none;
   font-size: 1em;
 }
-/* line 53, ../sass/application.sass */
+/* line 57, ../sass/application.scss */
 a:hover, .icon-add.checklist-new-only:hover, a:active, .icon-add.checklist-new-only:active, a:focus, .icon-add.checklist-new-only:focus {
-  color: #474D57;
+  color: #474d57;
 }
-/* line 56, ../sass/application.sass */
+/* line 60, ../sass/application.scss */
 a.issue.closed, .issue.closed.icon-add.checklist-new-only, a.issue.closed:link, .issue.closed.icon-add.checklist-new-only:link, a.issue.closed:visited, .issue.closed.icon-add.checklist-new-only:visited {
   color: #777777;
   text-decoration: line-through;
 }
-/* line 60, ../sass/application.sass */
+/* line 64, ../sass/application.scss */
 a.collapsible, .collapsible.icon-add.checklist-new-only {
   padding-left: 1em;
   background: url(../images/arrow_expanded.png) no-repeat -3px 40%;
 }
-/* line 64, ../sass/application.sass */
+/* line 68, ../sass/application.scss */
 a.collapsible.collapsed, .collapsible.collapsed.icon-add.checklist-new-only {
   background: url(../images/arrow_collapsed.png) no-repeat -5px 40%;
 }
 
-/* line 68, ../sass/application.sass */
+/* line 73, ../sass/application.scss */
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover, textarea, textarea:hover, select, select:hover {
   padding: 0.5em;
   border-radius: 4px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -6398,27 +6398,27 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   text-align: left;
   font-size: 1em;
 }
-/* line 79, ../sass/application.sass */
+/* line 83, ../sass/application.scss */
 input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, textarea:disabled, input[type="color"]:hover:disabled, input[type="date"]:hover:disabled, input[type="datetime"]:hover:disabled, input[type="datetime-local"]:hover:disabled, input[type="email"]:hover:disabled, input[type="month"]:hover:disabled, input[type="number"]:hover:disabled, input[type="password"]:hover:disabled, input[type="search"]:hover:disabled, input[type="tel"]:hover:disabled, input[type="text"]:hover:disabled, input[type="time"]:hover:disabled, input[type="url"]:hover:disabled, input[type="week"]:hover:disabled, textarea:hover:disabled, textarea:disabled, textarea:hover:disabled, select:disabled, select:hover:disabled {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
-/* line 82, ../sass/application.sass */
+/* line 88, ../sass/application.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus, textarea:focus {
-  border-color: #66AFE9;
+  border-color: #66afe9;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(102, 175, 233, 0.6);
 }
 
-/* line 86, ../sass/application.sass */
+/* line 93, ../sass/application.scss */
 select {
   min-width: 6em;
 }
-/* line 89, ../sass/application.sass */
+/* line 95, ../sass/application.scss */
 select:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(119, 119, 119, 0.6);
 }
 
-/* line 92, ../sass/application.sass */
+/* line 100, ../sass/application.scss */
 button, input[type="button"], input[type="reset"], input[type="submit"], button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button, button + a, button + .icon-add.checklist-new-only, input[type="button"] + a, input[type="button"] + .icon-add.checklist-new-only, input[type="reset"] + a, input[type="reset"] + .icon-add.checklist-new-only, input[type="submit"] + a, input[type="submit"] + .icon-add.checklist-new-only, button:hover + a, input[type="button"]:hover + a, input[type="reset"]:hover + a, input[type="submit"]:hover + a, .button + a, .button + .icon-add.checklist-new-only, .button:hover + a, #activity + a, #activity + .icon-add.checklist-new-only, #comments + p > a, #comments + p > .icon-add.checklist-new-only, .add-link a, .add-link .icon-add.checklist-new-only, .button:hover, button + a:hover, button + .icon-add.checklist-new-only:hover, input[type="button"] + a:hover, input[type="button"] + .icon-add.checklist-new-only:hover, input[type="reset"] + a:hover, input[type="reset"] + .icon-add.checklist-new-only:hover, input[type="submit"] + a:hover, input[type="submit"] + .icon-add.checklist-new-only:hover, .button + a:hover, .button + .icon-add.checklist-new-only:hover, #activity + a:hover, #activity + .icon-add.checklist-new-only:hover, #comments + p > a:hover, #comments + p > .icon-add.checklist-new-only:hover, .add-link a:hover, .add-link .icon-add.checklist-new-only:hover {
   border: 1px solid #019875;
   background: #019875;
@@ -6431,18 +6431,18 @@ button, input[type="button"], input[type="reset"], input[type="submit"], button:
   text-align: center;
   font-size: 1em;
 }
-/* line 104, ../sass/application.sass */
+/* line 111, ../sass/application.scss */
 button + a, button + .icon-add.checklist-new-only, input[type="button"] + a, input[type="button"] + .icon-add.checklist-new-only, input[type="reset"] + a, input[type="reset"] + .icon-add.checklist-new-only, input[type="submit"] + a, input[type="submit"] + .icon-add.checklist-new-only, button:hover + a, button:hover + .icon-add.checklist-new-only, input[type="button"]:hover + a, input[type="button"]:hover + .icon-add.checklist-new-only, input[type="reset"]:hover + a, input[type="reset"]:hover + .icon-add.checklist-new-only, input[type="submit"]:hover + a, input[type="submit"]:hover + .icon-add.checklist-new-only, .button + a, button + a + a, button + .icon-add.checklist-new-only + a, input[type="button"] + a + a, input[type="button"] + .icon-add.checklist-new-only + a, input[type="reset"] + a + a, input[type="reset"] + .icon-add.checklist-new-only + a, input[type="submit"] + a + a, input[type="submit"] + .icon-add.checklist-new-only + a, button:hover + a + a, input[type="button"]:hover + a + a, input[type="reset"]:hover + a + a, input[type="submit"]:hover + a + a, .button + a + a, .button + .icon-add.checklist-new-only + a, .button:hover + a + a, #activity + a + a, #activity + .icon-add.checklist-new-only + a, #comments + p > a + a, #comments + p > .icon-add.checklist-new-only + a, .add-link a + a, .add-link .icon-add.checklist-new-only + a, .button + .icon-add.checklist-new-only, button + a + .icon-add.checklist-new-only, button + .icon-add.checklist-new-only + .icon-add.checklist-new-only, input[type="button"] + a + .icon-add.checklist-new-only, input[type="button"] + .icon-add.checklist-new-only + .icon-add.checklist-new-only, input[type="reset"] + a + .icon-add.checklist-new-only, input[type="reset"] + .icon-add.checklist-new-only + .icon-add.checklist-new-only, input[type="submit"] + a + .icon-add.checklist-new-only, input[type="submit"] + .icon-add.checklist-new-only + .icon-add.checklist-new-only, .button + a + .icon-add.checklist-new-only, .button + .icon-add.checklist-new-only + .icon-add.checklist-new-only, #activity + a + .icon-add.checklist-new-only, #activity + .icon-add.checklist-new-only + .icon-add.checklist-new-only, #comments + p > a + .icon-add.checklist-new-only, #comments + p > .icon-add.checklist-new-only + .icon-add.checklist-new-only, .add-link a + .icon-add.checklist-new-only, .add-link .icon-add.checklist-new-only + .icon-add.checklist-new-only, .button:hover + a, button + a:hover + a, button + .icon-add.checklist-new-only:hover + a, input[type="button"] + a:hover + a, input[type="button"] + .icon-add.checklist-new-only:hover + a, input[type="reset"] + a:hover + a, input[type="reset"] + .icon-add.checklist-new-only:hover + a, input[type="submit"] + a:hover + a, input[type="submit"] + .icon-add.checklist-new-only:hover + a, button:hover + a:hover + a, .button + a:hover + a, .button + .icon-add.checklist-new-only:hover + a, #activity + a:hover + a, #activity + .icon-add.checklist-new-only:hover + a, #comments + p > a:hover + a, #comments + p > .icon-add.checklist-new-only:hover + a, .add-link a:hover + a, .add-link .icon-add.checklist-new-only:hover + a, .button:hover + .icon-add.checklist-new-only, button + a:hover + .icon-add.checklist-new-only, button + .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only, input[type="button"] + a:hover + .icon-add.checklist-new-only, input[type="button"] + .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only, input[type="reset"] + a:hover + .icon-add.checklist-new-only, input[type="reset"] + .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only, input[type="submit"] + a:hover + .icon-add.checklist-new-only, input[type="submit"] + .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only, .button + a:hover + .icon-add.checklist-new-only, .button + .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only, #activity + a:hover + .icon-add.checklist-new-only, #activity + .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only, #comments + p > a:hover + .icon-add.checklist-new-only, #comments + p > .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only, .add-link a:hover + .icon-add.checklist-new-only, .add-link .icon-add.checklist-new-only:hover + .icon-add.checklist-new-only {
   font-size: 1em;
 }
 
-/* line 108, ../sass/application.sass */
+/* line 117, ../sass/application.scss */
 button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active, .button:focus, button + a:focus, button + .icon-add.checklist-new-only:focus, input[type="button"] + a:focus, input[type="button"] + .icon-add.checklist-new-only:focus, input[type="reset"] + a:focus, input[type="reset"] + .icon-add.checklist-new-only:focus, input[type="submit"] + a:focus, input[type="submit"] + .icon-add.checklist-new-only:focus, .button + a:focus, .button + .icon-add.checklist-new-only:focus, #activity + a:focus, #activity + .icon-add.checklist-new-only:focus, #comments + p > a:focus, #comments + p > .icon-add.checklist-new-only:focus, .add-link a:focus, .add-link .icon-add.checklist-new-only:focus, .button:active, button + a:active, button + .icon-add.checklist-new-only:active, input[type="button"] + a:active, input[type="button"] + .icon-add.checklist-new-only:active, input[type="reset"] + a:active, input[type="reset"] + .icon-add.checklist-new-only:active, input[type="submit"] + a:active, input[type="submit"] + .icon-add.checklist-new-only:active, button:hover + a:active, button:hover + .icon-add.checklist-new-only:active, input[type="button"]:hover + a:active, input[type="button"]:hover + .icon-add.checklist-new-only:active, input[type="reset"]:hover + a:active, input[type="reset"]:hover + .icon-add.checklist-new-only:active, input[type="submit"]:hover + a:active, input[type="submit"]:hover + .icon-add.checklist-new-only:active, .button + a:active, .button + .icon-add.checklist-new-only:active, .button:hover + a:active, .button:hover + .icon-add.checklist-new-only:active, button:focus + a:active, button:focus + .icon-add.checklist-new-only:active, button:focus a:focus, button:focus .icon-add.checklist-new-only:focus, input[type="button"]:focus + a:active, input[type="button"]:focus + .icon-add.checklist-new-only:active, input[type="button"]:focus a:focus, input[type="button"]:focus .icon-add.checklist-new-only:focus, input[type="reset"]:focus + a:active, input[type="reset"]:focus + .icon-add.checklist-new-only:active, input[type="reset"]:focus a:focus, input[type="reset"]:focus .icon-add.checklist-new-only:focus, input[type="submit"]:focus + a:active, input[type="submit"]:focus + .icon-add.checklist-new-only:active, input[type="submit"]:focus a:focus, input[type="submit"]:focus .icon-add.checklist-new-only:focus, button:active + a:active, button:active + .icon-add.checklist-new-only:active, button:active a:focus, button:active .icon-add.checklist-new-only:focus, input[type="button"]:active + a:active, input[type="button"]:active + .icon-add.checklist-new-only:active, input[type="button"]:active a:focus, input[type="button"]:active .icon-add.checklist-new-only:focus, input[type="reset"]:active + a:active, input[type="reset"]:active + .icon-add.checklist-new-only:active, input[type="reset"]:active a:focus, input[type="reset"]:active .icon-add.checklist-new-only:focus, input[type="submit"]:active + a:active, input[type="submit"]:active + .icon-add.checklist-new-only:active, input[type="submit"]:active a:focus, input[type="submit"]:active .icon-add.checklist-new-only:focus, .button:focus + a:active, button + a:focus + a:active, button + .icon-add.checklist-new-only:focus + a:active, input[type="button"] + a:focus + a:active, input[type="button"] + .icon-add.checklist-new-only:focus + a:active, input[type="reset"] + a:focus + a:active, input[type="reset"] + .icon-add.checklist-new-only:focus + a:active, input[type="submit"] + a:focus + a:active, input[type="submit"] + .icon-add.checklist-new-only:focus + a:active, button:hover + a:focus + a:active, .button + a:focus + a:active, .button + .icon-add.checklist-new-only:focus + a:active, #activity + a:focus + a:active, #activity + .icon-add.checklist-new-only:focus + a:active, #comments + p > a:focus + a:active, #comments + p > .icon-add.checklist-new-only:focus + a:active, .add-link a:focus + a:active, .add-link .icon-add.checklist-new-only:focus + a:active, .button:focus + .icon-add.checklist-new-only:active, button + a:focus + .icon-add.checklist-new-only:active, button + .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, input[type="button"] + a:focus + .icon-add.checklist-new-only:active, input[type="button"] + .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, input[type="reset"] + a:focus + .icon-add.checklist-new-only:active, input[type="reset"] + .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, input[type="submit"] + a:focus + .icon-add.checklist-new-only:active, input[type="submit"] + .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, .button + a:focus + .icon-add.checklist-new-only:active, .button + .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, #activity + a:focus + .icon-add.checklist-new-only:active, #activity + .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, #comments + p > a:focus + .icon-add.checklist-new-only:active, #comments + p > .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, .add-link a:focus + .icon-add.checklist-new-only:active, .add-link .icon-add.checklist-new-only:focus + .icon-add.checklist-new-only:active, .button:focus a:focus, button + a:focus a:focus, button + .icon-add.checklist-new-only:focus a:focus, input[type="button"] + a:focus a:focus, input[type="button"] + .icon-add.checklist-new-only:focus a:focus, input[type="reset"] + a:focus a:focus, input[type="reset"] + .icon-add.checklist-new-only:focus a:focus, input[type="submit"] + a:focus a:focus, input[type="submit"] + .icon-add.checklist-new-only:focus a:focus, button:hover + a:focus a:focus, .button + a:focus a:focus, .button + .icon-add.checklist-new-only:focus a:focus, #activity + a:focus a:focus, #activity + .icon-add.checklist-new-only:focus a:focus, #comments + p > a:focus a:focus, #comments + p > .icon-add.checklist-new-only:focus a:focus, .add-link a:focus a:focus, .add-link .icon-add.checklist-new-only:focus a:focus, .button:focus .icon-add.checklist-new-only:focus, button + a:focus .icon-add.checklist-new-only:focus, button + .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, input[type="button"] + a:focus .icon-add.checklist-new-only:focus, input[type="button"] + .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, input[type="reset"] + a:focus .icon-add.checklist-new-only:focus, input[type="reset"] + .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, input[type="submit"] + a:focus .icon-add.checklist-new-only:focus, input[type="submit"] + .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, .button + a:focus .icon-add.checklist-new-only:focus, .button + .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, #activity + a:focus .icon-add.checklist-new-only:focus, #activity + .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, #comments + p > a:focus .icon-add.checklist-new-only:focus, #comments + p > .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, .add-link a:focus .icon-add.checklist-new-only:focus, .add-link .icon-add.checklist-new-only:focus .icon-add.checklist-new-only:focus, .button:active + a:active, button + a:active + a:active, button + .icon-add.checklist-new-only:active + a:active, input[type="button"] + a:active + a:active, input[type="button"] + .icon-add.checklist-new-only:active + a:active, input[type="reset"] + a:active + a:active, input[type="reset"] + .icon-add.checklist-new-only:active + a:active, input[type="submit"] + a:active + a:active, input[type="submit"] + .icon-add.checklist-new-only:active + a:active, button:hover + a:active + a:active, .button + a:active + a:active, .button + .icon-add.checklist-new-only:active + a:active, #activity + a:active + a:active, #activity + .icon-add.checklist-new-only:active + a:active, #comments + p > a:active + a:active, #comments + p > .icon-add.checklist-new-only:active + a:active, .add-link a:active + a:active, .add-link .icon-add.checklist-new-only:active + a:active, .button:active + .icon-add.checklist-new-only:active, button + a:active + .icon-add.checklist-new-only:active, button + .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, input[type="button"] + a:active + .icon-add.checklist-new-only:active, input[type="button"] + .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, input[type="reset"] + a:active + .icon-add.checklist-new-only:active, input[type="reset"] + .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, input[type="submit"] + a:active + .icon-add.checklist-new-only:active, input[type="submit"] + .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, .button + a:active + .icon-add.checklist-new-only:active, .button + .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, #activity + a:active + .icon-add.checklist-new-only:active, #activity + .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, #comments + p > a:active + .icon-add.checklist-new-only:active, #comments + p > .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, .add-link a:active + .icon-add.checklist-new-only:active, .add-link .icon-add.checklist-new-only:active + .icon-add.checklist-new-only:active, .button:active a:focus, button + a:active a:focus, button + .icon-add.checklist-new-only:active a:focus, input[type="button"] + a:active a:focus, input[type="button"] + .icon-add.checklist-new-only:active a:focus, input[type="reset"] + a:active a:focus, input[type="reset"] + .icon-add.checklist-new-only:active a:focus, input[type="submit"] + a:active a:focus, input[type="submit"] + .icon-add.checklist-new-only:active a:focus, button:hover + a:active a:focus, .button + a:active a:focus, .button + .icon-add.checklist-new-only:active a:focus, #activity + a:active a:focus, #activity + .icon-add.checklist-new-only:active a:focus, #comments + p > a:active a:focus, #comments + p > .icon-add.checklist-new-only:active a:focus, .add-link a:active a:focus, .add-link .icon-add.checklist-new-only:active a:focus, .button:active .icon-add.checklist-new-only:focus, button + a:active .icon-add.checklist-new-only:focus, button + .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, input[type="button"] + a:active .icon-add.checklist-new-only:focus, input[type="button"] + .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, input[type="reset"] + a:active .icon-add.checklist-new-only:focus, input[type="reset"] + .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, input[type="submit"] + a:active .icon-add.checklist-new-only:focus, input[type="submit"] + .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, .button + a:active .icon-add.checklist-new-only:focus, .button + .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, #activity + a:active .icon-add.checklist-new-only:focus, #activity + .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, #comments + p > a:active .icon-add.checklist-new-only:focus, #comments + p > .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, .add-link a:active .icon-add.checklist-new-only:focus, .add-link .icon-add.checklist-new-only:active .icon-add.checklist-new-only:focus, #activity + a:active, #activity + .icon-add.checklist-new-only:active, #activity + a:focus, #activity + .icon-add.checklist-new-only:focus, #comments + p > a:active, #comments + p > .icon-add.checklist-new-only:active, #comments + p > a:focus, #comments + p > .icon-add.checklist-new-only:focus, .add-link a:active, .add-link .icon-add.checklist-new-only:active, .add-link a:focus, .add-link .icon-add.checklist-new-only:focus {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset;
 }
 
 /* Layout */
-/* line 116, ../sass/application.sass */
+/* line 126, ../sass/application.scss */
 .outer-container {
   max-width: 90em;
   margin-left: auto;
@@ -6455,7 +6455,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: table;
 }
 
-/* line 119, ../sass/application.sass */
+/* line 130, ../sass/application.scss */
 #wrapper {
   display: block;
   background: white;
@@ -6467,10 +6467,10 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   display: table;
 }
 
-/* line 123, ../sass/application.sass */
+/* line 135, ../sass/application.scss */
 #top-menu {
   display: block;
-  background: #474D57;
+  background: #474d57;
   color: white;
   padding: 0 1em;
   cursor: default;
@@ -6484,16 +6484,16 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   content: "";
   display: table;
 }
-/* line 135, ../sass/application.sass */
+/* line 145, ../sass/application.scss */
 #top-menu .outer-container ul.menu-children {
   width: 26em;
   top: 99%;
   border: 0;
-  background: #474D57;
+  background: #474d57;
   border-radius: 0 0 4px 4px;
   padding: 0.5em 1em 0.6em;
 }
-/* line 143, ../sass/application.sass */
+/* line 152, ../sass/application.scss */
 #top-menu .outer-container ul.menu-children > li {
   float: left;
   display: block;
@@ -6513,30 +6513,30 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #top-menu .outer-container ul.menu-children > li:nth-child(2n+1) {
   clear: left;
 }
-/* line 148, ../sass/application.sass */
+/* line 156, ../sass/application.scss */
 #top-menu .outer-container ul.menu-children > li a, #top-menu .outer-container ul.menu-children > li .icon-add.checklist-new-only {
-  color: #979DA7;
+  color: #979da7;
   padding: 0.4em;
   width: 95%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 156, ../sass/application.sass */
+/* line 163, ../sass/application.scss */
 #top-menu .outer-container ul.menu-children > li a:hover, #top-menu .outer-container ul.menu-children > li .icon-add.checklist-new-only:hover, #top-menu .outer-container ul.menu-children > li a:active, #top-menu .outer-container ul.menu-children > li .icon-add.checklist-new-only:active, #top-menu .outer-container ul.menu-children > li a:focus, #top-menu .outer-container ul.menu-children > li .icon-add.checklist-new-only:focus {
   color: white;
 }
-/* line 159, ../sass/application.sass */
+/* line 166, ../sass/application.scss */
 #top-menu .outer-container ul.menu-children > li a:before, #top-menu .outer-container ul.menu-children > li .icon-add.checklist-new-only:before {
   margin-right: 0.5em !important;
 }
-/* line 162, ../sass/application.sass */
+/* line 173, ../sass/application.scss */
 #top-menu ul {
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-/* line 165, ../sass/application.sass */
+/* line 176, ../sass/application.scss */
 #top-menu li {
   float: left;
   list-style-type: none;
@@ -6544,13 +6544,13 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   margin-right: 1em;
   padding: 0;
 }
-/* line 172, ../sass/application.sass */
+/* line 182, ../sass/application.scss */
 #top-menu li:last-child {
   margin-right: 0.2em;
 }
-/* line 175, ../sass/application.sass */
+/* line 186, ../sass/application.scss */
 #top-menu a, #top-menu .icon-add.checklist-new-only {
-  color: #979DA7;
+  color: #979da7;
   font-size: 0.9em;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -6559,62 +6559,62 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   transition-duration: 0.3s;
   display: inline-block;
 }
-/* line 183, ../sass/application.sass */
+/* line 193, ../sass/application.scss */
 #top-menu a:hover, #top-menu .icon-add.checklist-new-only:hover, #top-menu a:focus, #top-menu .icon-add.checklist-new-only:focus, #top-menu a:active, #top-menu .icon-add.checklist-new-only:active {
   color: white;
 }
-/* line 186, ../sass/application.sass */
+/* line 196, ../sass/application.scss */
 #top-menu a:before, #top-menu .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
   vertical-align: middle;
 }
-/* line 275, ../sass/application.sass */
+/* line 285, ../sass/application.scss */
 #top-menu a.tt_start:before, #top-menu .tt_start.icon-add.checklist-new-only:before, #top-menu a.tt_stop:before, #top-menu .tt_stop.icon-add.checklist-new-only:before {
   position: relative;
   top: 0;
 }
-/* line 279, ../sass/application.sass */
+/* line 290, ../sass/application.scss */
 #top-menu #loggedas {
   float: right;
   margin-right: 1em;
-  color: #979DA7;
+  color: #979da7;
   font-size: 0.9em;
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-/* line 286, ../sass/application.sass */
+/* line 296, ../sass/application.scss */
 #top-menu #loggedas a, #top-menu #loggedas .icon-add.checklist-new-only {
   font-size: 1em;
 }
-/* line 289, ../sass/application.sass */
+/* line 300, ../sass/application.scss */
 #top-menu #account {
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-/* line 294, ../sass/application.sass */
+/* line 303, ../sass/application.scss */
 #top-menu #account.cms ul li {
   height: auto !important;
 }
-/* line 297, ../sass/application.sass */
+/* line 305, ../sass/application.scss */
 #top-menu #account.cms ul li img.gravatar {
   top: 0;
   margin-right: 0.5em;
 }
-/* line 301, ../sass/application.sass */
+/* line 311, ../sass/application.scss */
 #top-menu #account a:before, #top-menu #account .icon-add.checklist-new-only:before {
   margin-right: 0;
 }
-/* line 304, ../sass/application.sass */
+/* line 314, ../sass/application.scss */
 #top-menu #account .menu-children {
   width: 18em;
 }
 
-/* line 307, ../sass/application.sass */
+/* line 320, ../sass/application.scss */
 #header {
   display: block;
-  background: #CB232F;
+  background: #cb232f;
   color: white;
 }
 /* line 20, ../bourbon/addons/_clearfix.scss */
@@ -6623,7 +6623,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   content: "";
   display: table;
 }
-/* line 312, ../sass/application.sass */
+/* line 324, ../sass/application.scss */
 #header h1 {
   margin: 0;
   font-size: 1.5em;
@@ -6638,7 +6638,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-/* line 324, ../sass/application.sass */
+/* line 336, ../sass/application.scss */
 #header .home {
   display: block;
   width: 3em;
@@ -6652,15 +6652,15 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   padding: 0.2em;
   text-align: center;
 }
-/* line 337, ../sass/application.sass */
+/* line 348, ../sass/application.scss */
 #header .home:before {
   content: url(../images/logo.svg);
 }
-/* line 340, ../sass/application.sass */
+/* line 351, ../sass/application.scss */
 #header .home:hover, #header .home:active {
   background: rgba(71, 77, 87, 0.5);
 }
-/* line 343, ../sass/application.sass */
+/* line 355, ../sass/application.scss */
 #header #quick-search {
   position: relative;
   top: 0.65em;
@@ -6669,15 +6669,15 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-/* line 351, ../sass/application.sass */
+/* line 361, ../sass/application.scss */
 #header #quick-search .icon-search:before {
   z-index: 5;
   position: absolute;
   left: 1.6em;
   top: 0.2em;
-  color: #474D57;
+  color: #474d57;
 }
-/* line 358, ../sass/application.sass */
+/* line 369, ../sass/application.scss */
 #header #quick-search #q {
   margin-left: 1em;
   padding-left: 2em !important;
@@ -6692,43 +6692,43 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   z-index: 0;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 372, ../sass/application.sass */
+/* line 382, ../sass/application.scss */
 #header #quick-search #q:active, #header #quick-search #q:focus {
   color: #333333;
   background: white;
   width: 15em;
 }
-/* line 377, ../sass/application.sass */
+/* line 389, ../sass/application.scss */
 #header a, #header .icon-add.checklist-new-only, #header a:hover, #header .icon-add.checklist-new-only:hover, #header a:active, #header .icon-add.checklist-new-only:active, #header a:focus, #header .icon-add.checklist-new-only:focus {
   color: white;
 }
-/* line 380, ../sass/application.sass */
+/* line 392, ../sass/application.scss */
 #header .select2-container {
   margin-left: 1em;
 }
-/* line 383, ../sass/application.sass */
+/* line 394, ../sass/application.scss */
 #header .select2-container .select2-chosen {
   font-size: 0.9em;
   color: rgba(255, 255, 255, 0.8);
 }
-/* line 387, ../sass/application.sass */
+/* line 398, ../sass/application.scss */
 #header .select2-container .select2-choice {
   background: rgba(71, 77, 87, 0.3);
   border-color: rgba(71, 77, 87, 0.5);
   box-shadow: none !important;
   height: 2.2em;
 }
-/* line 393, ../sass/application.sass */
+/* line 404, ../sass/application.scss */
 #header .select2-container .select2-arrow {
   border-color: rgba(71, 77, 87, 0.5);
 }
 
-/* line 396, ../sass/application.sass */
+/* line 410, ../sass/application.scss */
 #main-menu {
   display: block;
-  background: #F2F2F2;
+  background: #f2f2f2;
   cursor: default;
-  box-shadow: inset 0 -1px 0 #CCCCCC;
+  box-shadow: inset 0 -1px 0 #cccccc;
 }
 /* line 20, ../bourbon/addons/_clearfix.scss */
 #main-menu::after {
@@ -6736,18 +6736,18 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   content: "";
   display: table;
 }
-/* line 402, ../sass/application.sass */
+/* line 415, ../sass/application.scss */
 #main-menu ul {
   -webkit-animation: fadeIn 1s;
   -moz-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
-/* line 405, ../sass/application.sass */
+/* line 418, ../sass/application.scss */
 #main-menu li {
   display: table-cell;
   width: 1%;
 }
-/* line 409, ../sass/application.sass */
+/* line 421, ../sass/application.scss */
 #main-menu li a, #main-menu li .icon-add.checklist-new-only {
   display: block;
   color: #777777;
@@ -6756,30 +6756,30 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   white-space: nowrap;
   text-align: center;
 }
-/* line 417, ../sass/application.sass */
+/* line 428, ../sass/application.scss */
 #main-menu li a:hover, #main-menu li .icon-add.checklist-new-only:hover {
-  color: #474D57;
-  box-shadow: inset 0 -3px 0 #474D57;
+  color: #474d57;
+  box-shadow: inset 0 -3px 0 #474d57;
 }
-/* line 421, ../sass/application.sass */
+/* line 432, ../sass/application.scss */
 #main-menu li a.selected, #main-menu li .selected.icon-add.checklist-new-only, #main-menu li a.selected:hover, #main-menu li .selected.icon-add.checklist-new-only:hover {
   font-weight: 600;
-  color: #446E9B;
-  box-shadow: inset 0 -3px 0 #446E9B;
+  color: #446e9b;
+  box-shadow: inset 0 -3px 0 #446e9b;
 }
 
-/* line 428, ../sass/application.sass */
+/* line 442, ../sass/application.scss */
 #admin-menu li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 433, ../sass/application.sass */
+/* line 447, ../sass/application.scss */
 #admin-menu a, #admin-menu .icon-add.checklist-new-only {
   background-image: none !important;
   margin-bottom: 0.2em;
 }
-/* line 437, ../sass/application.sass */
+/* line 450, ../sass/application.scss */
 #admin-menu a:before, #admin-menu .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
   width: 1.5em;
@@ -6788,7 +6788,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   top: -1px;
 }
 
-/* line 508, ../sass/application.sass */
+/* line 524, ../sass/application.scss */
 #main {
   max-width: 90em;
   margin-left: auto;
@@ -6805,7 +6805,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   content: "";
   display: table;
 }
-/* line 516, ../sass/application.sass */
+/* line 530, ../sass/application.scss */
 #main.nosidebar #content {
   float: left;
   display: block;
@@ -6816,7 +6816,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main.nosidebar #content:last-child {
   margin-right: 0;
 }
-/* line 519, ../sass/application.sass */
+/* line 534, ../sass/application.scss */
 #main #sidebar {
   float: left;
   display: block;
@@ -6828,51 +6828,51 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main #sidebar:last-child {
   margin-right: 0;
 }
-/* line 523, ../sass/application.sass */
+/* line 537, ../sass/application.scss */
 #main #sidebar h3 {
   margin-top: 1em;
   color: #333333;
   padding-bottom: 0.3em;
   text-indent: 0.2em;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
   font-weight: 400;
 }
-/* line 531, ../sass/application.sass */
+/* line 545, ../sass/application.scss */
 #main #sidebar hr {
   width: 100%;
   height: 1px;
-  background: #CCCCCC;
+  background: #cccccc;
   border: 0;
   margin: 0 auto;
 }
-/* line 538, ../sass/application.sass */
+/* line 552, ../sass/application.scss */
 #main #sidebar p > label {
   color: #777777;
 }
-/* line 541, ../sass/application.sass */
+/* line 554, ../sass/application.scss */
 #main #sidebar p > label input {
   margin-right: 0.7em;
 }
-/* line 544, ../sass/application.sass */
+/* line 558, ../sass/application.scss */
 #main #sidebar .contextual {
   margin-right: 1em;
   float: right;
 }
-/* line 548, ../sass/application.sass */
+/* line 562, ../sass/application.scss */
 #main #sidebar ul {
   list-style-type: none;
   padding: 0;
 }
-/* line 554, ../sass/application.sass */
+/* line 566, ../sass/application.scss */
 #main #sidebar ul li input + label {
   max-width: 90%;
   display: inline-block;
 }
-/* line 558, ../sass/application.sass */
+/* line 570, ../sass/application.scss */
 #main #sidebar ul li label input {
   margin-right: 0.7em;
 }
-/* line 561, ../sass/application.sass */
+/* line 575, ../sass/application.scss */
 #main #sidebar ul a, #main #sidebar ul .icon-add.checklist-new-only, #main #sidebar a[href$="agile/board"], #main #sidebar [href$="agile/board"].icon-add.checklist-new-only, #main #sidebar a[href$="agile_versions"], #main #sidebar [href$="agile_versions"].icon-add.checklist-new-only {
   display: inline-block;
   width: 100%;
@@ -6881,24 +6881,24 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   color: #777777;
   margin-bottom: 0.2em;
 }
-/* line 569, ../sass/application.sass */
+/* line 582, ../sass/application.scss */
 #main #sidebar ul a:hover, #main #sidebar ul .icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile/board"]:hover, #main #sidebar [href$="agile/board"].icon-add.checklist-new-only:hover, #main #sidebar a[href$="agile_versions"]:hover, #main #sidebar [href$="agile_versions"].icon-add.checklist-new-only:hover {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
-/* line 572, ../sass/application.sass */
+/* line 585, ../sass/application.scss */
 #main #sidebar ul a.selected, #main #sidebar ul .selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile/board"].selected, #main #sidebar [href$="agile/board"].selected.icon-add.checklist-new-only, #main #sidebar a[href$="agile_versions"].selected, #main #sidebar [href$="agile_versions"].selected.icon-add.checklist-new-only {
-  background: #446E9B;
+  background: #446e9b;
   color: white;
 }
-/* line 578, ../sass/application.sass */
+/* line 591, ../sass/application.scss */
 #main #sidebar table tr {
   background: none !important;
 }
-/* line 581, ../sass/application.sass */
+/* line 595, ../sass/application.scss */
 #main #sidebar .icon-time {
   font-size: 2em;
 }
-/* line 584, ../sass/application.sass */
+/* line 599, ../sass/application.scss */
 #main #content {
   float: left;
   display: block;
@@ -6912,44 +6912,44 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #main #content:last-child {
   margin-right: 0;
 }
-/* line 590, ../sass/application.sass */
+/* line 604, ../sass/application.scss */
 #main #content .contextual {
   float: right;
   top: 1.6em;
   position: relative;
 }
-/* line 595, ../sass/application.sass */
+/* line 608, ../sass/application.scss */
 #main #content .contextual + .breadcrumb {
   position: relative;
   top: 0.8em;
   float: right;
   margin-right: 2em;
 }
-/* line 601, ../sass/application.sass */
+/* line 614, ../sass/application.scss */
 #main #content .contextual a:before, #main #content .contextual .icon-add.checklist-new-only:before {
   margin-left: 1em;
 }
-/* line 604, ../sass/application.sass */
+/* line 618, ../sass/application.scss */
 #main #content h2:first-of-type {
   font-weight: 400;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
   margin: 0 0 1.2em;
   padding: 0.7em 0;
 }
-/* line 610, ../sass/application.sass */
+/* line 623, ../sass/application.scss */
 #main #content h2:first-of-type .live_search {
   margin-left: 1em;
 }
-/* line 615, ../sass/application.sass */
+/* line 628, ../sass/application.scss */
 #main #content form .contextual {
   top: 0.4em;
   margin: 0;
 }
-/* line 619, ../sass/application.sass */
+/* line 631, ../sass/application.scss */
 #main #content form .contextual a:before, #main #content form .contextual .icon-add.checklist-new-only:before {
   margin-left: 1em;
 }
-/* line 622, ../sass/application.sass */
+/* line 636, ../sass/application.scss */
 #main #content table h2 {
   margin: inherit !important;
   padding: 0 !important;
@@ -6957,10 +6957,10 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   font-weight: inherit !important;
 }
 
-/* line 628, ../sass/application.sass */
+/* line 645, ../sass/application.scss */
 #footer {
   display: block;
-  border-top: 1px solid #CCCCCC;
+  border-top: 1px solid #cccccc;
   font-size: 0.9em;
   color: #777777;
   text-align: center;
@@ -6975,7 +6975,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 }
 
 /* Admin index */
-/* line 644, ../sass/application.sass */
+/* line 659, ../sass/application.scss */
 #admin-index #admin-menu li {
   float: left;
   display: block;
@@ -6996,7 +6996,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
 #admin-index #admin-menu li:nth-child(4n+1) {
   clear: left;
 }
-/* line 650, ../sass/application.sass */
+/* line 664, ../sass/application.scss */
 #admin-index #admin-menu li a, #admin-index #admin-menu li .icon-add.checklist-new-only {
   display: inline-block;
   width: 100%;
@@ -7004,64 +7004,64 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   padding: 1em;
   color: #777777;
 }
-/* line 657, ../sass/application.sass */
+/* line 670, ../sass/application.scss */
 #admin-index #admin-menu li a:hover, #admin-index #admin-menu li .icon-add.checklist-new-only:hover {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
-/* line 660, ../sass/application.sass */
+/* line 673, ../sass/application.scss */
 #admin-index #admin-menu li a.selected, #admin-index #admin-menu li .selected.icon-add.checklist-new-only {
-  background: #446E9B;
+  background: #446e9b;
   color: white;
 }
 
 /* Login */
-/* line 669, ../sass/application.sass */
+/* line 685, ../sass/application.scss */
 #login-form input#username, #login-form #login-form input#password {
   width: 20em;
 }
-/* line 672, ../sass/application.sass */
+/* line 688, ../sass/application.scss */
 #login-form table {
   margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
 }
-/* line 678, ../sass/application.sass */
+/* line 694, ../sass/application.scss */
 #login-form td {
   padding: 0.5em;
   text-align: right;
 }
-/* line 682, ../sass/application.sass */
+/* line 698, ../sass/application.scss */
 #login-form tr {
   background: none !important;
 }
-/* line 685, ../sass/application.sass */
+/* line 701, ../sass/application.scss */
 #login-form #username, #login-form #password {
   width: 100%;
 }
 
-/* line 689, ../sass/application.sass */
+/* line 706, ../sass/application.scss */
 div.modal {
   border-radius: 4px;
   background: white;
   z-index: 50;
   padding: 0.5em;
 }
-/* line 695, ../sass/application.sass */
+/* line 711, ../sass/application.scss */
 div.modal p.buttons {
   text-align: right;
   margin-bottom: 0;
 }
 
-/* line 699, ../sass/application.sass */
+/* line 717, ../sass/application.scss */
 input#openid_url {
   background: url(../images/openid-bg.gif) no-repeat;
-  background-color: #fff;
+  background-color: white;
   background-position: 0 50%;
   padding-left: 18px;
 }
 
-/* line 706, ../sass/application.sass */
+/* line 724, ../sass/application.scss */
 .clear:after {
   content: ".";
   display: block;
@@ -7070,261 +7070,261 @@ input#openid_url {
   visibility: hidden;
 }
 
-/* line 714, ../sass/application.sass */
+/* line 732, ../sass/application.scss */
 table {
   text-align: left;
   color: #777777;
   border: 0 !important;
 }
-/* line 719, ../sass/application.sass */
+/* line 736, ../sass/application.scss */
 table.list {
   border: 0;
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 0.5em;
 }
-/* line 725, ../sass/application.sass */
+/* line 741, ../sass/application.scss */
 table.list th {
   background: none;
   white-space: nowrap;
   padding: 0.5em;
   font-size: 1.2em;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
   font-weight: 500;
   color: #333333;
 }
-/* line 734, ../sass/application.sass */
+/* line 750, ../sass/application.scss */
 table.list td {
   vertical-align: top;
   padding: 0.7em;
-  border-bottom: 1px solid #F2F2F2;
+  border-bottom: 1px solid #f2f2f2;
   text-align: left !important;
 }
-/* line 740, ../sass/application.sass */
+/* line 755, ../sass/application.scss */
 table.list td.name {
   font-weight: 600;
 }
-/* line 743, ../sass/application.sass */
+/* line 758, ../sass/application.scss */
 table.list td.id {
   width: 2%;
   text-align: center;
 }
-/* line 747, ../sass/application.sass */
+/* line 762, ../sass/application.scss */
 table.list td.tick {
   width: 15%;
 }
-/* line 750, ../sass/application.sass */
+/* line 765, ../sass/application.scss */
 table.list td.checkbox {
   width: 15px;
   padding: 2px 0 0;
   vertical-align: middle;
 }
-/* line 755, ../sass/application.sass */
+/* line 770, ../sass/application.scss */
 table.list td.buttons {
   width: 15%;
   white-space: nowrap;
   text-align: right;
 }
-/* line 760, ../sass/application.sass */
+/* line 775, ../sass/application.scss */
 table.list td.buttons a, table.list td.buttons .icon-add.checklist-new-only {
   padding-right: 0.6em;
 }
-/* line 763, ../sass/application.sass */
+/* line 778, ../sass/application.scss */
 table.list td.reorder {
   width: 15%;
   white-space: nowrap;
   text-align: center;
 }
-/* line 768, ../sass/application.sass */
+/* line 784, ../sass/application.scss */
 table.list caption {
   text-align: left;
   padding: 0.5em 0.5em 0.5em 0;
 }
-/* line 772, ../sass/application.sass */
+/* line 788, ../sass/application.scss */
 table.list small {
   font-size: 0.9em;
 }
 
-/* line 775, ../sass/application.sass */
+/* line 794, ../sass/application.scss */
 tr.issue td.done_ratio table.progress {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 779, ../sass/application.sass */
+/* line 799, ../sass/application.scss */
 table.issues td.description {
-  color: #777;
+  color: #777777;
   font-size: 90%;
   text-align: left;
   white-space: normal;
   padding: 4px 4px 4px 24px;
 }
 
-/* line 786, ../sass/application.sass */
+/* line 807, ../sass/application.scss */
 table.issue-report {
   table-layout: fixed;
 }
 
-/* line 791, ../sass/application.sass */
+/* line 812, ../sass/application.scss */
 tr.project [id^="favorite_project"] {
   color: #f39c12;
 }
-/* line 796, ../sass/application.sass */
+/* line 816, ../sass/application.scss */
 tr.project [id^="favorite_project"] img {
   display: none !important;
 }
 
-/* line 799, ../sass/application.sass */
+/* line 822, ../sass/application.scss */
 tr.entry {
   border: 1px solid #f8f8f8;
 }
 
-/* line 802, ../sass/application.sass */
+/* line 826, ../sass/application.scss */
 tr.entry td.filename {
   width: 30%;
   text-align: left;
 }
 
-/* line 806, ../sass/application.sass */
+/* line 831, ../sass/application.scss */
 tr.entry td.filename_no_report {
   width: 70%;
   text-align: left;
 }
 
-/* line 810, ../sass/application.sass */
+/* line 836, ../sass/application.scss */
 tr.entry td.size {
   text-align: right;
   font-size: 90%;
 }
 
-/* line 814, ../sass/application.sass */
+/* line 841, ../sass/application.scss */
 tr span.expander {
   cursor: pointer;
 }
-/* line 818, ../sass/application.sass */
+/* line 844, ../sass/application.scss */
 tr span.expander:before {
   margin-right: 0.5em;
 }
 
-/* line 822, ../sass/application.sass */
+/* line 850, ../sass/application.scss */
 tr.open span.expander {
   cursor: pointer;
 }
-/* line 826, ../sass/application.sass */
+/* line 853, ../sass/application.scss */
 tr.open span.expander:before {
   margin-right: 0.5em;
 }
 
-/* line 830, ../sass/application.sass */
+/* line 859, ../sass/application.scss */
 tr.changeset {
   height: 20px;
 }
 
-/* line 833, ../sass/application.sass */
+/* line 863, ../sass/application.scss */
 tr.changeset ul, ol {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 837, ../sass/application.sass */
+/* line 868, ../sass/application.scss */
 tr.changeset td.revision_graph {
   width: 15%;
   background-color: #fffffb;
 }
 
-/* line 841, ../sass/application.sass */
+/* line 873, ../sass/application.scss */
 table.files tr.file td.filename {
   text-align: left;
   padding-left: 24px;
 }
 
-/* line 845, ../sass/application.sass */
+/* line 878, ../sass/application.scss */
 table.members td.roles, table.memberships td.roles {
   width: 45%;
 }
 
-/* line 848, ../sass/application.sass */
+/* line 882, ../sass/application.scss */
 tr.message {
   height: 2.6em;
 }
 
-/* line 851, ../sass/application.sass */
+/* line 886, ../sass/application.scss */
 tr.message td.last_message {
   font-size: 80%;
   white-space: nowrap;
 }
 
-/* line 855, ../sass/application.sass */
+/* line 891, ../sass/application.scss */
 tr.message.locked td.subject {
   background: url(../images/locked.png) no-repeat 0 1px;
 }
 
-/* line 859, ../sass/application.sass */
+/* line 895, ../sass/application.scss */
 tr.message.sticky td.subject {
   background: url(../images/bullet_go.png) no-repeat 0 1px;
   font-weight: 700;
 }
 
-/* line 863, ../sass/application.sass */
+/* line 900, ../sass/application.scss */
 tr.version.shared td.name {
   background: url(../images/link.png) no-repeat 0 70%;
 }
 
-/* line 866, ../sass/application.sass */
+/* line 904, ../sass/application.scss */
 tr.user td {
   width: 13%;
   white-space: nowrap;
 }
 
-/* line 870, ../sass/application.sass */
+/* line 909, ../sass/application.scss */
 tr.user td.email {
   width: 18%;
 }
 
-/* line 873, ../sass/application.sass */
+/* line 913, ../sass/application.scss */
 table.permissions td.role {
-  color: #999;
+  color: #999999;
   font-size: 90%;
   font-weight: 400 !important;
   text-align: center;
   vertical-align: bottom;
 }
 
-/* line 880, ../sass/application.sass */
+/* line 921, ../sass/application.scss */
 tr.time-entry td.issue, tr.time-entry td.comments {
   text-align: left;
   white-space: normal;
 }
 
-/* line 884, ../sass/application.sass */
+/* line 926, ../sass/application.scss */
 td.hours {
   text-align: right;
   font-weight: 700;
   padding-right: 0.5em;
 }
 
-/* line 889, ../sass/application.sass */
+/* line 932, ../sass/application.scss */
 table.plugins td.configure {
   text-align: right;
   padding-right: 1em;
 }
 
-/* line 894, ../sass/application.sass */
+/* line 937, ../sass/application.scss */
 table.plugins span.name {
   font-weight: 700;
   display: block;
   margin-bottom: 6px;
 }
 
-/* line 899, ../sass/application.sass */
+/* line 943, ../sass/application.scss */
 table.list tbody tr.group td {
   font-weight: 700;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
   text-align: left;
   padding: 0.8em 0 0.5em 0.3em;
 }
 
-/* line 905, ../sass/application.sass */
+/* line 950, ../sass/application.scss */
 table.list tbody tr.group span.count {
   position: relative;
   color: white;
@@ -7336,7 +7336,7 @@ table.list tbody tr.group span.count {
   display: inline-block;
 }
 
-/* line 915, ../sass/application.sass */
+/* line 961, ../sass/application.scss */
 tr.group a.toggle-all, tr.group .toggle-all.icon-add.checklist-new-only {
   font-weight: 400;
   display: none;
@@ -7344,210 +7344,210 @@ tr.group a.toggle-all, tr.group .toggle-all.icon-add.checklist-new-only {
   font-size: 0.85em;
 }
 
-/* line 921, ../sass/application.sass */
+/* line 968, ../sass/application.scss */
 table.list tbody tr:hover {
   background-color: rgba(243, 156, 18, 0.1);
 }
 
-/* line 924, ../sass/application.sass */
+/* line 972, ../sass/application.scss */
 table.list tbody tr.group:hover {
   background-color: inherit;
 }
 
-/* line 927, ../sass/application.sass */
+/* line 976, ../sass/application.scss */
 table td {
   padding: 0.5em;
 }
 
-/* line 930, ../sass/application.sass */
+/* line 980, ../sass/application.scss */
 table p {
   margin: 0;
 }
 
-/* line 933, ../sass/application.sass */
+/* line 984, ../sass/application.scss */
 .even, tr:nth-child(2n+2) {
-  background-color: #F9F9F9 !important;
+  background-color: #f9f9f9 !important;
 }
 
-/* line 936, ../sass/application.sass */
+/* line 988, ../sass/application.scss */
 a.sort, .sort.icon-add.checklist-new-only {
   padding-right: 16px;
   background-position: 100% 50%;
   background-repeat: no-repeat;
 }
 
-/* line 942, ../sass/application.sass */
+/* line 994, ../sass/application.scss */
 a.sort.asc, .sort.asc.icon-add.checklist-new-only {
   background-image: url(../images/sort_asc.png);
 }
 
-/* line 946, ../sass/application.sass */
+/* line 998, ../sass/application.scss */
 a.sort.desc, .sort.desc.icon-add.checklist-new-only {
   background-image: url(../images/sort_desc.png);
 }
 
-/* line 950, ../sass/application.sass */
+/* line 1002, ../sass/application.scss */
 table.attributes th {
   vertical-align: top;
   text-align: left;
 }
 
-/* line 955, ../sass/application.sass */
+/* line 1007, ../sass/application.scss */
 table.attributes td {
   vertical-align: top;
 }
 
-/* line 962, ../sass/application.sass */
+/* line 1013, ../sass/application.scss */
 table.boards a.board:before, table.boards .board.icon-add.checklist-new-only:before, h3.comments:before {
   margin-right: 0.5em;
 }
 
-/* line 966, ../sass/application.sass */
+/* line 1019, ../sass/application.scss */
 table.boards td.last-message {
   text-align: left;
   font-size: 80%;
 }
 
-/* line 970, ../sass/application.sass */
+/* line 1024, ../sass/application.scss */
 table.query-columns {
   border-collapse: collapse;
   border: 0;
 }
 
-/* line 974, ../sass/application.sass */
+/* line 1029, ../sass/application.scss */
 table.query-columns td.buttons {
   vertical-align: middle;
   text-align: center;
 }
 
-/* line 978, ../sass/application.sass */
+/* line 1034, ../sass/application.scss */
 table.query-columns td.buttons input[type=button] {
   width: 35px;
 }
 
-/* line 981, ../sass/application.sass */
+/* line 1038, ../sass/application.scss */
 h3.version {
   margin-top: 0;
 }
-/* line 985, ../sass/application.sass */
+/* line 1041, ../sass/application.scss */
 h3.version:before {
   margin-right: 0.5em;
 }
 
-/* line 989, ../sass/application.sass */
+/* line 1047, ../sass/application.scss */
 div.issues h3 {
   margin-top: 0;
 }
-/* line 993, ../sass/application.sass */
+/* line 1050, ../sass/application.scss */
 div.issues h3:before {
   margin-right: 0.5em;
 }
 
-/* line 997, ../sass/application.sass */
+/* line 1056, ../sass/application.scss */
 div.members h3 {
   margin-top: 0;
 }
-/* line 1001, ../sass/application.sass */
+/* line 1059, ../sass/application.scss */
 div.members h3:before {
   margin-right: 0.5em;
 }
 
-/* line 1005, ../sass/application.sass */
+/* line 1065, ../sass/application.scss */
 div.news h3 {
   margin-top: 0;
 }
-/* line 1009, ../sass/application.sass */
+/* line 1068, ../sass/application.scss */
 div.news h3:before {
   margin-right: 0.5em;
 }
 
-/* line 1013, ../sass/application.sass */
+/* line 1074, ../sass/application.scss */
 div.projects h3 {
   margin-top: 0;
 }
-/* line 1017, ../sass/application.sass */
+/* line 1077, ../sass/application.scss */
 div.projects h3:before {
   margin-right: 0.5em;
 }
 
-/* line 1022, ../sass/application.sass */
+/* line 1083, ../sass/application.scss */
 #watchers select {
   width: 95%;
   display: block;
 }
 
-/* line 1026, ../sass/application.sass */
+/* line 1088, ../sass/application.scss */
 #watchers a.delete, #watchers .delete.icon-add.checklist-new-only {
   opacity: 0.4;
   vertical-align: middle;
 }
-/* line 1031, ../sass/application.sass */
+/* line 1092, ../sass/application.scss */
 #watchers a.delete:before, #watchers .delete.icon-add.checklist-new-only:before {
   margin-right: 0.5em;
   font-size: 1.2em;
 }
-/* line 1036, ../sass/application.sass */
+/* line 1097, ../sass/application.scss */
 #watchers a.delete img, #watchers .delete.icon-add.checklist-new-only img {
   display: none !important;
 }
 
-/* line 1040, ../sass/application.sass */
+/* line 1102, ../sass/application.scss */
 #watchers img.gravatar {
   margin: 0 4px 2px 0;
 }
 
-/* line 1044, ../sass/application.sass */
+/* line 1106, ../sass/application.scss */
 span#watchers_inputs {
   overflow: auto;
   display: block;
 }
 
-/* line 1048, ../sass/application.sass */
+/* line 1111, ../sass/application.scss */
 span.search_for_watchers, span.add_attachment {
   font-size: 0.9em;
   line-height: 2.5em;
 }
 
-/* line 1055, ../sass/application.sass */
+/* line 1118, ../sass/application.scss */
 span.search_for_watchers a:before, span.search_for_watchers .icon-add.checklist-new-only:before, span.add_attachment a:before, span.add_attachment .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
   margin-left: 0.5em;
 }
 
-/* line 1061, ../sass/application.sass */
+/* line 1125, ../sass/application.scss */
 .highlight {
-  background-color: #FCFD8D;
+  background-color: #fcfd8d;
 }
 
-/* line 1065, ../sass/application.sass */
+/* line 1129, ../sass/application.scss */
 .highlight.token-1 {
-  background-color: #faa;
+  background-color: #ffaaaa;
 }
 
-/* line 1069, ../sass/application.sass */
+/* line 1133, ../sass/application.scss */
 .highlight.token-2 {
-  background-color: #afa;
+  background-color: #aaffaa;
 }
 
-/* line 1073, ../sass/application.sass */
+/* line 1137, ../sass/application.scss */
 .highlight.token-3 {
-  background-color: #aaf;
+  background-color: #aaaaff;
 }
 
-/* line 1077, ../sass/application.sass */
+/* line 1141, ../sass/application.scss */
 .box {
   display: inline-block;
   width: 100%;
   padding: 2em 2em 1em;
-  background: #F9F9F9;
-  border: 1px solid #CCCCCC;
+  background: #f9f9f9;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   margin: 1em 0;
 }
 
-/* line 1086, ../sass/application.sass */
+/* line 1151, ../sass/application.scss */
 div.square {
-  border: 1px solid #999;
+  border: 1px solid #999999;
   float: left;
   overflow: hidden;
   width: 0.6em;
@@ -7555,17 +7555,17 @@ div.square {
   margin: 0.3em 0.4em 0;
 }
 
-/* line 1096, ../sass/application.sass */
+/* line 1161, ../sass/application.scss */
 .splitcontentleft ul, .splitcontentright ul {
   padding-left: 0;
   list-style-type: none;
 }
-/* line 1100, ../sass/application.sass */
+/* line 1164, ../sass/application.scss */
 .splitcontentleft ul li, .splitcontentright ul li {
   padding: 0.3em 0;
 }
 
-/* line 1103, ../sass/application.sass */
+/* line 1170, ../sass/application.scss */
 .splitcontentleft {
   float: left;
   display: block;
@@ -7577,7 +7577,7 @@ div.square {
   margin-right: 0;
 }
 
-/* line 1106, ../sass/application.sass */
+/* line 1174, ../sass/application.scss */
 .splitcontentright {
   float: left;
   display: block;
@@ -7590,14 +7590,14 @@ div.square {
   margin-right: 0;
 }
 
-/* line 1110, ../sass/application.sass */
+/* line 1179, ../sass/application.scss */
 input, select {
   vertical-align: middle;
   margin-top: 1px;
   margin-bottom: 1px;
 }
 
-/* line 1115, ../sass/application.sass */
+/* line 1185, ../sass/application.scss */
 fieldset, fieldset.box {
   border: 0;
   padding-top: 3em;
@@ -7605,25 +7605,25 @@ fieldset, fieldset.box {
   background: none;
   margin-bottom: 1em;
 }
-/* line 1122, ../sass/application.sass */
+/* line 1191, ../sass/application.scss */
 fieldset legend, fieldset.box legend {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 1.2em;
   width: 100%;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 
-/* line 1130, ../sass/application.sass */
+/* line 1201, ../sass/application.scss */
 hr {
   width: 100%;
   height: 1px;
-  background: #ccc;
+  background: #cccccc;
   border: 0;
 }
 
-/* line 1136, ../sass/application.sass */
+/* line 1208, ../sass/application.scss */
 blockquote {
   font-style: italic;
   border-left: 3px solid #e0e0e0;
@@ -7631,92 +7631,92 @@ blockquote {
   margin-left: 2.4em;
 }
 
-/* line 1142, ../sass/application.sass */
+/* line 1215, ../sass/application.scss */
 blockquote blockquote {
   margin-left: 0;
 }
 
-/* line 1145, ../sass/application.sass */
+/* line 1219, ../sass/application.scss */
 abbr {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 1149, ../sass/application.sass */
+/* line 1224, ../sass/application.scss */
 textarea.wiki-edit {
   width: 99% !important;
   resize: vertical;
   margin-bottom: 1em;
 }
 
-/* line 1154, ../sass/application.sass */
+/* line 1230, ../sass/application.scss */
 div.issue {
-  background: #F9F9F9 !important;
+  background: #f9f9f9 !important;
   margin-bottom: 1em;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #cccccc;
   padding: 2em;
   border-radius: 4px;
 }
-/* line 1161, ../sass/application.sass */
+/* line 1236, ../sass/application.scss */
 div.issue div.subject {
   padding-left: 4.5em;
 }
-/* line 1164, ../sass/application.sass */
+/* line 1239, ../sass/application.scss */
 div.issue .author {
   margin: 0.3em 0 0;
   padding-left: 4.5em;
 }
-/* line 1168, ../sass/application.sass */
+/* line 1243, ../sass/application.scss */
 div.issue .attributes {
   margin-top: 2em;
 }
-/* line 1171, ../sass/application.sass */
+/* line 1246, ../sass/application.scss */
 div.issue .contextual {
   top: 0 !important;
 }
-/* line 1176, ../sass/application.sass */
+/* line 1250, ../sass/application.scss */
 div.issue table.issues tr:last-child td {
   border-bottom: 0 !important;
 }
 
-/* line 1179, ../sass/application.sass */
+/* line 1256, ../sass/application.scss */
 p.breadcrumb {
   font-size: 0.9em;
   margin: 1em 0;
 }
 
-/* line 1183, ../sass/application.sass */
+/* line 1261, ../sass/application.scss */
 p.subtitle {
   font-size: 0.9em;
   font-style: italic;
   margin: -6px 0 12px;
 }
 
-/* line 1188, ../sass/application.sass */
+/* line 1267, ../sass/application.scss */
 p.footnote {
   font-size: 0.9em;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-/* line 1193, ../sass/application.sass */
+/* line 1273, ../sass/application.scss */
 div.issue div.subject p {
   font-size: 90%;
   margin: 0 0 0.3em;
 }
 
-/* line 1197, ../sass/application.sass */
+/* line 1278, ../sass/application.scss */
 div.issue div.subject h3 {
   margin: 0 0 0.1em;
 }
 
-/* line 1200, ../sass/application.sass */
+/* line 1282, ../sass/application.scss */
 div.issue span.private {
   position: relative;
   bottom: 2px;
   text-transform: uppercase;
-  background: #d22;
-  color: #fff;
+  background: #dd2222;
+  color: white;
   font-weight: 700;
   font-size: 60%;
   margin-right: 2px;
@@ -7724,68 +7724,68 @@ div.issue span.private {
   padding: 0 2px;
 }
 
-/* line 1212, ../sass/application.sass */
+/* line 1295, ../sass/application.scss */
 div.issue table.attributes td {
   width: 28%;
 }
 
-/* line 1215, ../sass/application.sass */
+/* line 1299, ../sass/application.scss */
 fieldset.collapsible > legend {
   cursor: pointer;
 }
-/* line 1219, ../sass/application.sass */
+/* line 1302, ../sass/application.scss */
 fieldset.collapsible > legend:before {
   margin-right: 0.5em;
 }
 
-/* line 1226, ../sass/application.sass */
+/* line 1312, ../sass/application.scss */
 fieldset#date-range p {
   margin: 2px 0;
 }
 
-/* line 1229, ../sass/application.sass */
+/* line 1316, ../sass/application.scss */
 fieldset#filters table {
   border-collapse: collapse;
 }
 
-/* line 1232, ../sass/application.sass */
+/* line 1320, ../sass/application.scss */
 fieldset#filters table td {
   vertical-align: middle;
   padding: 0;
 }
 
-/* line 1236, ../sass/application.sass */
+/* line 1325, ../sass/application.scss */
 fieldset#filters tr.filter {
   height: 2.1em;
 }
 
-/* line 1239, ../sass/application.sass */
+/* line 1329, ../sass/application.scss */
 fieldset#filters td.field {
   width: 230px;
 }
 
-/* line 1242, ../sass/application.sass */
+/* line 1333, ../sass/application.scss */
 fieldset#filters td.operator {
   width: 180px;
 }
 
-/* line 1245, ../sass/application.sass */
+/* line 1337, ../sass/application.scss */
 fieldset#filters td.operator select {
   max-width: 170px;
 }
 
-/* line 1248, ../sass/application.sass */
+/* line 1341, ../sass/application.scss */
 fieldset#filters td.values select {
   min-width: 130px;
 }
 
-/* line 1251, ../sass/application.sass */
+/* line 1345, ../sass/application.scss */
 fieldset#filters td.add-filter {
   text-align: right;
   vertical-align: top;
 }
 
-/* line 1255, ../sass/application.sass */
+/* line 1350, ../sass/application.scss */
 .toggle-multiselect {
   background: url(../images/bullet_toggle_plus.png) no-repeat 0 40%;
   padding-left: 8px;
@@ -7793,312 +7793,312 @@ fieldset#filters td.add-filter {
   cursor: pointer;
 }
 
-/* line 1261, ../sass/application.sass */
+/* line 1357, ../sass/application.scss */
 .buttons {
   margin-bottom: 1.4em;
   margin-top: 1em;
 }
-/* line 1265, ../sass/application.sass */
+/* line 1360, ../sass/application.scss */
 .buttons a:before, .buttons .icon-add.checklist-new-only:before {
   vertical-align: middle;
   display: inline-block;
   margin-right: 0.5em;
 }
-/* line 1270, ../sass/application.sass */
+/* line 1365, ../sass/application.scss */
 .buttons a + a:before, .buttons .icon-add.checklist-new-only + a:before, .buttons a + .icon-add.checklist-new-only:before, .buttons .icon-add.checklist-new-only + .icon-add.checklist-new-only:before {
   margin-left: 1em;
 }
 
-/* line 1273, ../sass/application.sass */
+/* line 1370, ../sass/application.scss */
 div#issue-changesets {
   float: right;
   width: 45%;
   margin-left: 1em;
   margin-bottom: 1em;
-  background: #fff;
+  background: white;
   padding-left: 1em;
   font-size: 90%;
 }
 
-/* line 1282, ../sass/application.sass */
+/* line 1380, ../sass/application.scss */
 div#issue-changesets div.changeset {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
   padding: 4px;
 }
 
-/* line 1286, ../sass/application.sass */
+/* line 1385, ../sass/application.scss */
 div#issue-changesets p {
   margin-top: 0;
   margin-bottom: 1em;
 }
 
-/* line 1292, ../sass/application.sass */
+/* line 1391, ../sass/application.scss */
 .journal ul.details {
   list-style-type: none;
   padding-left: 0;
   color: #777777;
 }
-/* line 1297, ../sass/application.sass */
+/* line 1395, ../sass/application.scss */
 .journal ul.details img {
   margin: 0 0 -3px 4px;
 }
 
-/* line 1300, ../sass/application.sass */
+/* line 1401, ../sass/application.scss */
 div.journal.private-notes {
-  border-left: 2px solid #F2F2F2;
+  border-left: 2px solid #f2f2f2;
   padding-left: 4px;
   margin-left: -6px;
 }
 
-/* line 1305, ../sass/application.sass */
+/* line 1407, ../sass/application.scss */
 div#activity dl, #search-results {
   margin-left: 0;
 }
 
-/* line 1308, ../sass/application.sass */
+/* line 1411, ../sass/application.scss */
 div#activity dd, #search-results dd {
   margin-bottom: 1em;
   padding-left: 2.8em;
   font-size: 0.9em;
 }
 
-/* line 1313, ../sass/application.sass */
+/* line 1417, ../sass/application.scss */
 div#activity dt, #search-results dt {
   margin-bottom: 0;
   line-height: 18px;
 }
 
-/* line 1317, ../sass/application.sass */
+/* line 1422, ../sass/application.scss */
 div#activity dt.me .time {
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 
-/* line 1320, ../sass/application.sass */
+/* line 1426, ../sass/application.scss */
 div#activity dt .time {
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 80%;
 }
 
-/* line 1324, ../sass/application.sass */
+/* line 1431, ../sass/application.scss */
 div#activity span.project:after, #search-results span.project:after {
   content: " -";
 }
 
-/* line 1327, ../sass/application.sass */
+/* line 1435, ../sass/application.scss */
 div#activity dd span.description, #search-results dd span.description {
   display: block;
   color: #777777;
 }
 
-/* line 1331, ../sass/application.sass */
+/* line 1440, ../sass/application.scss */
 div#activity dt.grouped {
   margin-left: 2.8em;
 }
 
-/* line 1334, ../sass/application.sass */
+/* line 1444, ../sass/application.scss */
 div#activity dd.grouped {
   margin-left: 9em;
 }
 
-/* line 1337, ../sass/application.sass */
+/* line 1448, ../sass/application.scss */
 #search-results dd {
   margin-bottom: 1em;
   padding-left: 20px;
   margin-left: 0;
 }
 
-/* line 1342, ../sass/application.sass */
+/* line 1454, ../sass/application.scss */
 div#search-results-counts li {
   list-style-type: none;
   float: left;
   margin-left: 1em;
 }
 
-/* line 1347, ../sass/application.sass */
+/* line 1460, ../sass/application.scss */
 dt.issue-note {
   background-image: url(../images/ticket_note.png);
 }
 
-/* line 1351, ../sass/application.sass */
+/* line 1464, ../sass/application.scss */
 dt.news {
   background-image: url(../images/news.png);
 }
 
-/* line 1354, ../sass/application.sass */
+/* line 1468, ../sass/application.scss */
 dt.message {
   background-image: url(../images/message.png);
 }
 
-/* line 1357, ../sass/application.sass */
+/* line 1472, ../sass/application.scss */
 dt.reply {
   background-image: url(../images/comments.png);
 }
 
-/* line 1360, ../sass/application.sass */
+/* line 1476, ../sass/application.scss */
 dt.wiki-page {
   background-image: url(../images/wiki_edit.png);
 }
 
-/* line 1363, ../sass/application.sass */
+/* line 1480, ../sass/application.scss */
 dt.document {
   background-image: url(../images/document.png);
 }
 
-/* line 1366, ../sass/application.sass */
+/* line 1484, ../sass/application.scss */
 div#roadmap .wiki h2 {
   font-size: 110%;
 }
 
-/* line 1369, ../sass/application.sass */
+/* line 1488, ../sass/application.scss */
 body.controller-versions.action-show div#roadmap .related-issues {
   width: 70%;
 }
 
-/* line 1372, ../sass/application.sass */
+/* line 1492, ../sass/application.scss */
 div#version-summary {
   float: right;
   width: 28%;
   margin-left: 16px;
   margin-bottom: 16px;
-  background-color: #fff;
+  background-color: white;
 }
 
-/* line 1379, ../sass/application.sass */
+/* line 1500, ../sass/application.scss */
 table#time-report td.hours, table#time-report th.period, table#time-report th.total {
   text-align: right;
   padding-right: 0.5em;
 }
 
-/* line 1383, ../sass/application.sass */
+/* line 1505, ../sass/application.scss */
 table#time-report tbody tr.subtotal {
   font-style: italic;
-  color: #777;
+  color: #777777;
 }
 
-/* line 1387, ../sass/application.sass */
+/* line 1510, ../sass/application.scss */
 table#time-report tbody tr.subtotal td.hours {
   color: #b0b0b0;
 }
 
-/* line 1391, ../sass/application.sass */
+/* line 1514, ../sass/application.scss */
 table#time-report tbody tr.total {
   font-weight: 700;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border-top: 1px solid #e4e4e4;
 }
 
-/* line 1396, ../sass/application.sass */
+/* line 1520, ../sass/application.scss */
 div.wiki-page .contextual a, div.wiki-page .contextual .icon-add.checklist-new-only {
   opacity: 0.4;
 }
 
-/* line 1399, ../sass/application.sass */
+/* line 1524, ../sass/application.scss */
 form .attributes select {
   width: 60%;
 }
 
-/* line 1402, ../sass/application.sass */
+/* line 1528, ../sass/application.scss */
 select#issue_done_ratio {
   width: 95px;
 }
 
-/* line 1405, ../sass/application.sass */
+/* line 1532, ../sass/application.scss */
 ul.projects {
   padding-left: 1em;
   margin: 0;
 }
 
-/* line 1409, ../sass/application.sass */
+/* line 1537, ../sass/application.scss */
 ul.projects ul {
   padding-left: 1.6em;
 }
 
-/* line 1412, ../sass/application.sass */
+/* line 1541, ../sass/application.scss */
 #projects-index ul.projects ul.projects {
   border-left: 3px solid #e0e0e0;
   padding-left: 1em;
 }
 
-/* line 1416, ../sass/application.sass */
+/* line 1546, ../sass/application.scss */
 #projects-index ul.projects li.child {
   margin-top: 1em;
 }
 
-/* line 1419, ../sass/application.sass */
+/* line 1550, ../sass/application.scss */
 #projects-index ul.projects div.root a.project, #projects-index ul.projects div.root .project.icon-add.checklist-new-only {
   font-weight: 700;
   font-size: 16px;
   margin: 0 0 10px;
 }
 
-/* line 1424, ../sass/application.sass */
+/* line 1556, ../sass/application.scss */
 .my-project {
   color: #777777;
 }
-/* line 1428, ../sass/application.sass */
+/* line 1559, ../sass/application.scss */
 .my-project:before {
   margin-right: 0.5em;
   color: #f39c12;
 }
 
-/* line 1433, ../sass/application.sass */
+/* line 1566, ../sass/application.scss */
 #notified-projects > ul, #tracker_project_ids > ul, #custom_field_project_ids > ul {
   max-height: 250px;
   overflow-y: auto;
 }
 
-/* line 1437, ../sass/application.sass */
+/* line 1571, ../sass/application.scss */
 ul.properties {
   font-size: 0.9em;
-  color: #777;
+  color: #777777;
   padding: 0;
 }
 
-/* line 1442, ../sass/application.sass */
+/* line 1577, ../sass/application.scss */
 .total-hours {
   font-size: 110%;
   font-weight: 700;
 }
 
-/* line 1446, ../sass/application.sass */
+/* line 1582, ../sass/application.scss */
 .autoscroll {
   overflow-x: auto;
   margin-bottom: 1.2em;
   padding: 1px;
 }
 
-/* line 1451, ../sass/application.sass */
+/* line 1588, ../sass/application.scss */
 #workflow_copy_form select {
   width: 200px;
 }
 
-/* line 1454, ../sass/application.sass */
+/* line 1592, ../sass/application.scss */
 table.transitions td.enabled {
-  background: #bfb;
+  background: #bbffbb;
 }
 
-/* line 1457, ../sass/application.sass */
+/* line 1596, ../sass/application.scss */
 table.fields_permissions select {
   font-size: 90%;
 }
 
-/* line 1460, ../sass/application.sass */
+/* line 1600, ../sass/application.scss */
 table.fields_permissions td.readonly {
-  background: #ddd;
+  background: #dddddd;
 }
 
-/* line 1463, ../sass/application.sass */
+/* line 1604, ../sass/application.scss */
 table.fields_permissions td.required {
-  background: #d88;
+  background: #dd8888;
 }
 
-/* line 1466, ../sass/application.sass */
+/* line 1608, ../sass/application.scss */
 p.pagination {
   margin-top: 8px;
   font-size: 90%;
 }
 
-/* line 1472, ../sass/application.sass */
+/* line 1614, ../sass/application.scss */
 .tabular p {
   min-height: 1.8em;
   clear: left;
@@ -8106,20 +8106,20 @@ p.pagination {
   padding-left: 15em;
   margin-bottom: 1em;
 }
-/* line 1479, ../sass/application.sass */
+/* line 1620, ../sass/application.scss */
 .tabular p.live_search {
   font-size: 1em;
 }
-/* line 1482, ../sass/application.sass */
+/* line 1622, ../sass/application.scss */
 .tabular p.live_search:before {
   left: 15.6em;
   top: 0.3em;
 }
-/* line 1486, ../sass/application.sass */
+/* line 1628, ../sass/application.scss */
 .tabular span[title] {
-  border-bottom: 1px dotted #F2F2F2;
+  border-bottom: 1px dotted #f2f2f2;
 }
-/* line 1489, ../sass/application.sass */
+/* line 1631, ../sass/application.scss */
 .tabular label {
   font-weight: 600;
   float: left;
@@ -8128,14 +8128,14 @@ p.pagination {
   width: 14em;
   vertical-align: middle;
 }
-/* line 1497, ../sass/application.sass */
+/* line 1638, ../sass/application.scss */
 .tabular label.floating {
   font-weight: 400;
   margin-left: 0;
   text-align: left;
   width: 18em;
 }
-/* line 1503, ../sass/application.sass */
+/* line 1644, ../sass/application.scss */
 .tabular label.block {
   font-weight: 400;
   margin-left: 0 !important;
@@ -8144,24 +8144,24 @@ p.pagination {
   display: block;
   width: auto !important;
 }
-/* line 1511, ../sass/application.sass */
+/* line 1652, ../sass/application.scss */
 .tabular label.inline {
   font-weight: 400;
   float: none;
   margin-left: 0.5em !important;
   width: auto;
 }
-/* line 1519, ../sass/application.sass */
+/* line 1660, ../sass/application.scss */
 .tabular .settings p {
   padding-left: 20em;
 }
-/* line 1522, ../sass/application.sass */
+/* line 1663, ../sass/application.scss */
 .tabular .settings label {
   margin-left: -20em;
   width: 19.5em;
 }
 
-/* line 1526, ../sass/application.sass */
+/* line 1670, ../sass/application.scss */
 label.no-css {
   font-weight: inherit;
   float: none;
@@ -8170,30 +8170,30 @@ label.no-css {
   width: auto;
 }
 
-/* line 1533, ../sass/application.sass */
+/* line 1678, ../sass/application.scss */
 #preview fieldset {
   margin-top: 1em;
   background: url(../images/draft.png);
 }
 
-/* line 1537, ../sass/application.sass */
+/* line 1683, ../sass/application.scss */
 span.required {
   color: #bb0000;
 }
 
-/* line 1540, ../sass/application.sass */
+/* line 1687, ../sass/application.scss */
 .check_box_group {
   display: block;
   width: 95%;
   max-height: 300px;
   overflow-y: auto;
-  background: #fff;
-  border: 1px solid #9EB1C2;
+  background: white;
+  border: 1px solid #9eb1c2;
   border-radius: 2px;
   padding: 2px 4px 4px 2px;
 }
 
-/* line 1550, ../sass/application.sass */
+/* line 1698, ../sass/application.scss */
 .check_box_group label {
   font-weight: 400;
   margin-left: 0 !important;
@@ -8203,46 +8203,46 @@ span.required {
   width: auto;
 }
 
-/* line 1558, ../sass/application.sass */
+/* line 1707, ../sass/application.scss */
 .check_box_group.bool_cf {
   border: 0;
   background: inherit;
 }
 
-/* line 1562, ../sass/application.sass */
+/* line 1712, ../sass/application.scss */
 #attachments_fields input.description {
   margin-left: 4px;
   width: 340px;
 }
 
-/* line 1566, ../sass/application.sass */
+/* line 1717, ../sass/application.scss */
 #attachments_fields span {
   display: block;
   white-space: nowrap;
 }
 
-/* line 1570, ../sass/application.sass */
+/* line 1722, ../sass/application.scss */
 #attachments_fields input.filename {
   border: 0;
   height: 1.8em;
   width: 250px;
-  color: #555;
+  color: #555555;
   background-color: inherit;
   background: url(../images/attachment.png) no-repeat 1px 50%;
   padding-left: 18px;
 }
 
-/* line 1579, ../sass/application.sass */
+/* line 1732, ../sass/application.scss */
 #attachments_fields .ajax-waiting input.filename {
   background: url(../images/hourglass.png) no-repeat 0 50%;
 }
 
-/* line 1582, ../sass/application.sass */
+/* line 1736, ../sass/application.scss */
 #attachments_fields .ajax-loading input.filename {
   background: url(../images/loading.gif) no-repeat 0 50%;
 }
 
-/* line 1585, ../sass/application.sass */
+/* line 1740, ../sass/application.scss */
 #attachments_fields div.ui-progressbar {
   width: 100px;
   height: 14px;
@@ -8250,7 +8250,7 @@ span.required {
   margin: 2px 0 -5px 8px;
 }
 
-/* line 1591, ../sass/application.sass */
+/* line 1747, ../sass/application.scss */
 a.remove-upload, .remove-upload.icon-add.checklist-new-only {
   background: url(../images/delete.png) no-repeat 1px 50%;
   width: 1px;
@@ -8258,51 +8258,51 @@ a.remove-upload, .remove-upload.icon-add.checklist-new-only {
   padding-left: 16px;
 }
 
-/* line 1597, ../sass/application.sass */
+/* line 1754, ../sass/application.scss */
 a.remove-upload:hover, .remove-upload.icon-add.checklist-new-only:hover {
   text-decoration: none !important;
 }
 
-/* line 1600, ../sass/application.sass */
+/* line 1758, ../sass/application.scss */
 div.fileover {
   background-color: lavender;
 }
 
-/* line 1603, ../sass/application.sass */
+/* line 1762, ../sass/application.scss */
 div.attachments {
   margin-top: 12px;
 }
 
-/* line 1606, ../sass/application.sass */
+/* line 1766, ../sass/application.scss */
 div.attachments p {
   margin: 4px 0 2px;
 }
 
-/* line 1609, ../sass/application.sass */
+/* line 1770, ../sass/application.scss */
 div.attachments span.author {
   font-size: 0.9em;
-  color: #888;
+  color: #888888;
 }
 
-/* line 1613, ../sass/application.sass */
+/* line 1775, ../sass/application.scss */
 div.thumbnails {
   margin-top: 0.6em;
 }
 
-/* line 1616, ../sass/application.sass */
+/* line 1779, ../sass/application.scss */
 div.thumbnails div {
-  background: #fff;
-  border: 2px solid #ddd;
+  background: white;
+  border: 2px solid #dddddd;
   display: inline-block;
   margin-right: 2px;
 }
 
-/* line 1622, ../sass/application.sass */
+/* line 1786, ../sass/application.scss */
 div.thumbnails img {
   margin: 3px;
 }
 
-/* line 1625, ../sass/application.sass */
+/* line 1790, ../sass/application.scss */
 p.other-formats {
   display: block;
   text-align: right;
@@ -8316,47 +8316,47 @@ p.other-formats::after {
   display: table;
 }
 
-/* line 1631, ../sass/application.sass */
+/* line 1797, ../sass/application.scss */
 .other-formats span + span:before {
   content: "| ";
 }
 
-/* line 1634, ../sass/application.sass */
+/* line 1801, ../sass/application.scss */
 a.atom, .atom.icon-add.checklist-new-only {
   background: url(../images/feed.png) no-repeat 1px 50%;
   padding: 2px 0 3px 16px;
 }
 
-/* line 1638, ../sass/application.sass */
+/* line 1806, ../sass/application.scss */
 em.info {
   font-style: normal;
   font-size: 90%;
-  color: #888;
+  color: #888888;
   display: block;
 }
 
-/* line 1644, ../sass/application.sass */
+/* line 1813, ../sass/application.scss */
 em.info.error {
   padding-left: 20px;
   background: url(../images/exclamation.png) no-repeat 0 50%;
 }
 
-/* line 1648, ../sass/application.sass */
+/* line 1818, ../sass/application.scss */
 input.string_cf, input.link_cf {
   width: 95%;
 }
 
-/* line 1651, ../sass/application.sass */
+/* line 1822, ../sass/application.scss */
 select.bool_cf {
   width: auto !important;
 }
 
-/* line 1654, ../sass/application.sass */
+/* line 1826, ../sass/application.scss */
 #tab-content-modules fieldset p {
   margin: 3px 0 4px;
 }
 
-/* line 1657, ../sass/application.sass */
+/* line 1830, ../sass/application.scss */
 #tab-content-members .splitcontentleft, #tab-content-memberships .splitcontentleft, #tab-content-users .splitcontentleft {
   float: left;
   display: block;
@@ -8368,7 +8368,7 @@ select.bool_cf {
   margin-right: 0;
 }
 
-/* line 1660, ../sass/application.sass */
+/* line 1834, ../sass/application.scss */
 #tab-content-members .splitcontentright, #tab-content-memberships .splitcontentright, #tab-content-users .splitcontentright {
   float: left;
   display: block;
@@ -8380,60 +8380,60 @@ select.bool_cf {
   margin-right: 0;
 }
 
-/* line 1663, ../sass/application.sass */
+/* line 1838, ../sass/application.scss */
 #tab-content-members fieldset, #tab-content-memberships fieldset, #tab-content-users fieldset {
   margin-bottom: 1em;
   padding: 1em;
 }
 
-/* line 1667, ../sass/application.sass */
+/* line 1843, ../sass/application.scss */
 #tab-content-members #principals, #tab-content-users #principals {
   max-height: 400px;
   overflow: auto;
 }
 
-/* line 1671, ../sass/application.sass */
+/* line 1848, ../sass/application.scss */
 #users_for_watcher {
   height: 200px;
   overflow: auto;
 }
 
-/* line 1675, ../sass/application.sass */
+/* line 1853, ../sass/application.scss */
 table.members td.group {
   padding-left: 20px;
   background: url(../images/group.png) no-repeat 0 50%;
 }
 
-/* line 1679, ../sass/application.sass */
+/* line 1858, ../sass/application.scss */
 .live_search {
   position: relative;
   font-size: 0.7em;
 }
-/* line 1683, ../sass/application.sass */
+/* line 1861, ../sass/application.scss */
 .live_search.normal {
   font-size: 1em;
 }
 
-/* line 1686, ../sass/application.sass */
+/* line 1866, ../sass/application.scss */
 span.icon-search {
   position: relative;
 }
-/* line 1690, ../sass/application.sass */
+/* line 1869, ../sass/application.scss */
 span.icon-search:before {
   position: absolute;
   top: 0.2em;
   left: 0.5em;
-  color: #CCCCCC;
+  color: #cccccc;
   z-index: 5;
 }
 
-/* line 1700, ../sass/application.sass */
+/* line 1880, ../sass/application.scss */
 th.live_search:before {
   top: 1.1em;
   left: 1em;
 }
 
-/* line 1704, ../sass/application.sass */
+/* line 1886, ../sass/application.scss */
 input.autocomplete, input.live_search_field, input.questions-search {
   padding-left: 2em !important;
   padding-right: 1.5em !important;
@@ -8446,64 +8446,64 @@ input.autocomplete, input.live_search_field, input.questions-search {
   background: white !important;
   z-index: 0;
 }
-/* line 1714, ../sass/application.sass */
+/* line 1895, ../sass/application.scss */
 input.autocomplete.ajax-loading, input.live_search_field.ajax-loading, input.questions-search.ajax-loading {
   background: url(../images/loading.gif) no-repeat 97% center !important;
 }
 
-/* line 1717, ../sass/application.sass */
+/* line 1900, ../sass/application.scss */
 input.questions-search {
   width: 100% !important;
 }
-/* line 1720, ../sass/application.sass */
+/* line 1902, ../sass/application.scss */
 input.questions-search.ajax-loading {
   background-position: 98% center !important;
 }
 
-/* line 1723, ../sass/application.sass */
+/* line 1907, ../sass/application.scss */
 #errorExplanation, div.flash, .nodata, .warning, .conflict {
   margin: 2em 0;
   font-size: 1.1em;
   padding: 1em;
   border-radius: 4px;
 }
-/* line 1729, ../sass/application.sass */
+/* line 1912, ../sass/application.scss */
 #errorExplanation ul, div.flash ul, .nodata ul, .warning ul, .conflict ul {
   margin: 0;
   padding-left: 1em;
 }
 
-/* line 1733, ../sass/application.sass */
+/* line 1918, ../sass/application.scss */
 div.flash.error, #errorExplanation {
   background: red;
   color: white;
 }
 
-/* line 1737, ../sass/application.sass */
+/* line 1923, ../sass/application.scss */
 div.flash.notice {
   background-color: #2ecc71;
   color: #176437;
 }
 
-/* line 1741, ../sass/application.sass */
+/* line 1928, ../sass/application.scss */
 div.flash.warning, .conflict {
   background-color: #f39c12;
   color: #7f5006;
   text-align: left;
 }
 
-/* line 1746, ../sass/application.sass */
+/* line 1934, ../sass/application.scss */
 .nodata, .warning {
   text-align: center;
   background-color: #f39c12;
   color: #7f5006;
 }
 
-/* line 1751, ../sass/application.sass */
+/* line 1940, ../sass/application.scss */
 #ajax-indicator {
   position: absolute;
-  background-color: #eee;
-  border: 1px solid #bbb;
+  background-color: #eeeeee;
+  border: 1px solid #bbbbbb;
   top: 35%;
   left: 40%;
   width: 20%;
@@ -8514,12 +8514,12 @@ div.flash.warning, .conflict {
   padding: 0.6em;
 }
 
-/* line 1764, ../sass/application.sass */
+/* line 1954, ../sass/application.scss */
 html > body #ajax-indicator {
   position: fixed;
 }
 
-/* line 1767, ../sass/application.sass */
+/* line 1958, ../sass/application.scss */
 #ajax-indicator span {
   background-position: 0 40%;
   background-repeat: no-repeat;
@@ -8528,7 +8528,7 @@ html > body #ajax-indicator {
   vertical-align: bottom;
 }
 
-/* line 1774, ../sass/application.sass */
+/* line 1966, ../sass/application.scss */
 table.cal {
   border-collapse: collapse;
   width: 100%;
@@ -8536,112 +8536,112 @@ table.cal {
   margin: 0 0 6px;
 }
 
-/* line 1780, ../sass/application.sass */
+/* line 1973, ../sass/application.scss */
 table.cal thead th {
   width: 14%;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   padding: 4px;
 }
 
-/* line 1785, ../sass/application.sass */
+/* line 1979, ../sass/application.scss */
 table.cal thead th.week-number {
   width: auto;
 }
 
-/* line 1788, ../sass/application.sass */
+/* line 1983, ../sass/application.scss */
 table.cal tbody tr {
   height: 100px;
 }
 
-/* line 1791, ../sass/application.sass */
+/* line 1987, ../sass/application.scss */
 table.cal td {
   border: 1px solid #d7d7d7;
   vertical-align: top;
   font-size: 0.9em;
 }
 
-/* line 1796, ../sass/application.sass */
+/* line 1993, ../sass/application.scss */
 table.cal td.week-number {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border: none;
   font-size: 1em;
   padding: 4px;
 }
 
-/* line 1802, ../sass/application.sass */
+/* line 2000, ../sass/application.scss */
 table.cal td p.day-num {
   font-size: 1.1em;
   text-align: right;
 }
 
-/* line 1806, ../sass/application.sass */
+/* line 2005, ../sass/application.scss */
 table.cal td.odd p.day-num {
-  color: #bbb;
+  color: #bbbbbb;
 }
 
-/* line 1809, ../sass/application.sass */
+/* line 2009, ../sass/application.scss */
 table.cal td.today {
   background: #ffffdd;
 }
 
-/* line 1815, ../sass/application.sass */
+/* line 2015, ../sass/application.scss */
 table.cal .starting a:before, table.cal .starting .icon-add.checklist-new-only:before, p.cal.legend .starting:before {
   margin-right: 0.5em;
   color: #2ecc71;
 }
 
-/* line 1823, ../sass/application.sass */
+/* line 2024, ../sass/application.scss */
 table.cal .ending a:before, table.cal .ending .icon-add.checklist-new-only:before, p.cal.legend .ending:before {
   margin-right: 0.5em;
-  color: #CB232F;
+  color: #cb232f;
 }
 
-/* line 1831, ../sass/application.sass */
+/* line 2033, ../sass/application.scss */
 table.cal .starting.ending a:before, table.cal .starting.ending .icon-add.checklist-new-only:before, p.cal.legend .starting.ending:before {
   margin-right: 0.5em;
-  color: #CB232F;
+  color: #cb232f;
 }
 
-/* line 1836, ../sass/application.sass */
+/* line 2040, ../sass/application.scss */
 .tooltip {
   position: relative;
   z-index: 24;
 }
 
-/* line 1840, ../sass/application.sass */
+/* line 2045, ../sass/application.scss */
 .tooltip:hover {
   z-index: 25;
-  color: #000;
+  color: black;
 }
 
-/* line 1844, ../sass/application.sass */
+/* line 2050, ../sass/application.scss */
 .tooltip span.tip {
   display: none;
   text-align: left;
 }
 
-/* line 1848, ../sass/application.sass */
+/* line 2055, ../sass/application.scss */
 div.tooltip:hover span.tip {
   display: block;
   position: absolute;
   top: 12px;
   left: 24px;
   width: 270px;
-  border: 1px solid #555;
-  background-color: #fff;
+  border: 1px solid #555555;
+  background-color: white;
   font-size: 0.8em;
   color: #505050;
   padding: 4px;
 }
 
-/* line 1860, ../sass/application.sass */
+/* line 2068, ../sass/application.scss */
 img.ui-datepicker-trigger {
   cursor: pointer;
   vertical-align: middle;
   margin-left: 4px;
 }
 
-/* line 1865, ../sass/application.sass */
+/* line 2074, ../sass/application.scss */
 table.progress {
   border-collapse: collapse;
   border-spacing: 0;
@@ -8651,51 +8651,51 @@ table.progress {
   margin: 1px 6px 1px 0;
 }
 
-/* line 1873, ../sass/application.sass */
+/* line 2083, ../sass/application.scss */
 table.progress td.closed {
-  background: #BAE0BA none repeat scroll 0;
+  background: #bae0ba none repeat scroll 0;
 }
 
-/* line 1876, ../sass/application.sass */
+/* line 2087, ../sass/application.scss */
 table.progress td.done {
-  background: #D3EDD3 none repeat scroll 0;
+  background: #d3edd3 none repeat scroll 0;
 }
 
-/* line 1879, ../sass/application.sass */
+/* line 2091, ../sass/application.scss */
 table.progress td.todo {
-  background: #eee none repeat scroll 0;
+  background: #eeeeee none repeat scroll 0;
 }
 
-/* line 1882, ../sass/application.sass */
+/* line 2095, ../sass/application.scss */
 p.progress-info {
   clear: left;
   font-size: 80%;
   margin-top: -4px;
-  color: #777;
+  color: #777777;
 }
 
-/* line 1888, ../sass/application.sass */
+/* line 2102, ../sass/application.scss */
 #roadmap table.progress td {
   height: 1.2em;
 }
 
-/* line 1891, ../sass/application.sass */
+/* line 2106, ../sass/application.scss */
 #content .tabs {
   height: 3.6em;
   margin-bottom: 1.2em;
   position: relative;
   overflow: hidden;
 }
-/* line 1897, ../sass/application.sass */
+/* line 2111, ../sass/application.scss */
 #content .tabs ul {
   position: absolute;
   bottom: 0;
   width: 2000px;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
   margin: 0;
   padding: 0;
 }
-/* line 1905, ../sass/application.sass */
+/* line 2118, ../sass/application.scss */
 #content .tabs ul li {
   float: left;
   list-style-type: none;
@@ -8704,12 +8704,12 @@ p.progress-info {
   background: white;
   position: relative;
 }
-/* line 1913, ../sass/application.sass */
+/* line 2125, ../sass/application.scss */
 #content .tabs ul li a, #content .tabs ul li .icon-add.checklist-new-only {
   display: block;
   text-decoration: none;
   line-height: 1.3em;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f2f2f2;
   border-bottom: 0;
   background-color: white;
   border-top-left-radius: 4px;
@@ -8718,31 +8718,31 @@ p.progress-info {
   color: #777777;
   font-size: 0.9em;
 }
-/* line 1926, ../sass/application.sass */
+/* line 2137, ../sass/application.scss */
 #content .tabs ul li a:hover, #content .tabs ul li .icon-add.checklist-new-only:hover {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   text-decoration: none;
 }
-/* line 1930, ../sass/application.sass */
+/* line 2141, ../sass/application.scss */
 #content .tabs ul li a.selected, #content .tabs ul li .selected.icon-add.checklist-new-only {
   background-color: white;
-  border-color: #CCCCCC;
+  border-color: #cccccc;
   box-shadow: 0 2px 0 white;
   font-weight: 600;
   color: #333333;
 }
 
-/* line 1937, ../sass/application.sass */
+/* line 2153, ../sass/application.scss */
 div.tabs-buttons {
   position: absolute;
   right: 0;
   width: 3em;
   background: white;
   bottom: 0;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 
-/* line 1945, ../sass/application.sass */
+/* line 2162, ../sass/application.scss */
 button.tab-left, button.tab-right {
   cursor: pointer;
   position: absolute;
@@ -8751,41 +8751,41 @@ button.tab-left, button.tab-right {
   padding: 1em 0;
   text-align: center;
   border: 0 !important;
-  color: #CCCCCC;
+  color: #cccccc;
   background: none !important;
 }
 
-/* line 1959, ../sass/application.sass */
+/* line 2177, ../sass/application.scss */
 button.tab-left {
   left: 0;
 }
 
-/* line 1963, ../sass/application.sass */
+/* line 2182, ../sass/application.scss */
 button.tab-right {
   right: 0;
 }
 
-/* line 1967, ../sass/application.sass */
+/* line 2187, ../sass/application.scss */
 .diff_out {
-  background: #fcc;
+  background: #ffcccc;
 }
 
-/* line 1970, ../sass/application.sass */
+/* line 2191, ../sass/application.scss */
 .diff_out span {
-  background: #faa;
+  background: #ffaaaa;
 }
 
-/* line 1973, ../sass/application.sass */
+/* line 2195, ../sass/application.scss */
 .diff_in {
-  background: #cfc;
+  background: #ccffcc;
 }
 
-/* line 1976, ../sass/application.sass */
+/* line 2199, ../sass/application.scss */
 .diff_in span {
-  background: #afa;
+  background: #aaffaa;
 }
 
-/* line 1979, ../sass/application.sass */
+/* line 2203, ../sass/application.scss */
 .text-diff {
   background-color: #f6f6f6;
   color: #505050;
@@ -8793,19 +8793,19 @@ button.tab-right {
   padding: 1em;
 }
 
-/* line 1985, ../sass/application.sass */
+/* line 2210, ../sass/application.scss */
 div.wiki table {
   border-collapse: collapse;
   margin-bottom: 1em;
 }
 
-/* line 1989, ../sass/application.sass */
+/* line 2215, ../sass/application.scss */
 div.wiki table, div.wiki td, div.wiki th {
-  border: 1px solid #bbb;
+  border: 1px solid #bbbbbb;
   padding: 4px;
 }
 
-/* line 1993, ../sass/application.sass */
+/* line 2220, ../sass/application.scss */
 div.wiki .external {
   background-position: 0 60%;
   background-repeat: no-repeat;
@@ -8813,12 +8813,12 @@ div.wiki .external {
   background-image: url(../images/external.png);
 }
 
-/* line 1999, ../sass/application.sass */
+/* line 2227, ../sass/application.scss */
 div.wiki a.new, div.wiki .new.icon-add.checklist-new-only {
   color: #b73535;
 }
 
-/* line 2002, ../sass/application.sass */
+/* line 2231, ../sass/application.scss */
 div.wiki pre {
   background-color: #fafafa;
   border: 1px solid #e2e2e2;
@@ -8829,7 +8829,7 @@ div.wiki pre {
   padding: 8px;
 }
 
-/* line 2011, ../sass/application.sass */
+/* line 2241, ../sass/application.scss */
 div.wiki ul.toc {
   background-color: #ffffdd;
   border: 1px solid #e4e4e4;
@@ -8841,12 +8841,12 @@ div.wiki ul.toc {
   padding: 4px;
 }
 
-/* line 2021, ../sass/application.sass */
+/* line 2252, ../sass/application.scss */
 * html div.wiki ul.toc {
   width: 50%;
 }
 
-/* line 2024, ../sass/application.sass */
+/* line 2256, ../sass/application.scss */
 div.wiki ul.toc.right {
   float: right;
   margin-left: 12px;
@@ -8854,7 +8854,7 @@ div.wiki ul.toc.right {
   width: auto;
 }
 
-/* line 2030, ../sass/application.sass */
+/* line 2263, ../sass/application.scss */
 div.wiki ul.toc.left {
   float: left;
   margin-right: 12px;
@@ -8862,20 +8862,20 @@ div.wiki ul.toc.left {
   width: auto;
 }
 
-/* line 2036, ../sass/application.sass */
+/* line 2270, ../sass/application.scss */
 div.wiki ul.toc li {
   list-style-type: none;
   font-size: 12px;
   margin: 0;
 }
 
-/* line 2041, ../sass/application.sass */
+/* line 2276, ../sass/application.scss */
 div.wiki ul.toc li li {
   margin-left: 1.5em;
   font-size: 10px;
 }
 
-/* line 2045, ../sass/application.sass */
+/* line 2281, ../sass/application.scss */
 div.wiki ul.toc a, div.wiki ul.toc .icon-add.checklist-new-only {
   font-size: 0.9em;
   font-weight: 400;
@@ -8883,40 +8883,40 @@ div.wiki ul.toc a, div.wiki ul.toc .icon-add.checklist-new-only {
   color: #606060;
 }
 
-/* line 2051, ../sass/application.sass */
+/* line 2288, ../sass/application.scss */
 a.wiki-anchor, .wiki-anchor.icon-add.checklist-new-only {
   display: none;
   margin-left: 6px;
   text-decoration: none;
 }
 
-/* line 2056, ../sass/application.sass */
+/* line 2294, ../sass/application.scss */
 a.wiki-anchor:hover, .wiki-anchor.icon-add.checklist-new-only:hover {
-  color: #aaa !important;
+  color: #aaaaaa !important;
   text-decoration: none;
 }
 
-/* line 2060, ../sass/application.sass */
+/* line 2299, ../sass/application.scss */
 h1:hover a.wiki-anchor, h1:hover .wiki-anchor.icon-add.checklist-new-only, h2:hover a.wiki-anchor, h2:hover .wiki-anchor.icon-add.checklist-new-only, h3:hover a.wiki-anchor, h3:hover .wiki-anchor.icon-add.checklist-new-only {
   display: inline;
-  color: #ddd;
+  color: #dddddd;
 }
 
-/* line 2064, ../sass/application.sass */
+/* line 2304, ../sass/application.scss */
 div.wiki img {
   vertical-align: middle;
   max-width: 100%;
 }
 
-/* line 2068, ../sass/application.sass */
+/* line 2309, ../sass/application.scss */
 .block-receiver {
-  border: 2px dashed #CCCCCC;
+  border: 2px dashed #cccccc;
   margin-bottom: 2em;
   padding: 1em;
   border-radius: 4px;
 }
 
-/* line 2074, ../sass/application.sass */
+/* line 2316, ../sass/application.scss */
 .mypage-box {
   color: #505050;
   line-height: 1.5em;
@@ -8928,46 +8928,46 @@ div.wiki img {
   margin: 0 0 1em !important;
 }
 
-/* line 2084, ../sass/application.sass */
+/* line 2327, ../sass/application.scss */
 .handle {
   cursor: move;
 }
 
-/* line 2087, ../sass/application.sass */
+/* line 2331, ../sass/application.scss */
 a.close-icon, .close-icon.icon-add.checklist-new-only {
   display: block;
   left: 1em;
   position: relative;
 }
 
-/* line 2096, ../sass/application.sass */
+/* line 2341, ../sass/application.scss */
 a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
-  color: #CB232F;
+  color: #cb232f;
 }
 
-/* line 2099, ../sass/application.sass */
+/* line 2345, ../sass/application.scss */
 .gantt_hdr {
   position: absolute;
   top: 0;
   height: 16px;
-  border-top: 1px solid #c0c0c0;
-  border-bottom: 1px solid #c0c0c0;
-  border-right: 1px solid #c0c0c0;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  border-right: 1px solid silver;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 2109, ../sass/application.sass */
+/* line 2356, ../sass/application.scss */
 .gantt_hdr.nwday {
   background-color: #f1f1f1;
 }
 
-/* line 2112, ../sass/application.sass */
+/* line 2360, ../sass/application.scss */
 .gantt_subjects {
   font-size: 0.8em;
 }
 
-/* line 2115, ../sass/application.sass */
+/* line 2364, ../sass/application.scss */
 .gantt_subjects div {
   line-height: 16px;
   height: 16px;
@@ -8977,49 +8977,49 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   padding-left: 1em;
 }
 
-/* line 2123, ../sass/application.sass */
+/* line 2373, ../sass/application.scss */
 .task {
   position: absolute;
   height: 8px;
   font-size: 0.8em;
-  color: #888;
+  color: #888888;
   line-height: 16px;
   white-space: nowrap;
   margin: 0;
   padding: 0;
 }
 
-/* line 2133, ../sass/application.sass */
+/* line 2384, ../sass/application.scss */
 .task_late {
-  background: #f66 url(../images/task_late.png);
-  border: 1px solid #f66;
+  background: #ff6666 url(../images/task_late.png);
+  border: 1px solid #ff6666;
 }
 
-/* line 2137, ../sass/application.sass */
+/* line 2389, ../sass/application.scss */
 .task_done {
   background: #00c600 url(../images/task_done.png);
   border: 1px solid #00c600;
 }
 
-/* line 2141, ../sass/application.sass */
+/* line 2394, ../sass/application.scss */
 .task_todo {
-  background: #aaa url(../images/task_todo.png);
-  border: 1px solid #aaa;
+  background: #aaaaaa url(../images/task_todo.png);
+  border: 1px solid #aaaaaa;
 }
 
-/* line 2145, ../sass/application.sass */
+/* line 2399, ../sass/application.scss */
 .task_todo.parent {
-  background: #888;
-  border: 1px solid #888;
+  background: #888888;
+  border: 1px solid #888888;
   height: 3px;
 }
 
-/* line 2150, ../sass/application.sass */
+/* line 2405, ../sass/application.scss */
 .task_late.parent, .task_done.parent {
   height: 3px;
 }
 
-/* line 2153, ../sass/application.sass */
+/* line 2409, ../sass/application.scss */
 .task.parent.marker.starting {
   position: absolute;
   background: url(../images/task_parent_end.png) no-repeat 0 0;
@@ -9030,7 +9030,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   top: -1px;
 }
 
-/* line 2162, ../sass/application.sass */
+/* line 2419, ../sass/application.scss */
 .task.parent.marker.ending {
   position: absolute;
   background: url(../images/task_parent_end.png) no-repeat 0 0;
@@ -9041,7 +9041,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   top: -1px;
 }
 
-/* line 2171, ../sass/application.sass */
+/* line 2429, ../sass/application.scss */
 .version.marker {
   background-image: url(../images/version_marker.png);
   background-repeat: no-repeat;
@@ -9050,7 +9050,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   margin-top: 1px;
 }
 
-/* line 2178, ../sass/application.sass */
+/* line 2437, ../sass/application.scss */
 .project.marker {
   background-image: url(../images/project_marker.png);
   background-repeat: no-repeat;
@@ -9059,16 +9059,16 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   margin-top: 1px;
 }
 
-/* line 2185, ../sass/application.sass */
+/* line 2445, ../sass/application.scss */
 .version-behind-schedule a, .version-behind-schedule .icon-add.checklist-new-only, .issue-behind-schedule a, .issue-behind-schedule .icon-add.checklist-new-only {
   color: #f66914;
 }
 
-/* line 2188, ../sass/application.sass */
+/* line 2449, ../sass/application.scss */
 .icon, [class*="icon-"], #context-menu li a, #context-menu li .icon-add.checklist-new-only {
   background-image: none !important;
 }
-/* line 2191, ../sass/application.sass */
+/* line 2451, ../sass/application.scss */
 .icon:before, [class*="icon-"]:before, #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before {
   margin-right: 0.3em;
   vertical-align: middle;
@@ -9077,7 +9077,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   top: -2px;
 }
 
-/* line 2199, ../sass/application.sass */
+/* line 2461, ../sass/application.scss */
 #context-menu li a:before, #context-menu li .icon-add.checklist-new-only:before {
   font-size: 1em;
   top: 0.4em;
@@ -9085,7 +9085,7 @@ a.close-icon:hover, .close-icon.icon-add.checklist-new-only:hover {
   position: absolute;
 }
 
-/* line 2331, ../sass/application.sass */
+/* line 2636, ../sass/application.scss */
 img.gravatar {
   background: white;
   vertical-align: middle;
@@ -9093,13 +9093,13 @@ img.gravatar {
   overflow: hidden;
 }
 
-/* line 2337, ../sass/application.sass */
+/* line 2643, ../sass/application.scss */
 div.issue img.gravatar {
   float: left;
   margin: 0;
 }
 
-/* line 2341, ../sass/application.sass */
+/* line 2648, ../sass/application.scss */
 div.issue table img.gravatar {
   height: 1em;
   width: 1em;
@@ -9107,365 +9107,365 @@ div.issue table img.gravatar {
   margin: 0 0.5em 0 0;
 }
 
-/* line 2347, ../sass/application.sass */
+/* line 2655, ../sass/application.scss */
 h2 img.gravatar {
   margin: -2px 4px -4px 0;
 }
 
-/* line 2350, ../sass/application.sass */
+/* line 2659, ../sass/application.scss */
 h3 img.gravatar {
   margin: -4px 4px -4px 0;
 }
 
-/* line 2353, ../sass/application.sass */
+/* line 2663, ../sass/application.scss */
 h4 img.gravatar {
   margin: -6px 4px -4px 0;
 }
 
-/* line 2356, ../sass/application.sass */
+/* line 2667, ../sass/application.scss */
 td.username img.gravatar {
   vertical-align: top;
   margin: 0 0.5em 0 0;
 }
 
-/* line 2360, ../sass/application.sass */
+/* line 2672, ../sass/application.scss */
 #activity dt img.gravatar {
   float: left;
   margin: 0 1.2em 1.2em 0;
 }
 
-/* line 2364, ../sass/application.sass */
+/* line 2677, ../sass/application.scss */
 .icon-gravatar {
   float: left;
   margin-right: 4px;
 }
 
-/* line 2368, ../sass/application.sass */
+/* line 2682, ../sass/application.scss */
 #activity dt, .journal {
   clear: left;
 }
 
-/* line 2371, ../sass/application.sass */
+/* line 2686, ../sass/application.scss */
 #activity + a, #activity + .icon-add.checklist-new-only {
   margin-top: 2em;
 }
 
-/* line 2378, ../sass/application.sass */
+/* line 2694, ../sass/application.scss */
 .hascontextmenu {
   cursor: context-menu;
 }
 
-/* line 2381, ../sass/application.sass */
+/* line 2698, ../sass/application.scss */
 .ui-datepicker-title select {
   width: 70px !important;
   margin-top: -2px !important;
   margin-right: 4px !important;
 }
 
-/* line 2386, ../sass/application.sass */
+/* line 2704, ../sass/application.scss */
 .syntaxhl .line-numbers {
-  background-color: #eee;
+  background-color: #eeeeee;
   margin: 0 5px 0 0;
   padding: 2px 4px;
 }
 
-/* line 2391, ../sass/application.sass */
+/* line 2710, ../sass/application.scss */
 .syntaxhl .debug {
   color: white !important;
   background: blue !important;
 }
 
-/* line 2395, ../sass/application.sass */
+/* line 2715, ../sass/application.scss */
 .syntaxhl .annotation {
-  color: #007;
+  color: #000077;
 }
 
-/* line 2398, ../sass/application.sass */
+/* line 2719, ../sass/application.scss */
 .syntaxhl .attribute-name {
-  color: #b48;
+  color: #bb4488;
 }
 
-/* line 2401, ../sass/application.sass */
+/* line 2723, ../sass/application.scss */
 .syntaxhl .attribute-value {
-  color: #700;
+  color: #770000;
 }
 
-/* line 2404, ../sass/application.sass */
+/* line 2727, ../sass/application.scss */
 .syntaxhl .binary {
-  color: #509;
+  color: #550099;
 }
 
-/* line 2407, ../sass/application.sass */
+/* line 2731, ../sass/application.scss */
 .syntaxhl .char .delimiter {
-  color: #710;
+  color: #771100;
 }
 
-/* line 2410, ../sass/application.sass */
+/* line 2735, ../sass/application.scss */
 .syntaxhl .class-variable {
-  color: #369;
+  color: #336699;
 }
 
-/* line 2413, ../sass/application.sass */
+/* line 2739, ../sass/application.scss */
 .syntaxhl .color {
-  color: #0A0;
+  color: #00aa00;
 }
 
-/* line 2416, ../sass/application.sass */
+/* line 2743, ../sass/application.scss */
 .syntaxhl .complex {
-  color: #A08;
+  color: #aa0088;
 }
 
-/* line 2419, ../sass/application.sass */
+/* line 2747, ../sass/application.scss */
 .syntaxhl .decorator {
-  color: #B0B;
+  color: #bb00bb;
 }
 
-/* line 2422, ../sass/application.sass */
+/* line 2751, ../sass/application.scss */
 .syntaxhl .definition {
-  color: #099;
+  color: #009999;
   font-weight: 700;
 }
 
-/* line 2426, ../sass/application.sass */
+/* line 2756, ../sass/application.scss */
 .syntaxhl .delimiter {
   color: black;
 }
 
-/* line 2429, ../sass/application.sass */
+/* line 2760, ../sass/application.scss */
 .syntaxhl .directive {
-  color: #088;
+  color: #008888;
   font-weight: 700;
 }
 
-/* line 2433, ../sass/application.sass */
+/* line 2765, ../sass/application.scss */
 .syntaxhl .doc {
-  color: #970;
+  color: #997700;
 }
 
-/* line 2436, ../sass/application.sass */
+/* line 2769, ../sass/application.scss */
 .syntaxhl .doc-string {
-  color: #D42;
+  color: #dd4422;
   font-weight: 700;
 }
 
-/* line 2440, ../sass/application.sass */
+/* line 2774, ../sass/application.scss */
 .syntaxhl .doctype {
-  color: #34b;
+  color: #3344bb;
 }
 
-/* line 2443, ../sass/application.sass */
+/* line 2778, ../sass/application.scss */
 .syntaxhl .entity {
-  color: #800;
+  color: #880000;
   font-weight: 700;
 }
 
-/* line 2447, ../sass/application.sass */
+/* line 2783, ../sass/application.scss */
 .syntaxhl .error {
-  color: #F00;
-  background-color: #FAA;
+  color: red;
+  background-color: #ffaaaa;
 }
 
-/* line 2451, ../sass/application.sass */
+/* line 2788, ../sass/application.scss */
 .syntaxhl .escape {
-  color: #666;
+  color: #666666;
 }
 
-/* line 2454, ../sass/application.sass */
+/* line 2792, ../sass/application.scss */
 .syntaxhl .exception {
-  color: #C00;
+  color: #cc0000;
   font-weight: 700;
 }
 
-/* line 2458, ../sass/application.sass */
+/* line 2797, ../sass/application.scss */
 .syntaxhl .function {
-  color: #06B;
+  color: #0066bb;
   font-weight: 700;
 }
 
-/* line 2462, ../sass/application.sass */
+/* line 2802, ../sass/application.scss */
 .syntaxhl .global-variable {
-  color: #d70;
+  color: #dd7700;
 }
 
-/* line 2465, ../sass/application.sass */
+/* line 2806, ../sass/application.scss */
 .syntaxhl .hex {
-  color: #02b;
+  color: #0022bb;
 }
 
-/* line 2468, ../sass/application.sass */
+/* line 2810, ../sass/application.scss */
 .syntaxhl .include {
-  color: #B44;
+  color: #bb4444;
   font-weight: 700;
 }
 
-/* line 2472, ../sass/application.sass */
+/* line 2815, ../sass/application.scss */
 .syntaxhl .inline {
   background-color: rgba(0, 0, 0, 0.07);
   color: black;
 }
 
-/* line 2476, ../sass/application.sass */
+/* line 2820, ../sass/application.scss */
 .syntaxhl .inline-delimiter {
   font-weight: 700;
-  color: #666;
+  color: #666666;
 }
 
-/* line 2480, ../sass/application.sass */
+/* line 2825, ../sass/application.scss */
 .syntaxhl .instance-variable {
-  color: #33B;
+  color: #3333bb;
 }
 
-/* line 2483, ../sass/application.sass */
+/* line 2829, ../sass/application.scss */
 .syntaxhl .key .char {
-  color: #60f;
+  color: #6600ff;
 }
 
-/* line 2486, ../sass/application.sass */
+/* line 2833, ../sass/application.scss */
 .syntaxhl .key {
-  color: #606;
+  color: #660066;
 }
 
-/* line 2489, ../sass/application.sass */
+/* line 2837, ../sass/application.scss */
 .syntaxhl .keyword {
-  color: #939;
+  color: #993399;
   font-weight: 700;
 }
 
-/* line 2493, ../sass/application.sass */
+/* line 2842, ../sass/application.scss */
 .syntaxhl .label {
-  color: #970;
+  color: #997700;
   font-weight: 700;
 }
 
-/* line 2497, ../sass/application.sass */
+/* line 2847, ../sass/application.scss */
 .syntaxhl .local-variable {
-  color: #963;
+  color: #996633;
 }
 
-/* line 2500, ../sass/application.sass */
+/* line 2851, ../sass/application.scss */
 .syntaxhl .namespace {
-  color: #707;
+  color: #770077;
   font-weight: 700;
 }
 
-/* line 2504, ../sass/application.sass */
+/* line 2856, ../sass/application.scss */
 .syntaxhl .octal {
-  color: #40E;
+  color: #4400ee;
 }
 
-/* line 2507, ../sass/application.sass */
+/* line 2860, ../sass/application.scss */
 .syntaxhl .predefined {
-  color: #369;
+  color: #336699;
   font-weight: 700;
 }
 
-/* line 2511, ../sass/application.sass */
+/* line 2865, ../sass/application.scss */
 .syntaxhl .predefined-constant {
-  color: #069;
+  color: #006699;
 }
 
-/* line 2514, ../sass/application.sass */
+/* line 2869, ../sass/application.scss */
 .syntaxhl .predefined-type {
-  color: #0a5;
+  color: #00aa55;
   font-weight: 700;
 }
 
-/* line 2518, ../sass/application.sass */
+/* line 2874, ../sass/application.scss */
 .syntaxhl .preprocessor {
-  color: #579;
+  color: #557799;
 }
 
-/* line 2521, ../sass/application.sass */
+/* line 2878, ../sass/application.scss */
 .syntaxhl .pseudo-class {
-  color: #00C;
+  color: #0000cc;
   font-weight: 700;
 }
 
-/* line 2525, ../sass/application.sass */
+/* line 2883, ../sass/application.scss */
 .syntaxhl .regexp .content {
-  color: #808;
+  color: #880088;
 }
 
-/* line 2528, ../sass/application.sass */
+/* line 2887, ../sass/application.scss */
 .syntaxhl .regexp .modifier {
-  color: #C2C;
+  color: #cc22cc;
 }
 
-/* line 2531, ../sass/application.sass */
+/* line 2891, ../sass/application.scss */
 .syntaxhl .regexp {
   background-color: rgba(255, 0, 255, 0.06);
 }
 
-/* line 2534, ../sass/application.sass */
+/* line 2895, ../sass/application.scss */
 .syntaxhl .reserved {
-  color: #080;
+  color: #008800;
   font-weight: 700;
 }
 
-/* line 2538, ../sass/application.sass */
+/* line 2900, ../sass/application.scss */
 .syntaxhl .shell .content {
-  color: #2B2;
+  color: #22bb22;
 }
 
-/* line 2541, ../sass/application.sass */
+/* line 2904, ../sass/application.scss */
 .syntaxhl .shell .delimiter {
-  color: #161;
+  color: #116611;
 }
 
-/* line 2544, ../sass/application.sass */
+/* line 2908, ../sass/application.scss */
 .syntaxhl .shell {
   background-color: rgba(0, 255, 0, 0.06);
 }
 
-/* line 2547, ../sass/application.sass */
+/* line 2912, ../sass/application.scss */
 .syntaxhl .tag {
-  color: #070;
+  color: #007700;
 }
 
-/* line 2550, ../sass/application.sass */
+/* line 2916, ../sass/application.scss */
 .syntaxhl .type {
-  color: #339;
+  color: #333399;
   font-weight: 700;
 }
 
-/* line 2554, ../sass/application.sass */
+/* line 2921, ../sass/application.scss */
 .syntaxhl .value {
-  color: #088;
+  color: #008888;
 }
 
-/* line 2557, ../sass/application.sass */
+/* line 2925, ../sass/application.scss */
 .syntaxhl .variable {
-  color: #037;
+  color: #003377;
 }
 
-/* line 2560, ../sass/application.sass */
+/* line 2929, ../sass/application.scss */
 .syntaxhl .insert {
   background: rgba(0, 255, 0, 0.12);
 }
 
-/* line 2563, ../sass/application.sass */
+/* line 2933, ../sass/application.scss */
 .syntaxhl .delete {
   background: rgba(255, 0, 0, 0.12);
 }
 
-/* line 2566, ../sass/application.sass */
+/* line 2937, ../sass/application.scss */
 .syntaxhl .change {
-  color: #bbf;
-  background: #007;
+  color: #bbbbff;
+  background: #000077;
 }
 
-/* line 2570, ../sass/application.sass */
+/* line 2942, ../sass/application.scss */
 .syntaxhl .head {
-  color: #f8f;
-  background: #505;
+  color: #ff88ff;
+  background: #550055;
 }
 
-/* line 2574, ../sass/application.sass */
+/* line 2947, ../sass/application.scss */
 .syntaxhl .head .filename {
   color: white;
 }
 
-/* line 2577, ../sass/application.sass */
+/* line 2951, ../sass/application.scss */
 .syntaxhl .delete .eyecatcher {
   background-color: rgba(255, 0, 0, 0.2);
   border: 1px solid rgba(230, 0, 0, 0.5);
@@ -9475,7 +9475,7 @@ td.username img.gravatar {
   margin: -1px;
 }
 
-/* line 2585, ../sass/application.sass */
+/* line 2960, ../sass/application.scss */
 .syntaxhl .insert .eyecatcher {
   background-color: rgba(0, 255, 0, 0.2);
   border: 1px solid rgba(0, 128, 0, 0.5);
@@ -9485,31 +9485,31 @@ td.username img.gravatar {
   margin: -1px;
 }
 
-/* line 2593, ../sass/application.sass */
+/* line 2969, ../sass/application.scss */
 .syntaxhl .insert .insert {
-  color: #0c0;
+  color: #00cc00;
   background: transparent;
   font-weight: 700;
 }
 
-/* line 2598, ../sass/application.sass */
+/* line 2975, ../sass/application.scss */
 .syntaxhl .delete .delete {
-  color: #c00;
+  color: #cc0000;
   background: transparent;
   font-weight: 700;
 }
 
-/* line 2603, ../sass/application.sass */
+/* line 2981, ../sass/application.scss */
 .syntaxhl .change .change {
-  color: #88f;
+  color: #8888ff;
 }
 
-/* line 2606, ../sass/application.sass */
+/* line 2985, ../sass/application.scss */
 .syntaxhl .head .head {
-  color: #f4f;
+  color: #ff44ff;
 }
 
-/* line 2609, ../sass/application.sass */
+/* line 2989, ../sass/application.scss */
 .hidden-for-sighted {
   position: absolute;
   left: -10000px;
@@ -9519,272 +9519,272 @@ td.username img.gravatar {
   overflow: hidden;
 }
 
-/* line 2617, ../sass/application.sass */
+/* line 2998, ../sass/application.scss */
 #top-menu ul, #main-menu ul, #admin-menu ul, #sidebar ul, ul.projects.root, div.wiki ul.toc ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 2621, ../sass/application.sass */
+/* line 3003, ../sass/application.scss */
 #account, #quick-search, div#search-results-counts, .journal-link {
   float: right;
 }
 
-/* line 2624, ../sass/application.sass */
+/* line 3007, ../sass/application.scss */
 #header h1 a.ancestor, #header h1 .ancestor.icon-add.checklist-new-only, table.files tr.file td.digest, .conflict-details, p.percent {
   font-size: 80%;
 }
 
-/* line 2627, ../sass/application.sass */
+/* line 3011, ../sass/application.scss */
 * html #sidebar, div.issue table.attributes th {
   width: 22%;
 }
 
-/* line 2630, ../sass/application.sass */
+/* line 3015, ../sass/application.scss */
 #main.nosidebar #sidebar, div.modal h3.title, #issue_tree td.checkbox, #relations td.checkbox, div#roadmap .related-issues td.checkbox, div#roadmap .wiki h1:first-child, #errorExplanation h2, #errorExplanation p {
   display: none;
 }
 
-/* line 2633, ../sass/application.sass */
+/* line 3019, ../sass/application.scss */
 #login-form label, .settings.enabled_scm td.scm_name, #tab-content-members fieldset legend, #tab-content-memberships fieldset legend, #tab-content-users fieldset legend, table.cal td.today p.day-num, .task.label.project, .task.label.version {
   font-weight: 700;
 }
 
-/* line 2636, ../sass/application.sass */
+/* line 3023, ../sass/application.scss */
 div.wiki ul.toc a:hover, div.wiki ul.toc .icon-add.checklist-new-only:hover {
   color: #c61a1a;
   text-decoration: underline;
 }
 
-/* line 2640, ../sass/application.sass */
+/* line 3028, ../sass/application.scss */
 a img, .icon-add.checklist-new-only img, #issue_tree table.issues, #relations table.issues, div.wiki .noborder, div.wiki .noborder td, div.wiki .noborder th {
   border: 0;
 }
 
-/* line 2643, ../sass/application.sass */
+/* line 3032, ../sass/application.scss */
 a.project.closed, .project.closed.icon-add.checklist-new-only, a.project.closed:link, .project.closed.icon-add.checklist-new-only:link, a.project.closed:visited, .project.closed.icon-add.checklist-new-only:visited, a.user.locked, .user.locked.icon-add.checklist-new-only, a.user.locked:link, .user.locked.icon-add.checklist-new-only:link, a.user.locked:visited, .user.locked.icon-add.checklist-new-only:visited, a#toggle-completed-versions, #toggle-completed-versions.icon-add.checklist-new-only, tr.version.closed, tr.version.closed a, tr.version.closed .icon-add.checklist-new-only, div.issue .next-prev-links {
-  color: #999;
+  color: #999999;
 }
 
-/* line 2646, ../sass/application.sass */
+/* line 3036, ../sass/application.scss */
 #sidebar a.selected:hover, #sidebar .selected.icon-add.checklist-new-only:hover, a.toggle-all:hover, .toggle-all.icon-add.checklist-new-only:hover {
   text-decoration: none;
 }
 
-/* line 2649, ../sass/application.sass */
+/* line 3040, ../sass/application.scss */
 table.list td.checkbox input, #relations td.buttons {
   padding: 0;
 }
 
-/* line 2652, ../sass/application.sass */
+/* line 3044, ../sass/application.scss */
 tr.project td.name a, tr.project td.name .icon-add.checklist-new-only, tr.issue td.relations span, tr.entry td, tr.message td.created_on, fieldset#filters td.values {
   white-space: nowrap;
 }
 
-/* line 2655, ../sass/application.sass */
+/* line 3048, ../sass/application.scss */
 tr.project.closed, tr.project.archived, tr.project.closed a, tr.project.closed .icon-add.checklist-new-only, tr.project.archived a, tr.project.archived .icon-add.checklist-new-only, tr.user.locked, tr.user.registered, tr.user.locked a, tr.user.locked .icon-add.checklist-new-only, tr.user.registered a, tr.user.registered .icon-add.checklist-new-only {
-  color: #aaa;
+  color: #aaaaaa;
 }
 
-/* line 2661, ../sass/application.sass */
+/* line 3054, ../sass/application.scss */
 tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before {
   margin-right: 0.5em;
 }
 
-/* line 2665, ../sass/application.sass */
+/* line 3060, ../sass/application.scss */
 tr.project.idnt-1 td.name, tr.issue.idnt-1 td.subject {
   padding-left: 2em;
 }
 
-/* line 2668, ../sass/application.sass */
+/* line 3064, ../sass/application.scss */
 tr.project.idnt-2 td.name, tr.issue.idnt-2 td.subject, .role-visibility {
   padding-left: 3em;
 }
 
-/* line 2671, ../sass/application.sass */
+/* line 3068, ../sass/application.scss */
 tr.project.idnt-3 td.name, tr.issue.idnt-3 td.subject {
   padding-left: 4em;
 }
 
-/* line 2674, ../sass/application.sass */
+/* line 3072, ../sass/application.scss */
 tr.project.idnt-4 td.name, tr.issue.idnt-4 td.subject {
   padding-left: 5em;
 }
 
-/* line 2677, ../sass/application.sass */
+/* line 3076, ../sass/application.scss */
 tr.project.idnt-5 td.name, tr.issue.idnt-5 td.subject {
   padding-left: 6em;
 }
 
-/* line 2680, ../sass/application.sass */
+/* line 3080, ../sass/application.scss */
 tr.project.idnt-6 td.name, tr.issue.idnt-6 td.subject {
   padding-left: 7em;
 }
 
-/* line 2683, ../sass/application.sass */
+/* line 3084, ../sass/application.scss */
 tr.project.idnt-7 td.name, tr.issue.idnt-7 td.subject {
   padding-left: 8em;
 }
 
-/* line 2686, ../sass/application.sass */
+/* line 3088, ../sass/application.scss */
 tr.project.idnt-8 td.name, tr.issue.idnt-8 td.subject {
   padding-left: 9em;
 }
 
-/* line 2689, ../sass/application.sass */
+/* line 3092, ../sass/application.scss */
 tr.project.idnt-9 td.name, tr.issue.idnt-9 td.subject {
   padding-left: 10em;
 }
 
-/* line 2692, ../sass/application.sass */
+/* line 3096, ../sass/application.scss */
 tr.issue, tr.version td.date, tr.version td.status, tr.version td.sharing, tr.time-entry {
   text-align: center;
   white-space: nowrap;
 }
 
-/* line 2696, ../sass/application.sass */
+/* line 3101, ../sass/application.scss */
 tr.issue td.subject, tr.issue td.category, td.assigned_to, tr.issue td.string, tr.issue td.text, tr.issue td.relations, table.issues td.description pre {
   white-space: normal;
 }
 
-/* line 2699, ../sass/application.sass */
+/* line 3105, ../sass/application.scss */
 tr.entry td.revision, tr.entry td.author, tr.wiki-page-version td.updated_on, tr.wiki-page-version td.author, td.center {
   text-align: center;
 }
 
-/* line 2702, ../sass/application.sass */
+/* line 3109, ../sass/application.scss */
 tr.entry td.age, div#version-summary th, div#version-summary td.total-hours {
   text-align: right;
 }
 
-/* line 2705, ../sass/application.sass */
+/* line 3113, ../sass/application.scss */
 tr.entry.file td.filename a, tr.entry.file td.filename .icon-add.checklist-new-only, tr.entry.file td.filename_no_report a, tr.entry.file td.filename_no_report .icon-add.checklist-new-only {
   margin-left: 16px;
 }
 
-/* line 2708, ../sass/application.sass */
+/* line 3117, ../sass/application.scss */
 tr.changeset td.author, tr.changeset td.committed_on {
   text-align: center;
   width: 15%;
   white-space: nowrap;
 }
 
-/* line 2713, ../sass/application.sass */
+/* line 3123, ../sass/application.scss */
 tr.message td.subject, tr.version td.name, fieldset#notified_events .parent {
   padding-left: 20px;
 }
 
-/* line 2716, ../sass/application.sass */
+/* line 3127, ../sass/application.scss */
 td.hours .hours-dec, .contextual input, .contextual select, table#time-report .hours-dec {
   font-size: 0.9em;
 }
 
-/* line 2719, ../sass/application.sass */
+/* line 3131, ../sass/application.scss */
 table.plugins td, #related-issues li img, div.attachments img, h2 img {
   vertical-align: middle;
 }
 
-/* line 2722, ../sass/application.sass */
+/* line 3135, ../sass/application.scss */
 table.plugins span.description, table.plugins span.url {
   display: block;
   font-size: 0.9em;
 }
 
-/* line 2726, ../sass/application.sass */
+/* line 3140, ../sass/application.scss */
 tr.group:hover a.toggle-all, tr.group:hover .toggle-all.icon-add.checklist-new-only, form, .check_box_group.bool_cf label, .syntaxhl div {
   display: inline;
 }
 
-/* line 2729, ../sass/application.sass */
+/* line 3144, ../sass/application.scss */
 .even, #content .tabs ul li a.selected:hover, #content .tabs ul li .selected.icon-add.checklist-new-only:hover {
-  background-color: #fff;
+  background-color: white;
 }
 
-/* line 2732, ../sass/application.sass */
+/* line 3148, ../sass/application.scss */
 table.attributes, div#version-summary fieldset.time-tracking table, .settings.enabled_scm table, .task.label {
   width: 100%;
 }
 
-/* line 2735, ../sass/application.sass */
+/* line 3152, ../sass/application.scss */
 #watchers a.delete:hover, #watchers .delete.icon-add.checklist-new-only:hover, div.wiki-page .contextual a:hover, div.wiki-page .contextual .icon-add.checklist-new-only:hover {
   opacity: 1;
 }
 
-/* line 2738, ../sass/application.sass */
+/* line 3156, ../sass/application.scss */
 span.search_for_watchers, fieldset.settings label, #tab-content-members fieldset label, #tab-content-memberships fieldset label, #tab-content-users fieldset label, #users_for_watcher label, p.cal.legend span {
   display: block;
 }
 
-/* line 2741, ../sass/application.sass */
+/* line 3160, ../sass/application.scss */
 .message .contextual, li p {
   margin-top: 0;
 }
 
-/* line 2744, ../sass/application.sass */
+/* line 3164, ../sass/application.scss */
 .splitcontent, div.journal, .syntaxhl .code pre {
   overflow: auto;
 }
 
-/* line 2747, ../sass/application.sass */
+/* line 3168, ../sass/application.scss */
 div#search-results-counts ul {
   margin-top: 0.5em;
 }
 
-/* line 2750, ../sass/application.sass */
+/* line 3172, ../sass/application.scss */
 fieldset#filters td.values input, table.progress td {
   height: 1em;
 }
 
-/* line 2753, ../sass/application.sass */
+/* line 3176, ../sass/application.scss */
 div#activity dd .description, #search-results dd .description, ul.properties li span, .summary {
   font-style: italic;
 }
 
-/* line 2762, ../sass/application.sass */
+/* line 3188, ../sass/application.scss */
 dt.time-entry:before, dt.attachment:before, dt.issue-closed:before {
   margin-right: 0.5em;
 }
 
-/* line 2769, ../sass/application.sass */
+/* line 3197, ../sass/application.scss */
 div#roadmap .related-issues, div#version-summary fieldset, #projects-index ul.projects li.root, div.wiki ul, div.wiki ol {
   margin-bottom: 1em;
 }
 
-/* line 2772, ../sass/application.sass */
+/* line 3201, ../sass/application.scss */
 div#roadmap .wiki h1, .total-hours span.hours-int {
   font-size: 120%;
 }
 
-/* line 2775, ../sass/application.sass */
+/* line 3205, ../sass/application.scss */
 input#issue_subject, input#content_comments, .tabular.settings textarea {
   width: 99%;
 }
 
-/* line 2778, ../sass/application.sass */
+/* line 3209, ../sass/application.scss */
 ul.projects li, ul.properties li {
   list-style-type: none;
 }
 
-/* line 2781, ../sass/application.sass */
+/* line 3213, ../sass/application.scss */
 #user_login, #user_firstname, #user_lastname, #user_mail, #my_account_form select, #user_form select, #user_identity_url, input#time_entry_comments, #tab-content-memberships .splitcontentright select, input#principal_search, input#user_search {
   width: 90%;
 }
 
-/* line 2784, ../sass/application.sass */
+/* line 3217, ../sass/application.scss */
 textarea#custom_field_possible_values, textarea#custom_field_default_value, .tabular textarea, textarea.text_cf {
   width: 95%;
   resize: vertical;
 }
 
-/* line 2788, ../sass/application.sass */
+/* line 3222, ../sass/application.scss */
 .version.task_late, .project.task_late {
-  background: #f66 url(../images/milestone_late.png);
-  border: 1px solid #f66;
+  background: #ff6666 url(../images/milestone_late.png);
+  border: 1px solid #ff6666;
   height: 2px;
   margin-top: 3px;
 }
 
-/* line 2794, ../sass/application.sass */
+/* line 3229, ../sass/application.scss */
 .version.task_done, .project.task_done {
   background: #00c600 url(../images/milestone_done.png);
   border: 1px solid #00c600;
@@ -9792,84 +9792,84 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   margin-top: 3px;
 }
 
-/* line 2800, ../sass/application.sass */
+/* line 3236, ../sass/application.scss */
 .version.task_todo, .project.task_todo {
-  background: #fff url(../images/milestone_todo.png);
-  border: 1px solid #fff;
+  background: white url(../images/milestone_todo.png);
+  border: 1px solid white;
   height: 2px;
   margin-top: 3px;
 }
 
-/* line 2806, ../sass/application.sass */
+/* line 3243, ../sass/application.scss */
 .version-overdue a, .version-overdue .icon-add.checklist-new-only, .issue-overdue a, .issue-overdue .icon-add.checklist-new-only, .project-overdue a, .project-overdue .icon-add.checklist-new-only, .syntaxhl .imaginary {
-  color: #f00;
+  color: red;
 }
 
-/* line 2812, ../sass/application.sass */
+/* line 3251, ../sass/application.scss */
 .icon-file.image-gif, .icon-file.image-jpeg, .icon-file.image-png, .icon-file.image-tiff {
   background-image: url(../images/files/image.png);
 }
 
-/* line 2815, ../sass/application.sass */
+/* line 3255, ../sass/application.scss */
 .icon-file.application-zip, .icon-file.application-x-gzip {
   background-image: url(../images/files/zip.png);
 }
 
-/* line 2818, ../sass/application.sass */
+/* line 3259, ../sass/application.scss */
 .syntaxhl .char .content, .syntaxhl .char {
-  color: #D20;
+  color: #dd2200;
 }
 
-/* line 2821, ../sass/application.sass */
+/* line 3263, ../sass/application.scss */
 .syntaxhl .class, .syntaxhl .constant {
-  color: #258;
+  color: #225588;
   font-weight: 700;
 }
 
-/* line 2825, ../sass/application.sass */
+/* line 3268, ../sass/application.scss */
 .syntaxhl .comment, .syntaxhl .comment .char, .syntaxhl .comment .delimiter {
-  color: #385;
+  color: #338855;
 }
 
-/* line 2828, ../sass/application.sass */
+/* line 3272, ../sass/application.scss */
 .syntaxhl .float, .syntaxhl .integer {
-  color: #06D;
+  color: #0066dd;
 }
 
-/* line 2831, ../sass/application.sass */
+/* line 3276, ../sass/application.scss */
 .syntaxhl .key .delimiter, .syntaxhl .regexp .delimiter {
-  color: #404;
+  color: #440044;
 }
 
-/* line 2834, ../sass/application.sass */
+/* line 3280, ../sass/application.scss */
 .syntaxhl .string .char, .syntaxhl .string .content, .syntaxhl .string .delimiter, .syntaxhl .string .modifier {
-  color: #46a;
+  color: #4466aa;
 }
 
-/* line 2837, ../sass/application.sass */
+/* line 3284, ../sass/application.scss */
 .syntaxhl .symbol .content, .syntaxhl .symbol .delimiter, .syntaxhl .symbol {
-  color: #d33;
+  color: #dd3333;
 }
 
-/* line 2840, ../sass/application.sass */
+/* line 3288, ../sass/application.scss */
 .icon-contact {
   background: none !important;
 }
-/* line 2844, ../sass/application.sass */
+/* line 3291, ../sass/application.scss */
 .icon-contact:before {
   margin-right: 0.5em;
 }
 
-/* line 2848, ../sass/application.sass */
+/* line 3297, ../sass/application.scss */
 .icon-invoice {
   background: none !important;
 }
-/* line 2852, ../sass/application.sass */
+/* line 3300, ../sass/application.scss */
 .icon-invoice:before {
   margin-right: 0.5em;
 }
 
-/* line 2872, ../sass/application.sass */
+/* line 3324, ../sass/application.scss */
 .controller-people.action-show #main #sidebar, .controller-contacts.action-show #main #sidebar {
   float: left;
   display: block;
@@ -9880,7 +9880,7 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
 .controller-people.action-show #main #sidebar:last-child, .controller-contacts.action-show #main #sidebar:last-child {
   margin-right: 0;
 }
-/* line 2875, ../sass/application.sass */
+/* line 3327, ../sass/application.scss */
 .controller-people.action-show #main #content, .controller-contacts.action-show #main #content {
   float: left;
   display: block;
@@ -9893,21 +9893,21 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   margin-right: 0;
 }
 
-/* line 2879, ../sass/application.sass */
+/* line 3334, ../sass/application.scss */
 #block-form {
   display: inline-block;
   margin-top: -0.5em;
 }
 
-/* line 2883, ../sass/application.sass */
+/* line 3339, ../sass/application.scss */
 .jstEditor:not(.zen) {
   margin-bottom: 1em;
 }
-/* line 2886, ../sass/application.sass */
+/* line 3341, ../sass/application.scss */
 .jstEditor:not(.zen) textarea {
   width: 99%;
 }
-/* line 2889, ../sass/application.sass */
+/* line 3344, ../sass/application.scss */
 .jstEditor:not(.zen) button.jstb_zenedit {
   top: -2em;
   right: 1%;
@@ -9921,123 +9921,123 @@ textarea#custom_field_possible_values, textarea#custom_field_default_value, .tab
   text-align: center;
 }
 
-/* line 2905, ../sass/application.sass */
+/* line 3362, ../sass/application.scss */
 div.contact {
-  border: 1px solid #CCCCCC !important;
-  background: #F9F9F9 !important;
+  border: 1px solid #cccccc !important;
+  background: #f9f9f9 !important;
   border-radius: 4px !important;
 }
 
-/* line 2910, ../sass/application.sass */
+/* line 3368, ../sass/application.scss */
 div.person.details table.subject_header h1,
 div.contact.details table.subject_header h1 {
   margin-top: -0.3em;
 }
 
-/* line 2917, ../sass/application.sass */
+/* line 3375, ../sass/application.scss */
 #invoice_contact_id_add_link:before {
   margin-left: 0.5em;
   font-size: 1.2em;
 }
-/* line 2922, ../sass/application.sass */
+/* line 3380, ../sass/application.scss */
 #invoice_contact_id_add_link img {
   display: none !important;
 }
 
-/* line 2927, ../sass/application.sass */
+/* line 3386, ../sass/application.scss */
 #comments h4 {
   border: 0;
-  border-top: 1px solid #CCCCCC;
+  border-top: 1px solid #cccccc;
   padding: 0;
   padding-top: 1em;
 }
-/* line 2933, ../sass/application.sass */
+/* line 3391, ../sass/application.scss */
 #comments h4:first-of-type {
   border: 0;
 }
-/* line 2936, ../sass/application.sass */
+/* line 3395, ../sass/application.scss */
 #comments + p > a, #comments + p > .icon-add.checklist-new-only {
   margin-top: 2em;
 }
 
-/* line 2945, ../sass/application.sass */
+/* line 3405, ../sass/application.scss */
 .add-link a, .add-link .icon-add.checklist-new-only {
   margin-top: 2em;
 }
 
-/* line 2952, ../sass/application.sass */
+/* line 3414, ../sass/application.scss */
 .icon-add.checklist-new-only {
   cursor: pointer;
 }
-/* line 2956, ../sass/application.sass */
+/* line 3417, ../sass/application.scss */
 .icon-add.checklist-new-only:hover, .icon-add.checklist-new-only:active, .icon-add.checklist-new-only:focus {
-  color: #474D57;
+  color: #474d57;
 }
 
-/* line 2959, ../sass/application.sass */
+/* line 3422, ../sass/application.scss */
 div.agile-board.autoscroll {
   overflow-y: auto !important;
 }
 
-/* line 2964, ../sass/application.sass */
+/* line 3427, ../sass/application.scss */
 div.issue.invoice div.subject, div.issue.invoice .author {
   padding-left: 0 !important;
 }
 
-/* line 2969, ../sass/application.sass */
+/* line 3433, ../sass/application.scss */
 .controller-gantts.action-show table td {
   padding: 0;
 }
 
-/* line 2974, ../sass/application.sass */
+/* line 3439, ../sass/application.scss */
 #tab-content-projects ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
-/* line 2979, ../sass/application.sass */
+/* line 3443, ../sass/application.scss */
 #tab-content-projects ul li {
   padding: 0.3em 0;
 }
 
-/* line 2982, ../sass/application.sass */
+/* line 3449, ../sass/application.scss */
 div[style*="clear:both"], div[style*="clear: both"] {
   display: inline-block;
   width: 100%;
 }
 
 @media print {
-  /* line 2988, ../sass/application.sass */
+  /* line 3455, ../sass/application.scss */
   #main {
-    background: #fff;
+    background: white;
   }
 
-  /* line 2991, ../sass/application.sass */
+  /* line 3458, ../sass/application.scss */
   #content {
     width: 99%;
     border: 0;
-    background: #fff;
+    background: white;
     overflow: visible !important;
     margin: 0;
     padding: 0;
   }
 
-  /* line 2999, ../sass/application.sass */
+  /* line 3466, ../sass/application.scss */
   .autoscroll {
     overflow-x: visible;
   }
 
-  /* line 3002, ../sass/application.sass */
+  /* line 3469, ../sass/application.scss */
   table.list {
     margin-top: 0.5em;
   }
 
-  /* line 3005, ../sass/application.sass */
+  /* line 3472, ../sass/application.scss */
   table.list th, table.list td {
-    border: 1px solid #aaa;
+    border: 1px solid #aaaaaa;
   }
 
-  /* line 3008, ../sass/application.sass */
+  /* line 3475, ../sass/application.scss */
   #top-menu, #header, #main-menu, #sidebar, #footer, .contextual, .other-formats, #wiki_add_attachment, .hide-when-print {
     display: none;
   }
