@@ -73,7 +73,7 @@ html[dir="rtl"] .select2-container .select2-choice {
 }
 
 .select2-container .select2-choice > .select2-chosen {
-    margin-right: 0;
+    margin-right: 26px;
     display: block;
     overflow: hidden;
 
@@ -82,9 +82,6 @@ html[dir="rtl"] .select2-container .select2-choice {
     text-overflow: ellipsis;
     float: none;
     width: auto;
-    span{
-        margin-right: 0;
-    }
 }
 
 html[dir="rtl"] .select2-container .select2-choice > .select2-chosen {
