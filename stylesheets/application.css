@@ -6775,3 +6775,6 @@ div[style*="clear:both"], div[style*="clear: both"] {
   background-color: grey;
   position: relative;
   z-index: 10; }
+
+.jstt_smiles {
+  display: none; }
