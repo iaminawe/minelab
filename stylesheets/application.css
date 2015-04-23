@@ -4495,11 +4495,8 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
     animation: fadeIn 1s; }
   #header .home {
     display: block;
-    width: 3em;
+    width: 3.5em;
     height: 100%;
-    border-right: 1px solid #395c82;
-    border-left: 1px solid #395c82;
-    box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.15), -1px 0 0 rgba(255, 255, 255, 0.15);
     position: absolute;
     top: 0;
     left: 1px;
