@@ -70,13 +70,6 @@ a {
     }
 }
 
-.images{
-    div{
-        max-width: 30%;
-        float:left;
-        margin-right: 10px;
-    }
-}
 
 #{$all-text-inputs}, #{$all-text-inputs-hover}, textarea, textarea:hover, select, select:hover {
     padding: 0.5em;
@@ -1788,10 +1781,13 @@ div.thumbnails div {
     border: 2px solid #dddddd;
     display: inline-block;
     margin-right: 2px;
+    width:30%;
+    height:auto;
 }
 
 div.thumbnails img {
     margin: 3px;
+    max-width: 100%;
 }
 
 p.other-formats {
