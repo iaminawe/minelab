@@ -70,6 +70,10 @@ a {
     }
 }
 
+.attachments img{
+        max-width: 100%;
+}
+
 #{$all-text-inputs}, #{$all-text-inputs-hover}, textarea, textarea:hover, select, select:hover {
     padding: 0.5em;
     border-radius: 4px;
