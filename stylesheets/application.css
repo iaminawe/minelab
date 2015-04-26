@@ -5599,7 +5599,8 @@ div.thumbnails div {
   display: inline-block;
   margin-right: 2px;
   width: 30%;
-  height: auto; }
+  height: auto;
+  margin-right: 10px; }
 
 div.thumbnails img {
   margin: 3px;
