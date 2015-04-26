@@ -5343,7 +5343,8 @@ div#search-results-counts li {
   margin-left: 1em; }
 
 dt.issue-note {
-  background-image: url(../images/ticket_note.png); }
+  background-image: url(../images/ticket_note.png);
+  background-repeat: no-repeat; }
 
 dt.news {
   background-image: url(../images/news.png); }
